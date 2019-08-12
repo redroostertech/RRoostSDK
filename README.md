@@ -24,6 +24,7 @@ pod 'RRTech-Starter-App-Template'
 
 When building an app we typically want to include the following cocoapods as dpenedencies within the `host` application. We DO NOT include said dependencies as part of the cocoapod.
 
+```ruby
 pod 'Alamofire'
 pod 'AWSS3'
 pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
@@ -32,6 +33,7 @@ pod 'ObjectMapper', '~> 3.1'
 pod 'SDWebImage'
 pod 'SideMenu'
 pod 'SVProgressHUD'
+```
 
 ## Author
 
