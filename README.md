@@ -20,6 +20,19 @@ it, simply add the following line to your Podfile:
 pod 'RRTech-Starter-App-Template'
 ```
 
+## Host Project Dependencies
+
+When building an app we typically want to include the following cocoapods as dpenedencies within the `host` application. We DO NOT include said dependencies as part of the cocoapod.
+
+pod 'Alamofire'
+pod 'AWSS3'
+pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
+pod 'IQKeyboardManagerSwift'
+pod 'ObjectMapper', '~> 3.1'
+pod 'SDWebImage'
+pod 'SideMenu'
+pod 'SVProgressHUD'
+
 ## Author
 
 Michael Westbrooks, michael.westbrooks@redroostertec.com
