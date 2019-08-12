@@ -9,7 +9,7 @@ import UIKit
 
 public extension UIColor {
   struct AppColors {
-    static var softBlack = UIColor(red: 39/255, green: 39/255, blue: 39/255, alpha: 1.0)
+    public static var softBlack = UIColor(red: 39/255, green: 39/255, blue: 39/255, alpha: 1.0)
     
     //  Add more colors as needed...
   }
