@@ -22,7 +22,7 @@ pod 'RRTech-Starter-App-Template'
 
 ## Host Project Dependencies
 
-When building an app we typically want to include the following cocoapods as dpenedencies within the `host` application. We DO NOT include said dependencies as part of the cocoapod.
+When building an app we typically want to include the following cocoapods as dpenedencies within the `host` application. We DO NOT include said dependencies as part of this cocoapod.
 
 ```ruby
 pod 'Alamofire'
