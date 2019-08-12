@@ -1,0 +1,1689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0029DBAD7B317F3989DC9610CB4F2694 /* Walkthrough_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5428FD3DFD2A81A1E4FF5DBB023D6B8C /* Walkthrough_2.swift */; };
+		07600DB0F11ED60B2B53E0868B904A97 /* CustomStringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559B66913A1EE66447B54A7DCAE8C1D3 /* CustomStringConvertible+Extensions.swift */; };
+		09D8BA0239DE89599ABFEC5E7D455C5C /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F531095DC6A90E0628143CB7B80E4FB /* ChameleonShorthand.swift */; };
+		0B5D817F2A244D2BCE0EC981E78143BA /* Walkthrough_4.xib in Sources */ = {isa = PBXBuildFile; fileRef = F12453E35DE4DC7C7D46CE159102C1D9 /* Walkthrough_4.xib */; };
+		0E9E60CF65299A9616BD180F0F9BAE31 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = F91AAFB521F82BF1FD64F80C77FC6849 /* UIViewController+Chameleon.m */; };
+		10247070AF454601CA30B2A16A5D898D /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 1390E9EF6940C34FAA600AB7D8876E32 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		10C9C925F335E7AF78891BA54FEDB53A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */; };
+		176278373BB79A2870DBC994D090DC18 /* CustomView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA9D79E3B8CB1020237910D499881A7 /* CustomView+Designable.swift */; };
+		17D5C4CD316886CDA790DD1A2A165DE0 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = AE0422CFF2C665D914364340FB38D0DB /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		19015F776DB331E0474D94C6EB6B3479 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7AD7D756EE64359AE26463119A38F5 /* Configuration.swift */; };
+		1A4182D15F1EA175BF09C01E515155AA /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BB0825C257F46FFBE7600369F1F101F /* AppColors.swift */; };
+		1B701650C8EF2E4DEA6E2AAB6DEF576B /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D947503E7654A30ED222F3D42CF3CE4 /* UINavigationController+Chameleon.m */; };
+		1DF35066CB6449EFF5479D250125EECF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 350695FC6FDFBFA678ED5E65431DC2E0 /* QuartzCore.framework */; };
+		28115538A36F353D939EFED49A28C6D0 /* AttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D922F1AEFBBAFA9A075C06B57F46824B /* AttributedString+Extensions.swift */; };
+		28E5756786E639F56A8793589E549591 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A25AE6AA67C922BD27B1B8758C1FA25 /* UIView+ChameleonPrivate.m */; };
+		2A3223E61FEF13480FB67DCC1AF813C0 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCDF309381C1BB7570F1A0CCF30DA03 /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33F9B48754047CD6E5C4A9FE624C2E66 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2363726DE4BDEDDB4F3B2689C429CBE /* Int+Extensions.swift */; };
+		3456ADA96D847FCC94F36837B252E252 /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81708BB92C02D0AB4FE6AA89A073CF31 /* ChameleonFramework-dummy.m */; };
+		34E99F740A382709B89B7A02F764A1B2 /* Walkthrough_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF9D51A4FC2DAA26C221E14506FD44B /* Walkthrough_3.swift */; };
+		34F32EC78C2A49E567588BB9CD402E47 /* RRTech-Starter-App-Template-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE9A8134E51B575596507D45EC7F0320 /* RRTech-Starter-App-Template-dummy.m */; };
+		35DB726326E1EB9E2F7627A838C17371 /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 5491D1DCF3425323972ABDA7B7FF1557 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3800ECA0DD086FF1DD964462DF38B53E /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB4AE1EF0037CF4E6AD6346BEA757D0 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A294FB36327143E4C2782C08B7E634D /* CustomLabel+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED2C4718E9048126132709C762C6DA /* CustomLabel+Designable.swift */; };
+		3A2B0AC228143BEFDD07A84BE0F18870 /* UIViewController+Chameleon+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF325A5530558E2AAB4C5C901A386C6 /* UIViewController+Chameleon+Extensions.swift */; };
+		3D8F8D8CF64B89AF7CE832DAAFF97734 /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FCA69261630803C82BA9614CD6EDDED8 /* Pods-RRTech-Starter-App-Template_Example-dummy.m */; };
+		4440D675DB3BEAFD800E1A85A2109487 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C857E48223BAEC126CF838604B28D4C /* UIColor+Chameleon.m */; };
+		44CB4E807678DFFD640C8AEFCA855B99 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 35E725A2C820A5CF80987CE833437D4C /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		451CEDD79C29725A6ECF24BFF6E15F10 /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CD4776854229439000C1EBC8449603E /* DateFormatter+Extensions.swift */; };
+		48FA8152B9A7A25629C312ED5F737DFF /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B551294746D6E20C078653F7C21AEDD5 /* Array+Extensions.swift */; };
+		4F5D7138E9CE4F1B18947B4C9F835D83 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B659F38876D12FF493709DEEF1A270A9 /* RandomStringGenerator.swift */; };
+		4F7FA499E9775460205373E9C5265EF9 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28B1D2CDB6420285A3C96E9C51B4920F /* UITextField+Extensions.swift */; };
+		56F0E9844F007B821E2DE82F99AEE857 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = DD7DF8F7DE965817D16013A79049B569 /* UIAppearance+Swift.m */; };
+		5748D3F77C63D8114878865CB8A8F91F /* Walkthrough_1.xib in Sources */ = {isa = PBXBuildFile; fileRef = 98264075D851BBAC0820EF49805D345B /* Walkthrough_1.xib */; };
+		57684037A8D542370F039F471F2879E0 /* Doubles+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 027E6FB8DD6E9EA04EBA475B93EEE8F2 /* Doubles+Extensions.swift */; };
+		5D1B8FC6009E1197B96350DBC09CC763 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C8B1CB5B665E7BFE758C03B36D17BFF /* UIImage+ChameleonPrivate.m */; };
+		5E02CCB51844D1A576D4D14199F771A5 /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = BEC6DE2B8504288B1D13B949E3FD0075 /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		648A25E03CDF1B5D5F33672F46668CFC /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0C703A9DC54AA9096C6743F004F0A353 /* ImageResources.bundle */; };
+		653B6814B7B566080993A1575DB3766F /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D8E1F816DB2C84AB3F366CFB1C6E196 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6845C7D75C0CF94BAB9D30303D518480 /* Walkthrough_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5598988E49113905303C90DE05523B6 /* Walkthrough_4.swift */; };
+		69B22039F1E479090E76B44DE3F83075 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F116540C2288DA5F5ECEE3118188D928 /* UIViewController+Extensions.swift */; };
+		6A72CC0328286073213A7B69B64D2579 /* RRTech-Starter-App-Template-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 595257001F3F1BA27B48941CE01EB355 /* RRTech-Starter-App-Template-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CE777DC0D7DD61C23DE40233A335948 /* JSONTransformationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5B8FCB36E6B5C9E60F3BF37641BE2F /* JSONTransformationFactory.swift */; };
+		72FE92FBCD3E3A682D91E5DC0B2F7C4A /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AAEB0BA68D505F468F3D81F0348B550 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		765167FE21ADAB09BEC4E2C20C1F204B /* RRTech-Starter-App-Template.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C97AF0EE37F77835E89EC245A01C9423 /* RRTech-Starter-App-Template.bundle */; };
+		7A10C78CBB90B582430F83F976100493 /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5367FA1F3AEAE9742F7E97F06922957A /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7ACA020AE259C53EF928EE4616D1CE9C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F2DE640F9F4B4D5A0138E4FDEA74B6E4 /* UIKit.framework */; };
+		7D4DEEE065A8A8C136BCE533BB7532A4 /* Walkthrough_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = F12453E35DE4DC7C7D46CE159102C1D9 /* Walkthrough_4.xib */; };
+		7EA5A2959D0EA9F4D1E002DB6F7009D1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABA6A6E1355409A77B99C81DF7EFF792 /* CoreGraphics.framework */; };
+		844C0ADD75B4DA7E13FF4A6A2F864004 /* Walkthrough_3.xib in Sources */ = {isa = PBXBuildFile; fileRef = 41EFF03F648BA0D4625D73EDDFCD386E /* Walkthrough_3.xib */; };
+		84B6E240B946257D6ED0079345F832C0 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 58A19B9548016A49B6AE35BD2C10FB01 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86B7B866B58C56B1BA24C4FE9D23EEB7 /* vcWalkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81FA0B0316EA901E10501F3A860CCE7 /* vcWalkthrough.swift */; };
+		8A253EC6F97C79B1B2D3DC0E89F19AE8 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F7900ECF134EC7854EB977F1BEAAC0ED /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B3F4FF550A36367A406FBCC7456F82A /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F12250925BBD39A18F726BC5347F037 /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		904AA26AD22230973035B3883E1B863C /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 776B11A0D3D63A276B778E7677B9F285 /* ChameleonConstants.m */; };
+		94D46EA4A1F6FD81AE8E77D864CB43F1 /* Pods-RRTech-Starter-App-Template_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9669D27B56B15484F7F1F06F1BCDC3A /* Pods-RRTech-Starter-App-Template_Tests-dummy.m */; };
+		9A51796E80354AC4D2E0A38787556A0A /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB9A8F32048A27CEA19B6381D42EEF5 /* UILabel+Chameleon.m */; };
+		A43ADBFCB1673C2546EE0571DA941148 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB557863E48782450594C4F0EF71145 /* UserDefaults+Extensions.swift */; };
+		AA32785393F10253ED9479200E164C0B /* Walkthrough_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41EFF03F648BA0D4625D73EDDFCD386E /* Walkthrough_3.xib */; };
+		AD5FE20E7F6F97A21F61EB28E1DE1884 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C2404360728A32E0556BEB20C3A7679F /* UIButton+Chameleon.m */; };
+		AF0E7AA4D876B7066BE92729809C211D /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B992BD5B353BE5E3E4FDB40A2EAF12AC /* UIDevice+Extensions.swift */; };
+		AFE014757C1B4E952885EA0BD8DC4756 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BB3FC9EF424FDF7F6318851D1DF9865E /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0B2CAE6005205B7083A93F5C37486BE /* Walkthrough_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4976A55D1BCC9431F87C2D33B0371625 /* Walkthrough_1.swift */; };
+		B117D69BAE9E9E4F57B060D952981973 /* UIColors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CAFD8AEBE2D3F690167633078BE5170 /* UIColors+Extensions.swift */; };
+		B3664677EE1C2AD42B17158661B5689F /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8779AB6E458E5D1722755E0FD2F6E99 /* URL+Extensions.swift */; };
+		B447D6BF13DBFABE666A090AB90B9AF4 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 416CCCE2F90722BB012C583C4A733B0E /* UIColor+ChameleonPrivate.m */; };
+		BE2309EC7C95CDD1A475F4F37D007648 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60E8DFBA352398C1C13D10BD4F5E1AB0 /* UIApplication+Extensions.swift */; };
+		BE71BC8304C20C589FA40ACF7E5933FE /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 52134C87EAC717AB5CC07568ED3999EB /* Chameleon_.m */; };
+		BEFE0F03980939CAC5F98B26891FBB4C /* Walkthrough_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 98264075D851BBAC0820EF49805D345B /* Walkthrough_1.xib */; };
+		C20254C45B213C87D5757089E672DC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */; };
+		C6B26E6463A865EEA76983D0F2B33ADA /* UIViewController+SVProgressHUD+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B185278D27F83C46CEF50A3569755749 /* UIViewController+SVProgressHUD+Extensions.swift */; };
+		C901450D497C66C07A45483C75448D2E /* Strings+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1231DD041DC96AB42EE808C8F6F0262 /* Strings+Extensions.swift */; };
+		C933D4B4D8308809D0E6D4B5A22CF961 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D55BB1E7B48B8452E8F7CFEE92A6B07B /* UITableView+Extensions.swift */; };
+		CA2C8E871D2EA9D4297B8811320442B3 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37AB2FA1F7B763227AB9396A6B8D362D /* UIView+Extensions.swift */; };
+		CBD7047DB2EA37A02A6E7EAB220690CF /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C506FA18F6554FCD7B11C34943A8D4 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CC4344105D28F2F67F918299565AF579 /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = C9A889A4450E05991C84E82AA851C977 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF898182120DDA6A65E120DEDB36401D /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9D84C7590DAAACCDB624D2BEFBB7A5 /* ConstraintsManager.swift */; };
+		D0D80F39572F40A7CA75BE3CE7C21737 /* Walkthrough_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = C8541F45B677B2063640E789F48D4A3B /* Walkthrough_2.xib */; };
+		D1095981E880A38555DDDBA55D71D158 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = ECC6C87DF4D03FB735BBE3814FC4D045 /* NSArray+Chameleon.m */; };
+		D1E299507A8E09007C6A3966E2BF8076 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = A6878CD0073538BE679587172DDFB758 /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7FEA88004F92A6889B255977575C299 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 078F9B9E9883FE832F26EDD43F744D4E /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD8D69173C581E866E56E6AF17929794 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BEE7D8E1618C765F59D26B074C7AAF /* Dictionary+Extensions.swift */; };
+		E49AFD8848AD9C3ECCEE873926346B77 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E27E20C0D7238ED085551949045BAC /* Bundle.swift */; };
+		E73CA67DF47016D20A7180D782D9DD9D /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FB5FF75576529BBBC40668EB938AEA5 /* LayoutManager.swift */; };
+		EDFAEE6C2F2B134EE4864C541489F9BF /* Walkthrough_2.xib in Sources */ = {isa = PBXBuildFile; fileRef = C8541F45B677B2063640E789F48D4A3B /* Walkthrough_2.xib */; };
+		F15543BD30BB5D70CC14F2F8A52A63B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */; };
+		F3A7D943BB491C8B5A736311ACB13A17 /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD66A08E456A8C741256695AC267B2 /* UIButton+Extensions.swift */; };
+		F5A2B0787234FF465DCFF8C3E210E42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */; };
+		F6B5591B6B78D5B481BF2B211149C377 /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC43FE22AB12F67E118661B4900A24 /* UILabel+Extensions.swift */; };
+		F817C63F77A9FF354383024669FB4113 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D0B47190D341CFE1F6521324B59C0D /* UIImage+Extensions.swift */; };
+		FC55A0D5A721E4D4C5AB601CAF8F063D /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53EFAF3FFBB567851422E31DD57CA47D /* Utilities.swift */; };
+		FF26D422CD9BF1EDB54B5D1C582FF197 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF985CF7916CD362FDD4356EC704055D /* Date+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32B958360C2751DF996813B95EDBB9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259E5F4832F38ECE61A97DBA72564684;
+			remoteInfo = "RRTech-Starter-App-Template";
+		};
+		72CD2E9E9A837C2F52B938785A4D0EEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA709CEE48A02E1D705F3E524F8CEEF7;
+			remoteInfo = "Pods-RRTech-Starter-App-Template_Example";
+		};
+		7A3E303D59C9ECC2D34245C40A21867E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7C356D652FDB21A4DF7D32FF38B966C6;
+			remoteInfo = ChameleonFramework;
+		};
+		FEBF0CF02DDBCF2C9E46F162F6697EFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98013614530094BA089315828C94407A;
+			remoteInfo = "RRTech-Starter-App-Template-ImageResources";
+		};
+		FF80AD04D6ACB999980B1CA2B2C9768C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E88F007FD6382B38E3A61E4A57770D70;
+			remoteInfo = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		027E6FB8DD6E9EA04EBA475B93EEE8F2 /* Doubles+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Doubles+Extensions.swift"; sourceTree = "<group>"; };
+		077D0FE5C13FE2EB8EE9BBB678CB5E70 /* Pods-RRTech-Starter-App-Template_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RRTech-Starter-App-Template_Tests.modulemap"; sourceTree = "<group>"; };
+		078F9B9E9883FE832F26EDD43F744D4E /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
+		0C703A9DC54AA9096C6743F004F0A353 /* ImageResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImageResources.bundle; path = "RRTech-Starter-App-Template-ImageResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F531095DC6A90E0628143CB7B80E4FB /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		1390E9EF6940C34FAA600AB7D8876E32 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		14FE80BBA54A41BA8FAFA471362548B5 /* Pods-RRTech-Starter-App-Template_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Example-Info.plist"; sourceTree = "<group>"; };
+		169442FF080353BBE0AE4072A578E95E /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		18DC8C00E6F82EA0E47F1C689EB08AC7 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RRTech-Starter-App-Template_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		19204ED52D5894EFC4CB51515A896DE9 /* Pods_RRTech_Starter_App_Template_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRTech_Starter_App_Template_Tests.framework; path = "Pods-RRTech-Starter-App-Template_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A25AE6AA67C922BD27B1B8758C1FA25 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		23D0B47190D341CFE1F6521324B59C0D /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		28B1D2CDB6420285A3C96E9C51B4920F /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		2A2630918240B6D52B8AAE73F2FA9F95 /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F5B8FCB36E6B5C9E60F3BF37641BE2F /* JSONTransformationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONTransformationFactory.swift; sourceTree = "<group>"; };
+		31AE3B10D984B46B38E07418D677023F /* Pods-RRTech-Starter-App-Template_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		350695FC6FDFBFA678ED5E65431DC2E0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		35E725A2C820A5CF80987CE833437D4C /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		37AB2FA1F7B763227AB9396A6B8D362D /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		37C8A84C3B15259F9A4A34ED0AB3FAFD /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RRTech-Starter-App-Template_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3958853C9B35F76F9CCDBE11C0EFF36C /* RRTech_Starter_App_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RRTech_Starter_App_Template.framework; path = "RRTech-Starter-App-Template.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3AAEB0BA68D505F468F3D81F0348B550 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		3BB0825C257F46FFBE7600369F1F101F /* AppColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		416CCCE2F90722BB012C583C4A733B0E /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		41A8EE5B3407856613D31391C1B5B42F /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		41EFF03F648BA0D4625D73EDDFCD386E /* Walkthrough_3.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_3.xib; sourceTree = "<group>"; };
+		43AC43FE22AB12F67E118661B4900A24 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		447D2174BFCA0E4BC3A84F0B71E259FA /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4976A55D1BCC9431F87C2D33B0371625 /* Walkthrough_1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_1.swift; sourceTree = "<group>"; };
+		4C8B1CB5B665E7BFE758C03B36D17BFF /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		4CA6D6897F2E8E2BBBBDCA16BC33A25C /* Pods-RRTech-Starter-App-Template_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RRTech-Starter-App-Template_Example.modulemap"; sourceTree = "<group>"; };
+		4CAFD8AEBE2D3F690167633078BE5170 /* UIColors+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColors+Extensions.swift"; sourceTree = "<group>"; };
+		4CD4776854229439000C1EBC8449603E /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		4D947503E7654A30ED222F3D42CF3CE4 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		4FB5FF75576529BBBC40668EB938AEA5 /* LayoutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		51089408CA8E8F3F6143CFA3E8DB3CF6 /* Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		52134C87EAC717AB5CC07568ED3999EB /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
+		5367FA1F3AEAE9742F7E97F06922957A /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RRTech-Starter-App-Template_Tests-umbrella.h"; sourceTree = "<group>"; };
+		53EFAF3FFBB567851422E31DD57CA47D /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		5428FD3DFD2A81A1E4FF5DBB023D6B8C /* Walkthrough_2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_2.swift; sourceTree = "<group>"; };
+		5491D1DCF3425323972ABDA7B7FF1557 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		559B66913A1EE66447B54A7DCAE8C1D3 /* CustomStringConvertible+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Extensions.swift"; sourceTree = "<group>"; };
+		58A19B9548016A49B6AE35BD2C10FB01 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		595257001F3F1BA27B48941CE01EB355 /* RRTech-Starter-App-Template-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-umbrella.h"; sourceTree = "<group>"; };
+		5C857E48223BAEC126CF838604B28D4C /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		5CDD66A08E456A8C741256695AC267B2 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		60E8DFBA352398C1C13D10BD4F5E1AB0 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		6CA9D79E3B8CB1020237910D499881A7 /* CustomView+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomView+Designable.swift"; sourceTree = "<group>"; };
+		6D8E1F816DB2C84AB3F366CFB1C6E196 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		72A9F05DDD2F10EE8580AD1987EFDE28 /* RRTech-Starter-App-Template.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RRTech-Starter-App-Template.modulemap"; sourceTree = "<group>"; };
+		7540905A09F4FA9597F47FA191626D1C /* Pods_RRTech_Starter_App_Template_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRTech_Starter_App_Template_Example.framework; path = "Pods-RRTech-Starter-App-Template_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		776B11A0D3D63A276B778E7677B9F285 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		79BEE7D8E1618C765F59D26B074C7AAF /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		81708BB92C02D0AB4FE6AA89A073CF31 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		88E27E20C0D7238ED085551949045BAC /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		8BB4AE1EF0037CF4E6AD6346BEA757D0 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
+		8EA0F84C91E5AD2BE4A5E87A86FCD901 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		91C506FA18F6554FCD7B11C34943A8D4 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		98264075D851BBAC0820EF49805D345B /* Walkthrough_1.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_1.xib; sourceTree = "<group>"; };
+		9BF9D51A4FC2DAA26C221E14506FD44B /* Walkthrough_3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_3.swift; sourceTree = "<group>"; };
+		9CFFEAA41D7D364A688D3D0584BE8420 /* RRTech-Starter-App-Template-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D9D84C7590DAAACCDB624D2BEFBB7A5 /* ConstraintsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
+		9F12250925BBD39A18F726BC5347F037 /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		A08A61876E9303B95B7B676B58CFEF96 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A1231DD041DC96AB42EE808C8F6F0262 /* Strings+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Strings+Extensions.swift"; sourceTree = "<group>"; };
+		A5598988E49113905303C90DE05523B6 /* Walkthrough_4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_4.swift; sourceTree = "<group>"; };
+		A6878CD0073538BE679587172DDFB758 /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		A8779AB6E458E5D1722755E0FD2F6E99 /* URL+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RRTech-Starter-App-Template.xcconfig"; sourceTree = "<group>"; };
+		ABA6A6E1355409A77B99C81DF7EFF792 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		ABDFEA308ED35E11BA87F8E6FCFB4B0D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		ADCDF309381C1BB7570F1A0CCF30DA03 /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		AE0422CFF2C665D914364340FB38D0DB /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		AF985CF7916CD362FDD4356EC704055D /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		B185278D27F83C46CEF50A3569755749 /* UIViewController+SVProgressHUD+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+SVProgressHUD+Extensions.swift"; sourceTree = "<group>"; };
+		B2363726DE4BDEDDB4F3B2689C429CBE /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		B551294746D6E20C078653F7C21AEDD5 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		B659F38876D12FF493709DEEF1A270A9 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
+		B71CE7364971D15430D66D84840726BF /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81FA0B0316EA901E10501F3A860CCE7 /* vcWalkthrough.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = vcWalkthrough.swift; sourceTree = "<group>"; };
+		B992BD5B353BE5E3E4FDB40A2EAF12AC /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		BA0423A2258060CD014BB48F00FF449E /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		BB3FC9EF424FDF7F6318851D1DF9865E /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RRTech-Starter-App-Template_Example-umbrella.h"; sourceTree = "<group>"; };
+		BBB557863E48782450594C4F0EF71145 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
+		BC7669369024853959FBCB8A7FA396E8 /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		BE9A8134E51B575596507D45EC7F0320 /* RRTech-Starter-App-Template-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RRTech-Starter-App-Template-dummy.m"; sourceTree = "<group>"; };
+		BEC6DE2B8504288B1D13B949E3FD0075 /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
+		C2404360728A32E0556BEB20C3A7679F /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C8541F45B677B2063640E789F48D4A3B /* Walkthrough_2.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_2.xib; sourceTree = "<group>"; };
+		C97AF0EE37F77835E89EC245A01C9423 /* RRTech-Starter-App-Template.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RRTech-Starter-App-Template.bundle"; path = "RRTech-Starter-App-Template-RRTech-Starter-App-Template.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9A889A4450E05991C84E82AA851C977 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		CAC25A89357747C8857BF575C6CFE67B /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		CEED2C4718E9048126132709C762C6DA /* CustomLabel+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomLabel+Designable.swift"; sourceTree = "<group>"; };
+		CFB9A8F32048A27CEA19B6381D42EEF5 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		D55BB1E7B48B8452E8F7CFEE92A6B07B /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		D922F1AEFBBAFA9A075C06B57F46824B /* AttributedString+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		DA40D92829B1EC594C068E595F300D40 /* RRTech-Starter-App-Template.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "RRTech-Starter-App-Template.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DD7DF8F7DE965817D16013A79049B569 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		E016A83D312089BC761DD18CEA9DEEF3 /* RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		E8E765CABBB728D3988E1501C870DBB9 /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
+		EC3EBFD4A3FB9D894830351A5D69A7F1 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		ECC6C87DF4D03FB735BBE3814FC4D045 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		EE0E070B1F916B2A7085F393BEBBE357 /* Pods-RRTech-Starter-App-Template_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RRTech-Starter-App-Template_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EE7AD7D756EE64359AE26463119A38F5 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		EFF325A5530558E2AAB4C5C901A386C6 /* UIViewController+Chameleon+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chameleon+Extensions.swift"; sourceTree = "<group>"; };
+		F116540C2288DA5F5ECEE3118188D928 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		F12453E35DE4DC7C7D46CE159102C1D9 /* Walkthrough_4.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_4.xib; sourceTree = "<group>"; };
+		F2DE640F9F4B4D5A0138E4FDEA74B6E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		F7900ECF134EC7854EB977F1BEAAC0ED /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F91AAFB521F82BF1FD64F80C77FC6849 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		F9669D27B56B15484F7F1F06F1BCDC3A /* Pods-RRTech-Starter-App-Template_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRTech-Starter-App-Template_Tests-dummy.m"; sourceTree = "<group>"; };
+		F9A95684A241C07576D0D9DDDD740D5E /* Pods-RRTech-Starter-App-Template_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Tests-Info.plist"; sourceTree = "<group>"; };
+		FCA69261630803C82BA9614CD6EDDED8 /* Pods-RRTech-Starter-App-Template_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRTech-Starter-App-Template_Example-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284487EEFED39E2A95D63DB967A4906A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5A2B0787234FF465DCFF8C3E210E42F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F5A552F6FD18E9BE337441E29FAEDBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15543BD30BB5D70CC14F2F8A52A63B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E0FF9BA55A343B41CBD17ACAA6ACD53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C20254C45B213C87D5757089E672DC15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A01A76C21672F0E0E7A25343404BA0DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EA5A2959D0EA9F4D1E002DB6F7009D1 /* CoreGraphics.framework in Frameworks */,
+				10C9C925F335E7AF78891BA54FEDB53A /* Foundation.framework in Frameworks */,
+				1DF35066CB6449EFF5479D250125EECF /* QuartzCore.framework in Frameworks */,
+				7ACA020AE259C53EF928EE4616D1CE9C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBCB46D25D8A91FE5F289B4FAC5B3D2A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6CEC0B2BFE734DE163AE1CE22B80F19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1879145BA515CD92639EEBD9CA7AF561 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		229FE33371E05ECB4AA08C95710F3234 /* Paginated+Walkthrough */ = {
+			isa = PBXGroup;
+			children = (
+				B81FA0B0316EA901E10501F3A860CCE7 /* vcWalkthrough.swift */,
+				DCB780F50BA0CC593D8E49BC63AA0AF3 /* Step 1 */,
+				5246F301774A0F8A54E437252D8D8611 /* Step 2 */,
+				99C802CF4E406049EA29CAABAEF75303 /* Step 3 */,
+				7BDEE0E6B0FC5331B227192223480D9C /* Step 4 */,
+			);
+			name = "Paginated+Walkthrough";
+			path = "Paginated+Walkthrough";
+			sourceTree = "<group>";
+		};
+		291D4A028DEA028013A1B52E9B0B0B54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B0334EFD95E87CF42E1FD516E39A8D0D /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3BDF314437317E9D72065C88F978A91C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9D9D84C7590DAAACCDB624D2BEFBB7A5 /* ConstraintsManager.swift */,
+				2F5B8FCB36E6B5C9E60F3BF37641BE2F /* JSONTransformationFactory.swift */,
+				4FB5FF75576529BBBC40668EB938AEA5 /* LayoutManager.swift */,
+				B659F38876D12FF493709DEEF1A270A9 /* RandomStringGenerator.swift */,
+				53EFAF3FFBB567851422E31DD57CA47D /* Utilities.swift */,
+			);
+			name = Utilities;
+			path = "RRTech-Starter-App-Template/Classes/App/Utilities";
+			sourceTree = "<group>";
+		};
+		3F743B72E8BD96256777338907895DA2 /* Pods-RRTech-Starter-App-Template_Example */ = {
+			isa = PBXGroup;
+			children = (
+				4CA6D6897F2E8E2BBBBDCA16BC33A25C /* Pods-RRTech-Starter-App-Template_Example.modulemap */,
+				18DC8C00E6F82EA0E47F1C689EB08AC7 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.markdown */,
+				EC3EBFD4A3FB9D894830351A5D69A7F1 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.plist */,
+				FCA69261630803C82BA9614CD6EDDED8 /* Pods-RRTech-Starter-App-Template_Example-dummy.m */,
+				EE0E070B1F916B2A7085F393BEBBE357 /* Pods-RRTech-Starter-App-Template_Example-frameworks.sh */,
+				14FE80BBA54A41BA8FAFA471362548B5 /* Pods-RRTech-Starter-App-Template_Example-Info.plist */,
+				BB3FC9EF424FDF7F6318851D1DF9865E /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */,
+				A08A61876E9303B95B7B676B58CFEF96 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */,
+				447D2174BFCA0E4BC3A84F0B71E259FA /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */,
+			);
+			name = "Pods-RRTech-Starter-App-Template_Example";
+			path = "Target Support Files/Pods-RRTech-Starter-App-Template_Example";
+			sourceTree = "<group>";
+		};
+		401FFD299C70AA52BD2DAC24DF7BFC27 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F743B72E8BD96256777338907895DA2 /* Pods-RRTech-Starter-App-Template_Example */,
+				80FFC512DB263D6833FB02F581098402 /* Pods-RRTech-Starter-App-Template_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		40C673F6F67A3A05F1D75436D8DD40AC /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				DBD5C65F4DB9A3D493753D9F8D5AC5B1 /* Designables */,
+				229FE33371E05ECB4AA08C95710F3234 /* Paginated+Walkthrough */,
+			);
+			name = Controls;
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		43A3256F97D0D2FA824ABF235C1758B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B71CE7364971D15430D66D84840726BF /* ChameleonFramework.framework */,
+				0C703A9DC54AA9096C6743F004F0A353 /* ImageResources.bundle */,
+				7540905A09F4FA9597F47FA191626D1C /* Pods_RRTech_Starter_App_Template_Example.framework */,
+				19204ED52D5894EFC4CB51515A896DE9 /* Pods_RRTech_Starter_App_Template_Tests.framework */,
+				C97AF0EE37F77835E89EC245A01C9423 /* RRTech-Starter-App-Template.bundle */,
+				3958853C9B35F76F9CCDBE11C0EFF36C /* RRTech_Starter_App_Template.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5246F301774A0F8A54E437252D8D8611 /* Step 2 */ = {
+			isa = PBXGroup;
+			children = (
+				A8E7DA38B1750F984DD83536074F1EE7 /* Controllers */,
+				291D4A028DEA028013A1B52E9B0B0B54 /* Resources */,
+			);
+			name = "Step 2";
+			path = "Step 2";
+			sourceTree = "<group>";
+		};
+		53ACC13445DB05ED45F46970A27B46F2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E3476F14FDEC1D414577D609ACA35B3E /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		53DBCF2E7919BA5FFF518EFA24602670 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B551294746D6E20C078653F7C21AEDD5 /* Array+Extensions.swift */,
+				D922F1AEFBBAFA9A075C06B57F46824B /* AttributedString+Extensions.swift */,
+				88E27E20C0D7238ED085551949045BAC /* Bundle.swift */,
+				559B66913A1EE66447B54A7DCAE8C1D3 /* CustomStringConvertible+Extensions.swift */,
+				AF985CF7916CD362FDD4356EC704055D /* Date+Extensions.swift */,
+				4CD4776854229439000C1EBC8449603E /* DateFormatter+Extensions.swift */,
+				79BEE7D8E1618C765F59D26B074C7AAF /* Dictionary+Extensions.swift */,
+				027E6FB8DD6E9EA04EBA475B93EEE8F2 /* Doubles+Extensions.swift */,
+				B2363726DE4BDEDDB4F3B2689C429CBE /* Int+Extensions.swift */,
+				A1231DD041DC96AB42EE808C8F6F0262 /* Strings+Extensions.swift */,
+				60E8DFBA352398C1C13D10BD4F5E1AB0 /* UIApplication+Extensions.swift */,
+				5CDD66A08E456A8C741256695AC267B2 /* UIButton+Extensions.swift */,
+				4CAFD8AEBE2D3F690167633078BE5170 /* UIColors+Extensions.swift */,
+				B992BD5B353BE5E3E4FDB40A2EAF12AC /* UIDevice+Extensions.swift */,
+				23D0B47190D341CFE1F6521324B59C0D /* UIImage+Extensions.swift */,
+				43AC43FE22AB12F67E118661B4900A24 /* UILabel+Extensions.swift */,
+				D55BB1E7B48B8452E8F7CFEE92A6B07B /* UITableView+Extensions.swift */,
+				28B1D2CDB6420285A3C96E9C51B4920F /* UITextField+Extensions.swift */,
+				37AB2FA1F7B763227AB9396A6B8D362D /* UIView+Extensions.swift */,
+				EFF325A5530558E2AAB4C5C901A386C6 /* UIViewController+Chameleon+Extensions.swift */,
+				F116540C2288DA5F5ECEE3118188D928 /* UIViewController+Extensions.swift */,
+				B185278D27F83C46CEF50A3569755749 /* UIViewController+SVProgressHUD+Extensions.swift */,
+				A8779AB6E458E5D1722755E0FD2F6E99 /* URL+Extensions.swift */,
+				BBB557863E48782450594C4F0EF71145 /* UserDefaults+Extensions.swift */,
+			);
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		6528B4B8E8BAC66778FE5B2381BC5659 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A97E80DEC21C1A2E9C21856CDF7BF330 /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		6BE79395EF49B8FE94732ABABF11E304 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F42E71AC30F8A7FD157B58C434F55A98 /* RRTech-Starter-App-Template */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		75C44559F77764FA7E81692867899194 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9BF9D51A4FC2DAA26C221E14506FD44B /* Walkthrough_3.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		785BA759B12377AA42F829F48E55EE02 /* ChameleonFramework */ = {
+			isa = PBXGroup;
+			children = (
+				9621EBF970B36B36CEC20B454F97081C /* Default */,
+				9C852E4061BC049B964B3091532B8BAB /* Support Files */,
+				B9D91399CB42DC9EBA6633A0F6B51CE7 /* Swift */,
+			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		7BDEE0E6B0FC5331B227192223480D9C /* Step 4 */ = {
+			isa = PBXGroup;
+			children = (
+				EF70FD407361371EF1E82B0DFB0B62E0 /* Controllers */,
+				ED8EF0DAC3EFD7B965513009F2AAC39A /* Resources */,
+			);
+			name = "Step 4";
+			path = "Step 4";
+			sourceTree = "<group>";
+		};
+		80FFC512DB263D6833FB02F581098402 /* Pods-RRTech-Starter-App-Template_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				077D0FE5C13FE2EB8EE9BBB678CB5E70 /* Pods-RRTech-Starter-App-Template_Tests.modulemap */,
+				37C8A84C3B15259F9A4A34ED0AB3FAFD /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.markdown */,
+				2A2630918240B6D52B8AAE73F2FA9F95 /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.plist */,
+				F9669D27B56B15484F7F1F06F1BCDC3A /* Pods-RRTech-Starter-App-Template_Tests-dummy.m */,
+				F9A95684A241C07576D0D9DDDD740D5E /* Pods-RRTech-Starter-App-Template_Tests-Info.plist */,
+				5367FA1F3AEAE9742F7E97F06922957A /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h */,
+				51089408CA8E8F3F6143CFA3E8DB3CF6 /* Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig */,
+				31AE3B10D984B46B38E07418D677023F /* Pods-RRTech-Starter-App-Template_Tests.release.xcconfig */,
+			);
+			name = "Pods-RRTech-Starter-App-Template_Tests";
+			path = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests";
+			sourceTree = "<group>";
+		};
+		8857E6EA91789D986902C1EA69E325F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				785BA759B12377AA42F829F48E55EE02 /* ChameleonFramework */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9621EBF970B36B36CEC20B454F97081C /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				078F9B9E9883FE832F26EDD43F744D4E /* Chameleon.h */,
+				C9A889A4450E05991C84E82AA851C977 /* Chameleon_.h */,
+				52134C87EAC717AB5CC07568ED3999EB /* Chameleon_.m */,
+				91C506FA18F6554FCD7B11C34943A8D4 /* ChameleonConstants.h */,
+				776B11A0D3D63A276B778E7677B9F285 /* ChameleonConstants.m */,
+				AE0422CFF2C665D914364340FB38D0DB /* ChameleonEnums.h */,
+				35E725A2C820A5CF80987CE833437D4C /* ChameleonMacros.h */,
+				BEC6DE2B8504288B1D13B949E3FD0075 /* NSArray+Chameleon.h */,
+				ECC6C87DF4D03FB735BBE3814FC4D045 /* NSArray+Chameleon.m */,
+				ADCDF309381C1BB7570F1A0CCF30DA03 /* UIAppearance+Swift.h */,
+				DD7DF8F7DE965817D16013A79049B569 /* UIAppearance+Swift.m */,
+				9F12250925BBD39A18F726BC5347F037 /* UIButton+Chameleon.h */,
+				C2404360728A32E0556BEB20C3A7679F /* UIButton+Chameleon.m */,
+				1390E9EF6940C34FAA600AB7D8876E32 /* UIColor+Chameleon.h */,
+				5C857E48223BAEC126CF838604B28D4C /* UIColor+Chameleon.m */,
+				58A19B9548016A49B6AE35BD2C10FB01 /* UIColor+ChameleonPrivate.h */,
+				416CCCE2F90722BB012C583C4A733B0E /* UIColor+ChameleonPrivate.m */,
+				A6878CD0073538BE679587172DDFB758 /* UIImage+ChameleonPrivate.h */,
+				4C8B1CB5B665E7BFE758C03B36D17BFF /* UIImage+ChameleonPrivate.m */,
+				5491D1DCF3425323972ABDA7B7FF1557 /* UILabel+Chameleon.h */,
+				CFB9A8F32048A27CEA19B6381D42EEF5 /* UILabel+Chameleon.m */,
+				6D8E1F816DB2C84AB3F366CFB1C6E196 /* UINavigationController+Chameleon.h */,
+				4D947503E7654A30ED222F3D42CF3CE4 /* UINavigationController+Chameleon.m */,
+				F7900ECF134EC7854EB977F1BEAAC0ED /* UIView+ChameleonPrivate.h */,
+				1A25AE6AA67C922BD27B1B8758C1FA25 /* UIView+ChameleonPrivate.m */,
+				8BB4AE1EF0037CF4E6AD6346BEA757D0 /* UIViewController+Chameleon.h */,
+				F91AAFB521F82BF1FD64F80C77FC6849 /* UIViewController+Chameleon.m */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		9982DD8859518CCF76CF1EF2F6F2AC31 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				F12453E35DE4DC7C7D46CE159102C1D9 /* Walkthrough_4.xib */,
+			);
+			name = Xibs;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		99C802CF4E406049EA29CAABAEF75303 /* Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				75C44559F77764FA7E81692867899194 /* Controllers */,
+				6528B4B8E8BAC66778FE5B2381BC5659 /* Resources */,
+			);
+			name = "Step 3";
+			path = "Step 3";
+			sourceTree = "<group>";
+		};
+		9C852E4061BC049B964B3091532B8BAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CAC25A89357747C8857BF575C6CFE67B /* ChameleonFramework.modulemap */,
+				169442FF080353BBE0AE4072A578E95E /* ChameleonFramework.xcconfig */,
+				81708BB92C02D0AB4FE6AA89A073CF31 /* ChameleonFramework-dummy.m */,
+				E8E765CABBB728D3988E1501C870DBB9 /* ChameleonFramework-Info.plist */,
+				41A8EE5B3407856613D31391C1B5B42F /* ChameleonFramework-prefix.pch */,
+				3AAEB0BA68D505F468F3D81F0348B550 /* ChameleonFramework-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ChameleonFramework";
+			sourceTree = "<group>";
+		};
+		A4C9A38CE69B6ADD577B0CC553A33555 /* UIKit+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40C673F6F67A3A05F1D75436D8DD40AC /* Controls */,
+				53DBCF2E7919BA5FFF518EFA24602670 /* Extensions */,
+			);
+			name = "UIKit+Extensions";
+			path = "RRTech-Starter-App-Template/Classes/App/UIKit+Extensions";
+			sourceTree = "<group>";
+		};
+		A8E7DA38B1750F984DD83536074F1EE7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5428FD3DFD2A81A1E4FF5DBB023D6B8C /* Walkthrough_2.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A97E80DEC21C1A2E9C21856CDF7BF330 /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				41EFF03F648BA0D4625D73EDDFCD386E /* Walkthrough_3.xib */,
+			);
+			name = Xibs;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		B0334EFD95E87CF42E1FD516E39A8D0D /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				C8541F45B677B2063640E789F48D4A3B /* Walkthrough_2.xib */,
+			);
+			name = Xibs;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		B9D91399CB42DC9EBA6633A0F6B51CE7 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0F531095DC6A90E0628143CB7B80E4FB /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F8B34539FD8913A216F0CB592F859A01 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB8A06AF2707D3BBCCC5CFABCCB4F8DA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8EA0F84C91E5AD2BE4A5E87A86FCD901 /* LICENSE */,
+				ABDFEA308ED35E11BA87F8E6FCFB4B0D /* README.md */,
+				DA40D92829B1EC594C068E595F300D40 /* RRTech-Starter-App-Template.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				6BE79395EF49B8FE94732ABABF11E304 /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				8857E6EA91789D986902C1EA69E325F3 /* Pods */,
+				43A3256F97D0D2FA824ABF235C1758B2 /* Products */,
+				401FFD299C70AA52BD2DAC24DF7BFC27 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DAA9A227AD67BE4553DEF5B39A49C9C9 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				3BB0825C257F46FFBE7600369F1F101F /* AppColors.swift */,
+				EE7AD7D756EE64359AE26463119A38F5 /* Configuration.swift */,
+			);
+			name = Configurations;
+			path = "RRTech-Starter-App-Template/Classes/App/Configurations";
+			sourceTree = "<group>";
+		};
+		DBD5C65F4DB9A3D493753D9F8D5AC5B1 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				CEED2C4718E9048126132709C762C6DA /* CustomLabel+Designable.swift */,
+				6CA9D79E3B8CB1020237910D499881A7 /* CustomView+Designable.swift */,
+			);
+			name = Designables;
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		DCB780F50BA0CC593D8E49BC63AA0AF3 /* Step 1 */ = {
+			isa = PBXGroup;
+			children = (
+				FB65CFFBCB5615B7A0BB4DE6490278A2 /* Controllers */,
+				53ACC13445DB05ED45F46970A27B46F2 /* Resources */,
+			);
+			name = "Step 1";
+			path = "Step 1";
+			sourceTree = "<group>";
+		};
+		E1C1264FAA7E586F93A357A9AE46B03E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7669369024853959FBCB8A7FA396E8 /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */,
+				BA0423A2258060CD014BB48F00FF449E /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */,
+				72A9F05DDD2F10EE8580AD1987EFDE28 /* RRTech-Starter-App-Template.modulemap */,
+				A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */,
+				BE9A8134E51B575596507D45EC7F0320 /* RRTech-Starter-App-Template-dummy.m */,
+				E016A83D312089BC761DD18CEA9DEEF3 /* RRTech-Starter-App-Template-Info.plist */,
+				9CFFEAA41D7D364A688D3D0584BE8420 /* RRTech-Starter-App-Template-prefix.pch */,
+				595257001F3F1BA27B48941CE01EB355 /* RRTech-Starter-App-Template-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RRTech-Starter-App-Template";
+			sourceTree = "<group>";
+		};
+		E3476F14FDEC1D414577D609ACA35B3E /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				98264075D851BBAC0820EF49805D345B /* Walkthrough_1.xib */,
+			);
+			name = Xibs;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		ED8EF0DAC3EFD7B965513009F2AAC39A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9982DD8859518CCF76CF1EF2F6F2AC31 /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF70FD407361371EF1E82B0DFB0B62E0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A5598988E49113905303C90DE05523B6 /* Walkthrough_4.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F42E71AC30F8A7FD157B58C434F55A98 /* RRTech-Starter-App-Template */ = {
+			isa = PBXGroup;
+			children = (
+				DAA9A227AD67BE4553DEF5B39A49C9C9 /* Configurations */,
+				CB8A06AF2707D3BBCCC5CFABCCB4F8DA /* Pod */,
+				1879145BA515CD92639EEBD9CA7AF561 /* Resources */,
+				E1C1264FAA7E586F93A357A9AE46B03E /* Support Files */,
+				A4C9A38CE69B6ADD577B0CC553A33555 /* UIKit+Extensions */,
+				3BDF314437317E9D72065C88F978A91C /* Utilities */,
+			);
+			name = "RRTech-Starter-App-Template";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F8B34539FD8913A216F0CB592F859A01 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				ABA6A6E1355409A77B99C81DF7EFF792 /* CoreGraphics.framework */,
+				C8095171B206BFE6477A882BC3BD528C /* Foundation.framework */,
+				350695FC6FDFBFA678ED5E65431DC2E0 /* QuartzCore.framework */,
+				F2DE640F9F4B4D5A0138E4FDEA74B6E4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		FB65CFFBCB5615B7A0BB4DE6490278A2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4976A55D1BCC9431F87C2D33B0371625 /* Walkthrough_1.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2658DBF5244D561553A5C0999A54F8B7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7FEA88004F92A6889B255977575C299 /* Chameleon.h in Headers */,
+				CC4344105D28F2F67F918299565AF579 /* Chameleon_.h in Headers */,
+				CBD7047DB2EA37A02A6E7EAB220690CF /* ChameleonConstants.h in Headers */,
+				17D5C4CD316886CDA790DD1A2A165DE0 /* ChameleonEnums.h in Headers */,
+				72FE92FBCD3E3A682D91E5DC0B2F7C4A /* ChameleonFramework-umbrella.h in Headers */,
+				44CB4E807678DFFD640C8AEFCA855B99 /* ChameleonMacros.h in Headers */,
+				5E02CCB51844D1A576D4D14199F771A5 /* NSArray+Chameleon.h in Headers */,
+				2A3223E61FEF13480FB67DCC1AF813C0 /* UIAppearance+Swift.h in Headers */,
+				8B3F4FF550A36367A406FBCC7456F82A /* UIButton+Chameleon.h in Headers */,
+				10247070AF454601CA30B2A16A5D898D /* UIColor+Chameleon.h in Headers */,
+				84B6E240B946257D6ED0079345F832C0 /* UIColor+ChameleonPrivate.h in Headers */,
+				D1E299507A8E09007C6A3966E2BF8076 /* UIImage+ChameleonPrivate.h in Headers */,
+				35DB726326E1EB9E2F7627A838C17371 /* UILabel+Chameleon.h in Headers */,
+				653B6814B7B566080993A1575DB3766F /* UINavigationController+Chameleon.h in Headers */,
+				8A253EC6F97C79B1B2D3DC0E89F19AE8 /* UIView+ChameleonPrivate.h in Headers */,
+				3800ECA0DD086FF1DD964462DF38B53E /* UIViewController+Chameleon.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3FDE41871E77676EACC292FD939CE6C8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A72CC0328286073213A7B69B64D2579 /* RRTech-Starter-App-Template-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4265AC4BE6C26A73B91598B6B967757B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A10C78CBB90B582430F83F976100493 /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1C4D5390B2B7BC75F0ED1F7D2FE78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE014757C1B4E952885EA0BD8DC4756 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		259E5F4832F38ECE61A97DBA72564684 /* RRTech-Starter-App-Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24D3F7FEA57DE335E12FD2098A5CBD83 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */;
+			buildPhases = (
+				3FDE41871E77676EACC292FD939CE6C8 /* Headers */,
+				C1BC1D8B9FAAD0F33ECEB05D3B60A5C4 /* Sources */,
+				3F5A552F6FD18E9BE337441E29FAEDBC /* Frameworks */,
+				6AF1E0458417A65EE4D671D5B6E97E59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				36A1132960D7C6C76AAB4CBC7C3DB8BB /* PBXTargetDependency */,
+				5C8E4E9048556C77DF2606BA8E87754B /* PBXTargetDependency */,
+			);
+			name = "RRTech-Starter-App-Template";
+			productName = "RRTech-Starter-App-Template";
+			productReference = 3958853C9B35F76F9CCDBE11C0EFF36C /* RRTech_Starter_App_Template.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7C356D652FDB21A4DF7D32FF38B966C6 /* ChameleonFramework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 911E8CAE5BC7C27912E3245FC75091FA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
+			buildPhases = (
+				2658DBF5244D561553A5C0999A54F8B7 /* Headers */,
+				3347BCEEBF4E1BFB6EF7344C272A3306 /* Sources */,
+				A01A76C21672F0E0E7A25343404BA0DF /* Frameworks */,
+				1D826F16ECC69FA6D6365B89430D4D32 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChameleonFramework;
+			productName = ChameleonFramework;
+			productReference = B71CE7364971D15430D66D84840726BF /* ChameleonFramework.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7E5C0205F147E0E1B80902638A01916E /* Pods-RRTech-Starter-App-Template_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08DD1BC560882CFDB74E10432F698707 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Tests" */;
+			buildPhases = (
+				4265AC4BE6C26A73B91598B6B967757B /* Headers */,
+				7F1631310B637CC43DB7EE38D7E5E787 /* Sources */,
+				7E0FF9BA55A343B41CBD17ACAA6ACD53 /* Frameworks */,
+				5431D494AF1773B5392F1B496AD49E35 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83C68C060243BB478CB7E5C96E84AF21 /* PBXTargetDependency */,
+			);
+			name = "Pods-RRTech-Starter-App-Template_Tests";
+			productName = "Pods-RRTech-Starter-App-Template_Tests";
+			productReference = 19204ED52D5894EFC4CB51515A896DE9 /* Pods_RRTech_Starter_App_Template_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		98013614530094BA089315828C94407A /* RRTech-Starter-App-Template-ImageResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 599733FF154BF48981833ADE29CDD49C /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */;
+			buildPhases = (
+				013AE3651CF0E6A2632C77D965FE729B /* Sources */,
+				BBCB46D25D8A91FE5F289B4FAC5B3D2A /* Frameworks */,
+				5237DD60BAC90DD97E69F194CFA9E8DB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RRTech-Starter-App-Template-ImageResources";
+			productName = "RRTech-Starter-App-Template-ImageResources";
+			productReference = 0C703A9DC54AA9096C6743F004F0A353 /* ImageResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		BA709CEE48A02E1D705F3E524F8CEEF7 /* Pods-RRTech-Starter-App-Template_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 560FB0F02E5C3386E74AD3024A471658 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */;
+			buildPhases = (
+				FBE1C4D5390B2B7BC75F0ED1F7D2FE78 /* Headers */,
+				ED1819BAED9E3CAA026C81B4865CA38F /* Sources */,
+				284487EEFED39E2A95D63DB967A4906A /* Frameworks */,
+				570F1BAE3CE684F61263C7B48E47FFE1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA61CA05267A9232BBDD0459F8D08C3 /* PBXTargetDependency */,
+				130067C09ABB70D193513D53E6FDD3B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-RRTech-Starter-App-Template_Example";
+			productName = "Pods-RRTech-Starter-App-Template_Example";
+			productReference = 7540905A09F4FA9597F47FA191626D1C /* Pods_RRTech_Starter_App_Template_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E88F007FD6382B38E3A61E4A57770D70 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36F95A27122520C3CBFCF006B71E0119 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */;
+			buildPhases = (
+				9F616668C4B6315FEDD3075394785BE1 /* Sources */,
+				E6CEC0B2BFE734DE163AE1CE22B80F19 /* Frameworks */,
+				37D82174EC69AB2C9C85FF3593FBD3C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+			productName = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+			productReference = C97AF0EE37F77835E89EC245A01C9423 /* RRTech-Starter-App-Template.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 43A3256F97D0D2FA824ABF235C1758B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7C356D652FDB21A4DF7D32FF38B966C6 /* ChameleonFramework */,
+				BA709CEE48A02E1D705F3E524F8CEEF7 /* Pods-RRTech-Starter-App-Template_Example */,
+				7E5C0205F147E0E1B80902638A01916E /* Pods-RRTech-Starter-App-Template_Tests */,
+				259E5F4832F38ECE61A97DBA72564684 /* RRTech-Starter-App-Template */,
+				98013614530094BA089315828C94407A /* RRTech-Starter-App-Template-ImageResources */,
+				E88F007FD6382B38E3A61E4A57770D70 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D826F16ECC69FA6D6365B89430D4D32 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37D82174EC69AB2C9C85FF3593FBD3C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEFE0F03980939CAC5F98B26891FBB4C /* Walkthrough_1.xib in Resources */,
+				D0D80F39572F40A7CA75BE3CE7C21737 /* Walkthrough_2.xib in Resources */,
+				AA32785393F10253ED9479200E164C0B /* Walkthrough_3.xib in Resources */,
+				7D4DEEE065A8A8C136BCE533BB7532A4 /* Walkthrough_4.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5237DD60BAC90DD97E69F194CFA9E8DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5431D494AF1773B5392F1B496AD49E35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		570F1BAE3CE684F61263C7B48E47FFE1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AF1E0458417A65EE4D671D5B6E97E59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648A25E03CDF1B5D5F33672F46668CFC /* ImageResources.bundle in Resources */,
+				765167FE21ADAB09BEC4E2C20C1F204B /* RRTech-Starter-App-Template.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		013AE3651CF0E6A2632C77D965FE729B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3347BCEEBF4E1BFB6EF7344C272A3306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE71BC8304C20C589FA40ACF7E5933FE /* Chameleon_.m in Sources */,
+				904AA26AD22230973035B3883E1B863C /* ChameleonConstants.m in Sources */,
+				3456ADA96D847FCC94F36837B252E252 /* ChameleonFramework-dummy.m in Sources */,
+				09D8BA0239DE89599ABFEC5E7D455C5C /* ChameleonShorthand.swift in Sources */,
+				D1095981E880A38555DDDBA55D71D158 /* NSArray+Chameleon.m in Sources */,
+				56F0E9844F007B821E2DE82F99AEE857 /* UIAppearance+Swift.m in Sources */,
+				AD5FE20E7F6F97A21F61EB28E1DE1884 /* UIButton+Chameleon.m in Sources */,
+				4440D675DB3BEAFD800E1A85A2109487 /* UIColor+Chameleon.m in Sources */,
+				B447D6BF13DBFABE666A090AB90B9AF4 /* UIColor+ChameleonPrivate.m in Sources */,
+				5D1B8FC6009E1197B96350DBC09CC763 /* UIImage+ChameleonPrivate.m in Sources */,
+				9A51796E80354AC4D2E0A38787556A0A /* UILabel+Chameleon.m in Sources */,
+				1B701650C8EF2E4DEA6E2AAB6DEF576B /* UINavigationController+Chameleon.m in Sources */,
+				28E5756786E639F56A8793589E549591 /* UIView+ChameleonPrivate.m in Sources */,
+				0E9E60CF65299A9616BD180F0F9BAE31 /* UIViewController+Chameleon.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1631310B637CC43DB7EE38D7E5E787 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94D46EA4A1F6FD81AE8E77D864CB43F1 /* Pods-RRTech-Starter-App-Template_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F616668C4B6315FEDD3075394785BE1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1BC1D8B9FAAD0F33ECEB05D3B60A5C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A4182D15F1EA175BF09C01E515155AA /* AppColors.swift in Sources */,
+				48FA8152B9A7A25629C312ED5F737DFF /* Array+Extensions.swift in Sources */,
+				28115538A36F353D939EFED49A28C6D0 /* AttributedString+Extensions.swift in Sources */,
+				E49AFD8848AD9C3ECCEE873926346B77 /* Bundle.swift in Sources */,
+				19015F776DB331E0474D94C6EB6B3479 /* Configuration.swift in Sources */,
+				CF898182120DDA6A65E120DEDB36401D /* ConstraintsManager.swift in Sources */,
+				3A294FB36327143E4C2782C08B7E634D /* CustomLabel+Designable.swift in Sources */,
+				07600DB0F11ED60B2B53E0868B904A97 /* CustomStringConvertible+Extensions.swift in Sources */,
+				176278373BB79A2870DBC994D090DC18 /* CustomView+Designable.swift in Sources */,
+				FF26D422CD9BF1EDB54B5D1C582FF197 /* Date+Extensions.swift in Sources */,
+				451CEDD79C29725A6ECF24BFF6E15F10 /* DateFormatter+Extensions.swift in Sources */,
+				DD8D69173C581E866E56E6AF17929794 /* Dictionary+Extensions.swift in Sources */,
+				57684037A8D542370F039F471F2879E0 /* Doubles+Extensions.swift in Sources */,
+				33F9B48754047CD6E5C4A9FE624C2E66 /* Int+Extensions.swift in Sources */,
+				6CE777DC0D7DD61C23DE40233A335948 /* JSONTransformationFactory.swift in Sources */,
+				E73CA67DF47016D20A7180D782D9DD9D /* LayoutManager.swift in Sources */,
+				4F5D7138E9CE4F1B18947B4C9F835D83 /* RandomStringGenerator.swift in Sources */,
+				34F32EC78C2A49E567588BB9CD402E47 /* RRTech-Starter-App-Template-dummy.m in Sources */,
+				C901450D497C66C07A45483C75448D2E /* Strings+Extensions.swift in Sources */,
+				BE2309EC7C95CDD1A475F4F37D007648 /* UIApplication+Extensions.swift in Sources */,
+				F3A7D943BB491C8B5A736311ACB13A17 /* UIButton+Extensions.swift in Sources */,
+				B117D69BAE9E9E4F57B060D952981973 /* UIColors+Extensions.swift in Sources */,
+				AF0E7AA4D876B7066BE92729809C211D /* UIDevice+Extensions.swift in Sources */,
+				F817C63F77A9FF354383024669FB4113 /* UIImage+Extensions.swift in Sources */,
+				F6B5591B6B78D5B481BF2B211149C377 /* UILabel+Extensions.swift in Sources */,
+				C933D4B4D8308809D0E6D4B5A22CF961 /* UITableView+Extensions.swift in Sources */,
+				4F7FA499E9775460205373E9C5265EF9 /* UITextField+Extensions.swift in Sources */,
+				CA2C8E871D2EA9D4297B8811320442B3 /* UIView+Extensions.swift in Sources */,
+				3A2B0AC228143BEFDD07A84BE0F18870 /* UIViewController+Chameleon+Extensions.swift in Sources */,
+				69B22039F1E479090E76B44DE3F83075 /* UIViewController+Extensions.swift in Sources */,
+				C6B26E6463A865EEA76983D0F2B33ADA /* UIViewController+SVProgressHUD+Extensions.swift in Sources */,
+				B3664677EE1C2AD42B17158661B5689F /* URL+Extensions.swift in Sources */,
+				A43ADBFCB1673C2546EE0571DA941148 /* UserDefaults+Extensions.swift in Sources */,
+				FC55A0D5A721E4D4C5AB601CAF8F063D /* Utilities.swift in Sources */,
+				86B7B866B58C56B1BA24C4FE9D23EEB7 /* vcWalkthrough.swift in Sources */,
+				B0B2CAE6005205B7083A93F5C37486BE /* Walkthrough_1.swift in Sources */,
+				5748D3F77C63D8114878865CB8A8F91F /* Walkthrough_1.xib in Sources */,
+				0029DBAD7B317F3989DC9610CB4F2694 /* Walkthrough_2.swift in Sources */,
+				EDFAEE6C2F2B134EE4864C541489F9BF /* Walkthrough_2.xib in Sources */,
+				34E99F740A382709B89B7A02F764A1B2 /* Walkthrough_3.swift in Sources */,
+				844C0ADD75B4DA7E13FF4A6A2F864004 /* Walkthrough_3.xib in Sources */,
+				6845C7D75C0CF94BAB9D30303D518480 /* Walkthrough_4.swift in Sources */,
+				0B5D817F2A244D2BCE0EC981E78143BA /* Walkthrough_4.xib in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED1819BAED9E3CAA026C81B4865CA38F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8F8D8CF64B89AF7CE832DAAFF97734 /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		130067C09ABB70D193513D53E6FDD3B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RRTech-Starter-App-Template";
+			target = 259E5F4832F38ECE61A97DBA72564684 /* RRTech-Starter-App-Template */;
+			targetProxy = 32B958360C2751DF996813B95EDBB9AF /* PBXContainerItemProxy */;
+		};
+		36A1132960D7C6C76AAB4CBC7C3DB8BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RRTech-Starter-App-Template-ImageResources";
+			target = 98013614530094BA089315828C94407A /* RRTech-Starter-App-Template-ImageResources */;
+			targetProxy = FEBF0CF02DDBCF2C9E46F162F6697EFD /* PBXContainerItemProxy */;
+		};
+		5C8E4E9048556C77DF2606BA8E87754B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+			target = E88F007FD6382B38E3A61E4A57770D70 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */;
+			targetProxy = FF80AD04D6ACB999980B1CA2B2C9768C /* PBXContainerItemProxy */;
+		};
+		83C68C060243BB478CB7E5C96E84AF21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RRTech-Starter-App-Template_Example";
+			target = BA709CEE48A02E1D705F3E524F8CEEF7 /* Pods-RRTech-Starter-App-Template_Example */;
+			targetProxy = 72CD2E9E9A837C2F52B938785A4D0EEB /* PBXContainerItemProxy */;
+		};
+		FBA61CA05267A9232BBDD0459F8D08C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChameleonFramework;
+			target = 7C356D652FDB21A4DF7D32FF38B966C6 /* ChameleonFramework */;
+			targetProxy = 7A3E303D59C9ECC2D34245C40A21867E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		208FB6A404CC116AC0AA998D704FD8F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31AE3B10D984B46B38E07418D677023F /* Pods-RRTech-Starter-App-Template_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests/Pods-RRTech-Starter-App-Template_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests/Pods-RRTech-Starter-App-Template_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2636F3C333F722F85305834C9897E9EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template.modulemap";
+				PRODUCT_MODULE_NAME = RRTech_Starter_App_Template;
+				PRODUCT_NAME = RRTech_Starter_App_Template;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E50B9FA7EC04E1540ADB994F75AA15C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169442FF080353BBE0AE4072A578E95E /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7E895ECB7F7CFE129185AB4AB2B7DD35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ImageResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		7FD2EF9DD6EEC9CF35E43AD0D13C72D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RRTech-Starter-App-Template/RRTech-Starter-App-Template.modulemap";
+				PRODUCT_MODULE_NAME = RRTech_Starter_App_Template;
+				PRODUCT_NAME = RRTech_Starter_App_Template;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		945D2EC2C4CDD58694C05CF4B47FECBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51089408CA8E8F3F6143CFA3E8DB3CF6 /* Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests/Pods-RRTech-Starter-App-Template_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests/Pods-RRTech-Starter-App-Template_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AE7EFBEBBCF51D6DC887FA174D5C19EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 169442FF080353BBE0AE4072A578E95E /* ChameleonFramework.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChameleonFramework/ChameleonFramework-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChameleonFramework/ChameleonFramework.modulemap";
+				PRODUCT_MODULE_NAME = ChameleonFramework;
+				PRODUCT_NAME = ChameleonFramework;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B5CF0004057B3808F0E778D26F4FB53B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ImageResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		B7D76B1B0721A208104A2B1BCF05CDB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A08A61876E9303B95B7B676B58CFEF96 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8D0B4A8B1541521D0ACAD94A38A6C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447D2174BFCA0E4BC3A84F0B71E259FA /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BFA45707FBE9D1082B87296B2438A708 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "RRTech-Starter-App-Template";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DC69BD39C9A7285B37348007470E79E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A97E2769ED2E0B0830743EC944033780 /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = "RRTech-Starter-App-Template";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08DD1BC560882CFDB74E10432F698707 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				945D2EC2C4CDD58694C05CF4B47FECBB /* Debug */,
+				208FB6A404CC116AC0AA998D704FD8F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24D3F7FEA57DE335E12FD2098A5CBD83 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FD2EF9DD6EEC9CF35E43AD0D13C72D4 /* Debug */,
+				2636F3C333F722F85305834C9897E9EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		36F95A27122520C3CBFCF006B71E0119 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFA45707FBE9D1082B87296B2438A708 /* Debug */,
+				DC69BD39C9A7285B37348007470E79E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		560FB0F02E5C3386E74AD3024A471658 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D76B1B0721A208104A2B1BCF05CDB1 /* Debug */,
+				B8D0B4A8B1541521D0ACAD94A38A6C4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		599733FF154BF48981833ADE29CDD49C /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5CF0004057B3808F0E778D26F4FB53B /* Debug */,
+				7E895ECB7F7CFE129185AB4AB2B7DD35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		911E8CAE5BC7C27912E3245FC75091FA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E50B9FA7EC04E1540ADB994F75AA15C /* Debug */,
+				AE7EFBEBBCF51D6DC887FA174D5C19EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

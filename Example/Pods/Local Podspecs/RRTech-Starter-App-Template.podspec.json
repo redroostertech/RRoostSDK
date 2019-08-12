@@ -1,0 +1,29 @@
+{
+  "name": "RRTech-Starter-App-Template",
+  "version": "0.1.0",
+  "summary": "A short description of RRTech-Starter-App-Template.",
+  "description": "This is the cocoapod for the starter app template for most apps being built by a member of the RedRooster Technologies Inc. development team and it's strategic partners.",
+  "homepage": "https://github.com/mwestbrooksjr@gmail.com/RRTech-Starter-App-Template",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "RedRooster Technologies Inc.": "info@redroostertec.com"
+  },
+  "source": {
+    "git": "https://github.com/redroostertech/RRTech-Starter-App-Template.git",
+    "tag": "0.1.0"
+  },
+  "social_media_url": "https://twitter.com/mwestbrooksjr",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_version": "4.0",
+  "source_files": "RRTech-Starter-App-Template/Classes/**/*",
+  "resources": "RRTech-Starter-App-Template/Assets/*",
+  "resource_bundles": {
+    "RRTech-Starter-App-Template": "RRTech-Starter-App-Template/Classes/**/*.{ttf,otf,xib}",
+    "ImageResources": "RRTech-Starter-App-Template/Assets/*.{xcassets,imageset,pdf,png}"
+  }
+}

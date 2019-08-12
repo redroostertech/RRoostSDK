@@ -1,0 +1,6 @@
+framework module Pods_RRTech_Starter_App_Template_Example {
+  umbrella header "Pods-RRTech-Starter-App-Template_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

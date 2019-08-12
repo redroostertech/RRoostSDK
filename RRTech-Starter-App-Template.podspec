@@ -11,32 +11,30 @@ Pod::Spec.new do |s|
   s.version          = '0.1.0'
   s.summary          = 'A short description of RRTech-Starter-App-Template.'
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  This is the cocoapod for the starter app template for most apps being built by a member of the RedRooster Technologies Inc. development team and it's strategic partners.
+                     DESC
 
   s.homepage         = 'https://github.com/mwestbrooksjr@gmail.com/RRTech-Starter-App-Template'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'mwestbrooksjr@gmail.com' => 'mwestbrooks@salesforce.com' }
-  s.source           = { :git => 'https://github.com/mwestbrooksjr@gmail.com/RRTech-Starter-App-Template.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'RedRooster Technologies Inc.' => 'info@redroostertec.com' }
+  s.source           = { :git => 'https://github.com/redroostertech/RRTech-Starter-App-Template.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/mwestbrooksjr'
 
-  s.ios.deployment_target = '8.0'
+  s.platform = :ios, '10.0'
+  s.ios.deployment_target = '10.0'
+  s.swift_version = '4.0'
 
   s.source_files = 'RRTech-Starter-App-Template/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'RRTech-Starter-App-Template' => ['RRTech-Starter-App-Template/Assets/*.png']
-  # }
+  s.resources = 'RRTech-Starter-App-Template/Assets/*'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.resource_bundles = {
+    'RRTech-Starter-App-Template' => 'RRTech-Starter-App-Template/Classes/**/*.{ttf,otf,xib}',
+    'ImageResources' => 'RRTech-Starter-App-Template/Assets/*.{xcassets,imageset,pdf,png}'
+  }
+
+#  s.dependency 'Alamofire'
+#  s.dependency 'IQKeyboardManagerSwift'
+#  s.dependency 'ObjectMapper'
+#  s.dependency 'SVProgressHUD'
 end

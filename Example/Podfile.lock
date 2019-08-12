@@ -1,0 +1,28 @@
+PODS:
+  - ChameleonFramework/Default (2.1.0)
+  - ChameleonFramework/Swift (2.1.0):
+    - ChameleonFramework/Default
+  - RRTech-Starter-App-Template (0.1.0)
+
+DEPENDENCIES:
+  - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - RRTech-Starter-App-Template (from `../`)
+
+EXTERNAL SOURCES:
+  ChameleonFramework:
+    :git: https://github.com/ViccAlexander/Chameleon.git
+  RRTech-Starter-App-Template:
+    :path: "../"
+
+CHECKOUT OPTIONS:
+  ChameleonFramework:
+    :commit: 6dd284bde21ea2e7f9fd89bc36f40df16e16369d
+    :git: https://github.com/ViccAlexander/Chameleon.git
+
+SPEC CHECKSUMS:
+  ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  RRTech-Starter-App-Template: f1b8e73e846f6fb7f542297ecc3992afb6c38cd1
+
+PODFILE CHECKSUM: de9592f04c62071549198961266ebd4e1dda898a
+
+COCOAPODS: 1.6.0
