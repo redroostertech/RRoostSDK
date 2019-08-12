@@ -22,7 +22,7 @@ pod 'RRTech-Starter-App-Template'
 
 ## Author
 
-mwestbrooksjr@gmail.com, mwestbrooks@salesforce.com
+Michael Westbrooks, michael.westbrooks@redroostertec.com
 
 ## License
 
