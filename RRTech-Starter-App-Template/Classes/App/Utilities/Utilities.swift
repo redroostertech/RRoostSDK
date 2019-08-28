@@ -7,24 +7,14 @@
 import Foundation
 import UIKit
 
+public enum FileType: String {
+  case json = "json"
+}
+
 public class Utilities {
 
-    static func savePermanentString( keyName: String, keyValue: String) {
-        print("setting internally: \(keyName) as \(keyValue)")
-        UserDefaults.standard.set(keyValue, forKey: keyName)
-    }
-    
     static func getThreadInfo() {
         print("Retrieve Key fetch is running on = \(Thread.isMainThread ? "Main Thread" : "Background Thread")")
-    }
-    
-    static func getPermanentString(keyName: String) -> String {
-        print("getting \(keyName)")
-        if let userIDString =  UserDefaults.standard.object(forKey: keyName) as? String {
-            return userIDString
-        } else {
-            return ""
-        }
     }
 
     static func getDocumentsDirectory() -> URL {
@@ -59,5 +49,18 @@ public class Utilities {
         formatter.locale = Locale(identifier: identifier)
         return formatter.string(from: number as NSNumber)!
     }
+
+  static func getFileSystemResource(fileName: String, ofFileType type: FileType) -> [String: Any]? {
+    guard let url = Bundle.main.url(forResource: fileName, withExtension: type.rawValue) else { return nil }
+    do {
+      let jsonData = try Data(contentsOf: url)
+      let json = try JSONSerialization.jsonObject(with: jsonData) as! [String:Any]
+      return json
+    }
+    catch {
+      print(error)
+      return nil
+    }
+  }
 }
 
