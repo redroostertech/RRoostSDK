@@ -37,4 +37,11 @@ public extension UILabel {
     attrString.addAttribute(NSAttributedString.Key.paragraphStyle, value: paragraphStyle, range: NSRange(location: 0, length: attrString.length))
     self.attributedText = attrString
   }
+
+  func addPaddingToLabel(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
+    let insets = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
+    self.drawText(in: CGRect().inset(by: insets))
+    self.frame.size = CGSize(width: self.frame.size.width + 8,
+                             height: self.frame.size.height + 8)
+  }
 }

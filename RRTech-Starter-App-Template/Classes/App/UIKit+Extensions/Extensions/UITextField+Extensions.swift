@@ -52,4 +52,16 @@ public extension UITextField {
     self.leftView = btnView
     return btnView
   }
+
+  func setDelegate(delegate: UITextFieldDelegate) {
+    self.delegate = delegate
+  }
+
+  func secureTextEntryCheck() {
+    if self.isSecureTextEntry {
+      self.isSecureTextEntry = false
+    } else {
+      self.isSecureTextEntry = true
+    }
+  }
 }

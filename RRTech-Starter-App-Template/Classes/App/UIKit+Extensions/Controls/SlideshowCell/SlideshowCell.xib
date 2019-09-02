@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewsSlideshowCell" rowHeight="225" id="KGk-i7-Jjw" customClass="SlideshowCell" customModule="RRTech_Starter_App_Template" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="225"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="224.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hFM-Y0-Ika">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="225.5"/>
+                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="225" id="k6E-LO-HM4"/>
+                        </constraints>
+                    </imageView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rw6-Up-S1q">
+                        <rect key="frame" x="290" y="98" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="WfX-M2-JW1"/>
+                            <constraint firstAttribute="height" constant="30" id="fP0-ln-Vcb"/>
+                        </constraints>
+                        <state key="normal" title="&gt;">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="nextSlide:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="LjC-rR-qiZ"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tev-sz-cNQ">
+                        <rect key="frame" x="0.0" y="98" width="30" height="30"/>
+                        <color key="backgroundColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="30" id="Uxh-nv-oVq"/>
+                            <constraint firstAttribute="height" constant="30" id="nxI-Cp-aSC"/>
+                        </constraints>
+                        <state key="normal" title="&lt;">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </state>
+                        <connections>
+                            <action selector="previousSlide:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0ol-r1-NIC"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Rw6-Up-S1q" secondAttribute="trailing" id="4M7-1p-TAP"/>
+                    <constraint firstAttribute="bottom" secondItem="hFM-Y0-Ika" secondAttribute="bottom" id="B6g-Rs-ESh"/>
+                    <constraint firstAttribute="trailing" secondItem="hFM-Y0-Ika" secondAttribute="trailing" id="G5t-us-4dW"/>
+                    <constraint firstItem="hFM-Y0-Ika" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="bKr-i7-crs"/>
+                    <constraint firstItem="Tev-sz-cNQ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="cbJ-ip-Nku"/>
+                    <constraint firstItem="Tev-sz-cNQ" firstAttribute="centerY" secondItem="hFM-Y0-Ika" secondAttribute="centerY" id="hg9-3F-JNx"/>
+                    <constraint firstItem="Rw6-Up-S1q" firstAttribute="centerY" secondItem="hFM-Y0-Ika" secondAttribute="centerY" id="ocv-bd-BHC"/>
+                    <constraint firstItem="hFM-Y0-Ika" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="sjh-R4-hl8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="mainImage" destination="hFM-Y0-Ika" id="ljC-Tc-s32"/>
+                <outlet property="nextSlideShowButton" destination="Rw6-Up-S1q" id="bXZ-dL-HO0"/>
+                <outlet property="slideShowBack" destination="Tev-sz-cNQ" id="uds-4s-ybf"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="157.70089285714286"/>
+        </tableViewCell>
+    </objects>
+</document>

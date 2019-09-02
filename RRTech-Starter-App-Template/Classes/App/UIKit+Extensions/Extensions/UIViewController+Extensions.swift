@@ -14,6 +14,16 @@ public extension UIViewController {
     return cell
   }
 
+  var emptyCell: UICollectionViewCell {
+    let cell = UICollectionViewCell() 
+    cell.textLabel?.text = ""
+    return cell
+  }
+
+  func getStoryboard(name: String) -> UIStoryboard {
+    return UIStoryboard(name: name, bundle: nil)
+  }
+
   func loadCustomBackButton(withImage image: String, andTitle title: String = "") {
     let yourBackImage = UIImage(named: image)
     self.navigationController?.navigationBar.backIndicatorImage = yourBackImage

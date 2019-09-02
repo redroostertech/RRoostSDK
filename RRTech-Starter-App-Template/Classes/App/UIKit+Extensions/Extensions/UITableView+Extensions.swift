@@ -8,7 +8,7 @@ import Foundation
 import UIKit
 
 public extension UITableView {
-    
+  
   func setEmptyMessage(_ message: String) {
     let messageLabel = UILabel(frame: CGRect(x: 0, y: 0, width: self.bounds.size.width, height: self.bounds.size.height))
     messageLabel.text = message
@@ -43,6 +43,21 @@ public extension UITableView {
       }
       completion?()
     }
+  }
+
+  func registerNib(withNibName nibName: String, forReuseIdentifier identifier: String) {
+    let nib = UINib(nibName: nibName, bundle: nil)
+    self.register(nib, forCellReuseIdentifier: identifier)
+  }
+
+  func getNib() -> UINib? {
+    let podBundle = Bundle(for: SFMapsServices.self)
+    guard let bundleURL = podBundle.url(forResource: "forcemaps-ios", withExtension: "bundle") else { return nil }
+    return UINib(nibName: String(describing: self), bundle: Bundle(url: bundleURL))
+  }
+
+  func getIdentifier() -> String {
+    return String(describing: self)
   }
 }
 
