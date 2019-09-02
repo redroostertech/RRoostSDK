@@ -1,6 +1,6 @@
 import UIKit
 
-class BaseVC: UIViewController {
+public class BaseVC: UIViewController {
     
     var viewDidLoadActionHandler: (() -> Void)?
     var viewWillAppearActionHandler: (() -> Void)?
@@ -8,23 +8,23 @@ class BaseVC: UIViewController {
     var viewWillDisappearActionHandler: (() -> Void)?
     var viewDidDisappearActionHandler: (() -> Void)?
     
-    override func viewWillAppear(_ animated: Bool) {
+    override public func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         viewDidLoadActionHandler?()
         viewWillAppearActionHandler?()
     }
     
-    override func viewDidAppear(_ animated: Bool) {
+    override public func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         viewDidAppearActionHandler?()
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
+    override public func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
         viewWillDisappearActionHandler?()
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
+    override public func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated)
         viewDidDisappearActionHandler?()
     }

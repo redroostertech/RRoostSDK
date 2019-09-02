@@ -8,88 +8,67 @@
 
 import UIKit
 
-class CommentCell: UITableViewCell {
+public class CommentCell: UITableViewCell {
 
-    @IBOutlet weak var imgUserAvi: UIImageView!
-    @IBOutlet weak var lblUsername: UILabel!
-    @IBOutlet weak var lblComment: UILabel!
-    @IBOutlet weak var likeButton: UIImageView!
-    @IBOutlet weak var replyButton: UIButton!
-    
-    var comment: BlogComment?
-    var isLiked = false
-    var likecount = 0 {
+    @IBOutlet private weak var imgUserAvi: UIImageView!
+    @IBOutlet private weak var lblUsername: UILabel!
+    @IBOutlet private weak var lblComment: UILabel!
+    @IBOutlet private weak var likeButton: UIImageView!
+    @IBOutlet private weak var replyButton: UIButton!
+    @IBOutlet private weak var likeCount: UIButton!
+
+    private var isLiked = false
+    private var comment: Comment? {
+      didSet {
+        guard let comment = self.comment else {return }
+        lblUsername.text = comment.retrieveOwnerName()
+        imgUserAvi.imageFromUrl(theUrl: comment.retrieveOwnerImage())
+        lblComment.text = comment.text
+        likecount = comment.retrieveLikeCount()
+      }
+    }
+    private var likecount: Int = 0 {
         didSet {
             likeCount.setTitle("\(self.likecount)", for: .normal)
         }
     }
-    @IBOutlet weak var likeCount: UIButton!
-    
-    override func awakeFromNib() {
+    private var likeImage: UIImage? {
+        didSet {
+            guard let image = self.likeImage else { return }
+            likeButton.setImage(image: image)
+        }
+    }
+    private var dislikeImage: UIImage?
+
+    override public func awakeFromNib() {
         super.awakeFromNib()
-        
         imgUserAvi.applyCornerRadius()
         lblUsername.makeOneLine()
         lblComment.makeMultipleLines()
-        
+
         replyButton.isHidden = true
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(likeAction))
         likeButton.addGestureRecognizer(tap)
         likeButton.isUserInteractionEnabled = true
-    
     }
     
-    func configure(withComment comment: BlogComment) {
+    public func configure(comment: Comment,
+                          likeImage: UIImage,
+                          dislikeImage: UIImage) {
         self.comment = comment
-        self.lblComment.text = comment.getCommenttext()
-        
-        getInfo(forUser: comment.getUserid())
-        getImage(forUser: comment.getUserid())
-    }
-    
-    func getInfo(forUser id: Int) {
-        let parameters: [String: Any] = [
-            "action" : "getUserInfo",
-            "user_id": id
-        ]
-        makeApiRequest(withParameters: parameters) { (data, error) in
-            if let err = error {
-                print(err.localizedDescription)
-            } else {
-                if let data = data as? [String: Any] {
-                    guard let user = User(JSON: data) else { return }
-                    self.lblUsername.text = user.firstName ?? ""
-                }
-            }
-        }
-    }
-    
-    func getImage(forUser id: Int) {
-        let parameters: [String: Any] = [
-            "action" : "getUserImage",
-            "user_id": id
-        ]
-        makeApiRequest(withParameters: parameters) { (data, error) in
-            if let err = error {
-                print(err.localizedDescription)
-            } else {
-//                if let data = data as? [String: Any] {
-//                    guard let user = User(JSON: data) else { return }
-//                    self.lblUsername.text = user.firstName ?? ""
-//                }
-            }
-        }
+        self.likeImage = likeImage
+        self.dislikeImage = dislikeImage
     }
 
     @objc func likeAction() {
         // TODO: - Liking should have backend functionality
         if isLiked {
-            likeButton.image = UIImage(named:"like")
+            likeButton.image = likeImage
             likecount -= 1
             isLiked = false
         } else {
-            likeButton.image = UIImage(named:"like-filled")
+            likeButton.image = dislikeImage
             likecount += 1
             isLiked = true
         }
@@ -103,13 +82,4 @@ class CommentCell: UITableViewCell {
         likeAction()
     }
     
-}
-
-extension CommentCell {
-    static var identifier: String {
-        return String(describing: self)
-    }
-    static var nib:UINib {
-        return UINib(nibName: identifier, bundle: nil)
-    }
 }

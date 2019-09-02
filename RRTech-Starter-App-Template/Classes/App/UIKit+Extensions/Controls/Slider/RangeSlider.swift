@@ -1,40 +1,51 @@
 import UIKit
 
-open class RangeSlider: UIControl {
-    override open var frame: CGRect {
+public class RangeSlider: UIControl {
+    override public var frame: CGRect {
         didSet {
             updateLayerFrames()
         }
     }
 
-    open var trackLayerBGColor: UIColor = .clear {
+    public var trackLayerBGColor: UIColor = .clear {
         didSet {
             configureSlider()
         }
     }
-    open var minimumValue: CGFloat = 0 {
+    public var minimumValue: CGFloat = 0 {
         didSet {
             updateLayerFrames()
         }
     }
-    open var maximumValue: CGFloat = 1 {
+    public var maximumValue: CGFloat = 1 {
         didSet {
             updateLayerFrames()
         }
     }
-    open var currentValue: CGFloat = 0.2 {
+    public var currentValue: CGFloat = 0.2 {
         didSet {
             updateLayerFrames()
         }
     }
-    open var trackTintColor =  UIColor.landingPageGray {
+    public var trackTintColor =  UIColor.gray {
         didSet {
             trackLayer.setNeedsDisplay()
         }
     }
-    open var trackHighlightTintColor = UIColor(hexString: "#5EC6C3", withAlpha: 1.0)! {
+    public var trackHighlightTintColor = UIColor.lightGray {
         didSet {
             trackLayer.setNeedsDisplay()
+        }
+    }
+    public var thumbBackgroundColor = UIColor.darkGray {
+        didSet {
+            thumbView.setNeedsDisplay()
+        }
+    }
+
+    public var thumbTextColor = UIColor.white {
+        didSet {
+            thumbView.setNeedsDisplay()
         }
     }
 
@@ -44,8 +55,8 @@ open class RangeSlider: UIControl {
 
     private var previousLocation = CGPoint()
     
-    open var didBeginTracking: ((RangeSlider) -> ())?
-    open var didEndTracking: ((RangeSlider) -> ())?
+    public var didBeginTracking: ((RangeSlider) -> ())?
+    public var didEndTracking: ((RangeSlider) -> ())?
 
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -62,9 +73,9 @@ open class RangeSlider: UIControl {
         trackLayer.contentsScale = UIScreen.main.scale
         layer.addSublayer(trackLayer)
 
-        thumbView.backgroundColor = UIColor.landingPageBlueGreen
+        thumbView.backgroundColor = thumbBackgroundColor
         thumbView.applyCornerRadius()
-        thumbView.textColor = .white
+        thumbView.textColor = thumbTextColor
         thumbView.textAlignment = .center
         addSubview(thumbView)
 
@@ -83,7 +94,7 @@ open class RangeSlider: UIControl {
         CATransaction.commit()
     }
 
-    func positionForValue(_ value: CGFloat) -> CGFloat {
+    internal func positionForValue(_ value: CGFloat) -> CGFloat {
         return bounds.width * value
     }
 
@@ -94,7 +105,7 @@ open class RangeSlider: UIControl {
 }
 
 extension RangeSlider {
-    override open func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+    override public func beginTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         previousLocation = touch.location(in: self)
         if thumbView.frame.contains(previousLocation) {
             thumbView.isHighlighted = true
@@ -103,7 +114,7 @@ extension RangeSlider {
         return thumbView.isHighlighted
     }
 
-    override open func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
+    override public func continueTracking(_ touch: UITouch, with event: UIEvent?) -> Bool {
         let location = touch.location(in: self)
         let deltaLocation = location.x - previousLocation.x
         let deltaValue = (maximumValue - minimumValue) * deltaLocation / bounds.width
@@ -122,7 +133,7 @@ extension RangeSlider {
         return min(max(value, lowerValue), upperValue)
     }
 
-    override open func endTracking(_ touch: UITouch?, with event: UIEvent?) {
+    override public func endTracking(_ touch: UITouch?, with event: UIEvent?) {
         thumbView.isHighlighted = false
         didEndTracking?(self)
     }

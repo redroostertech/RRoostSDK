@@ -1,15 +1,17 @@
 import Foundation
 import UIKit
 
-protocol ImageSelectorManagerDelegate {
-    func returnImageForUpload(_ image: UIImage, uploadData: Data, url: URL?)
+public protocol ImageSelectorManagerDelegate: class {
+  func imageSelector(_ manager: ImageSelectorManager, returnImage image: UIImage, returnData data: Data, url: URL?)
 }
 
-class ImageSelectorManager: NSObject {
+public class ImageSelectorManager: NSObject {
+
     var imagePicker: UIImagePickerController!
     var parentController: Any?
-    var delegate: ImageSelectorManagerDelegate?
-    override init() {
+    weak var delegate: ImageSelectorManagerDelegate?
+
+    public override init() {
         super.init()
         imagePicker = UIImagePickerController()
         imagePicker.delegate = self
@@ -19,7 +21,17 @@ class ImageSelectorManager: NSObject {
             imagePicker.mediaTypes = mediaTypes
         }
     }
-    func showImagePicker() {
+
+    public convenience init(delegate: ImageSelectorManagerDelegate?) {
+      self.init()
+      self.delegate = delegate
+    }
+
+    public func setDelegate(_ delegate: ImageSelectorManagerDelegate?) {
+        self.delegate = delegate
+    }
+
+    public func showImagePicker() {
         if let parent = parentController as? UINavigationController {
             parent.pushToView(withViewController: imagePicker)
         }
@@ -27,7 +39,8 @@ class ImageSelectorManager: NSObject {
             parent.present(imagePicker, animated: true, completion: nil)
         }
     }
-    func dismissImagePicker() {
+
+    public func dismissImagePicker() {
         if let parent = parentController as? UINavigationController {
             parent.popViewController(animated: true)
         }
@@ -38,37 +51,36 @@ class ImageSelectorManager: NSObject {
 }
 
 extension ImageSelectorManager: UIImagePickerControllerDelegate {
-    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
-        guard let selectedImage = info[.originalImage] as? UIImage else {
+  private func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        guard let selectedImage = info[UIImagePickerControllerOriginalImage] as? UIImage else {
             dismissImagePicker()
             return
         }
-        guard let data = selectedImage.jpegData(compressionQuality: 0.75) else {
-            return
-        }
+
+        #if swift(>=4.2)
+          guard let data = selectedImage.jpegData(compressionQuality: 0.75) else { return }
+        #else
+          guard let data = UIImageJPEGRepresentation(selectedImage, 0.75) else { return }
+        #endif
+
         
         let imageName = UUID().uuidString
-        let imagePath = getDocumentsDirectory().appendingPathComponent(imageName)
-        
+        let imagePath = Utilities.getDocumentsDirectory().appendingPathComponent(imageName)
+
         do {
             try data.write(to: imagePath, options: .atomicWrite)
-            print(imagePath)
-            self.delegate?.returnImageForUpload(selectedImage, uploadData: data, url: imagePath)
+
+            print("Image Path from ImageSelectorManager is \(imagePath)")
+
+            self.delegate?.imageSelector(self, returnImage: selectedImage, returnData: data, url: imagePath)
         } catch {
             print(error.localizedDescription)
         }
     }
-    
-    private func getDocumentsDirectory() -> URL {
-        let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
-        return paths[0]
-    }
 
-    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+    private func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
         dismissImagePicker()
     }
 }
 
-extension ImageSelectorManager: UINavigationControllerDelegate {
-
-}
+extension ImageSelectorManager: UINavigationControllerDelegate { }

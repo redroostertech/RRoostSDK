@@ -1,6 +1,6 @@
 import Foundation
 
-class DefaultsManager {
+public class DefaultsManager {
     private let standard = UserDefaults.standard
     
     init() { }

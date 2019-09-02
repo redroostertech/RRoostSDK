@@ -1,10 +1,9 @@
 import Foundation
 import KeychainSwift
-import CryptoSwift
 
 let kSaltKey = "nuworld"
 
-class KeychainManager: NSObject {
+public class KeychainManager: NSObject {
     
     private let keychain: KeychainSwift!
     
@@ -16,7 +15,7 @@ class KeychainManager: NSObject {
 }
 
 // MARK: - Save data into keychain
-extension KeychainManager {
+public extension KeychainManager {
     
     func save(password: String) -> Bool {
         if keychain.set(password, forKey: "password", withAccess: .accessibleWhenUnlocked) {
@@ -61,7 +60,7 @@ extension KeychainManager {
 }
 
 // MARK: - Retrieve data from keychain
-extension KeychainManager {
+public extension KeychainManager {
     func retrievePassword() -> String? {
         return keychain.get("password")
     }
@@ -88,7 +87,7 @@ extension KeychainManager {
 }
 
 // MARK: - Delete data from keychain
-extension KeychainManager {
+public extension KeychainManager {
     func deletePassword() -> Bool {
         return keychain.delete("password")
     }

@@ -1,9 +1,9 @@
 import UIKit
 
-class RangeSliderTrackLayer: CALayer {
+public class RangeSliderTrackLayer: CALayer {
   weak var rangeSlider: RangeSlider?
   
-  override func draw(in ctx: CGContext) {
+  override public func draw(in ctx: CGContext) {
     guard let slider = rangeSlider else {
       return
     }

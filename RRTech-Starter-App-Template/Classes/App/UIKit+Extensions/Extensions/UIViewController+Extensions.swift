@@ -8,14 +8,9 @@ import Foundation
 import UIKit
 
 public extension UIViewController {
+
   var emptyCell: UITableViewCell {
     let cell = UITableViewCell()
-    cell.textLabel?.text = ""
-    return cell
-  }
-
-  var emptyCell: UICollectionViewCell {
-    let cell = UICollectionViewCell() 
     cell.textLabel?.text = ""
     return cell
   }
@@ -30,6 +25,29 @@ public extension UIViewController {
     self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = yourBackImage
     self.navigationController?.clearNavigationBackButtonText()
     self.navigationItem.backBarButtonItem?.title = title
+  }
+
+  func loadCustomBackButton(image: UIImage, title: String = "") {
+    let yourBackImage = image
+    self.navigationController?.navigationBar.backIndicatorImage = yourBackImage
+    self.navigationController?.navigationBar.backIndicatorTransitionMaskImage = yourBackImage
+    self.navigationController?.clearNavigationBackButtonText()
+    self.navigationItem.backBarButtonItem?.title = title
+  }
+
+  func loadCustomNavbarImage(image: String) {
+    let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 32))
+    imageView.contentMode = .scaleAspectFit
+    let image = UIImage(named: image)
+    imageView.image = image
+    self.navigationItem.titleView = imageView
+  }
+
+  func loadCustomNavbarImage(image: UIImage) {
+    let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 100, height: 32))
+    imageView.contentMode = .scaleAspectFit
+    imageView.image = image
+    self.navigationItem.titleView = imageView
   }
 
   func hideNavigationBar() {

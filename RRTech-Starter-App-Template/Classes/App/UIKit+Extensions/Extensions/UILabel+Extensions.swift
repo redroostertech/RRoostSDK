@@ -40,7 +40,12 @@ public extension UILabel {
 
   func addPaddingToLabel(top: CGFloat = 0, left: CGFloat = 0, bottom: CGFloat = 0, right: CGFloat = 0) {
     let insets = UIEdgeInsets(top: top, left: left, bottom: bottom, right: right)
-    self.drawText(in: CGRect().inset(by: insets))
+    #if swift(>=4.2)
+      self.drawText(in: CGRect().inset(by: insets))
+    #else
+      self.drawText(in: UIEdgeInsetsInsetRect(self.frame, insets))
+    #endif
+
     self.frame.size = CGSize(width: self.frame.size.width + 8,
                              height: self.frame.size.height + 8)
   }

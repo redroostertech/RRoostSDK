@@ -51,7 +51,7 @@ public extension UITableView {
   }
 
   func getNib() -> UINib? {
-    let podBundle = Bundle(for: SFMapsServices.self)
+    let podBundle = Bundle(for: Utilities.self)
     guard let bundleURL = podBundle.url(forResource: "forcemaps-ios", withExtension: "bundle") else { return nil }
     return UINib(nibName: String(describing: self), bundle: Bundle(url: bundleURL))
   }
