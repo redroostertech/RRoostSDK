@@ -19,11 +19,17 @@
   "platforms": {
     "ios": "10.0"
   },
-  "swift_version": "4.0",
+  "swift_versions": "4.0",
   "source_files": "RRTech-Starter-App-Template/Classes/**/*",
   "resources": "RRTech-Starter-App-Template/Assets/*",
   "resource_bundles": {
     "RRTech-Starter-App-Template": "RRTech-Starter-App-Template/Classes/**/*.{ttf,otf,xib}",
     "ImageResources": "RRTech-Starter-App-Template/Assets/*.{xcassets,imageset,pdf,png}"
-  }
+  },
+  "dependencies": {
+    "KeychainSwift": [
+
+    ]
+  },
+  "swift_version": "4.0"
 }
