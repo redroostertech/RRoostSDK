@@ -1,6 +1,6 @@
 import Foundation
 
-public protocol User: class {
+public protocol BaseUser: class {
   var id: String { get set }
   var email: String { get set }
   var name: String { get set }

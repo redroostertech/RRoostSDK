@@ -7,7 +7,7 @@
 
 import Foundation
 
-public protocol Comment {
+public protocol BaseComment {
   var id: String { get set }
   var text: String { get set }
   func retrieveOwnerName() -> String
