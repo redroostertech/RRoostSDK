@@ -53,12 +53,12 @@ public class VideoBackground: NSObject {
   }
 
   // MARK: - Primary methods
-  @objc private func play() {
+  @objc public func play() {
     guard let videoplayer = videoPlayer else { return }
     videoplayer.play()
   }
 
-  @objc private func pause() {
+  @objc public func pause() {
     guard let videoplayer = videoPlayer else { return }
     videoplayer.pause()
   }
