@@ -1,0 +1,6 @@
+framework module RRoostSDK {
+  umbrella header "RRoostSDK-umbrella.h"
+
+  export *
+  module * { export * }
+}

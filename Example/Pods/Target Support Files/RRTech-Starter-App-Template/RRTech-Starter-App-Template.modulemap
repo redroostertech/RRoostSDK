@@ -1,6 +1,0 @@
-framework module RRTech_Starter_App_Template {
-  umbrella header "RRTech-Starter-App-Template-umbrella.h"
-
-  export *
-  module * { export * }
-}

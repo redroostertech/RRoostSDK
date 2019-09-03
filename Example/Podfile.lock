@@ -2,16 +2,16 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - RRTech-Starter-App-Template (0.1.0)
+  - RRoostSDK (0.1.0)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
-  - RRTech-Starter-App-Template (from `../`)
+  - RRoostSDK (from `../`)
 
 EXTERNAL SOURCES:
   ChameleonFramework:
     :git: https://github.com/ViccAlexander/Chameleon.git
-  RRTech-Starter-App-Template:
+  RRoostSDK:
     :path: "../"
 
 CHECKOUT OPTIONS:
@@ -21,8 +21,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  RRTech-Starter-App-Template: 5638ec4b7209bd35fa702aad5236b00a8ec94837
+  RRoostSDK: 4ad33007091ed82229bd5eaee3c4e1633a30d95b
 
-PODFILE CHECKSUM: de9592f04c62071549198961266ebd4e1dda898a
+PODFILE CHECKSUM: a7771bae7e7e872aebdc3766dac4cd23a937a61c
 
 COCOAPODS: 1.7.5

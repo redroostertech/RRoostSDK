@@ -2,12 +2,12 @@ platform :ios, '11.0'
 
 use_frameworks!
 
-target 'RRTech-Starter-App-Template_Example' do
-  pod 'RRTech-Starter-App-Template', :path => '../'
+target 'RRoostSDK_Example' do
+  pod 'RRoostSDK', :path => '../'
 
   pod 'ChameleonFramework/Swift', :git => 'https://github.com/ViccAlexander/Chameleon.git'
 
-  target 'RRTech-Starter-App-Template_Tests' do
+  target 'RRoostSDK_Tests' do
     inherit! :search_paths
 
     use_frameworks!
