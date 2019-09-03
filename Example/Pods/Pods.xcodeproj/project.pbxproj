@@ -870,7 +870,8 @@
 				D774DF11231CAF3500EA3D29 /* Comment+Interface.swift */,
 				D774DF14231CAF5B00EA3D29 /* User+Interface.swift */,
 			);
-			path = "Models+Interfaces";
+			name = "Models+Interfaces";
+			path = "RRTech-Starter-App-Template/Classes/App/Models+Interfaces";
 			sourceTree = "<group>";
 		};
 		DB81008A3BACFA1C87B6F26E04447E57 /* Step 2 */ = {
