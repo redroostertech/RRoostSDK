@@ -7,162 +7,127 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015A05B381E25C2FA80A0DA797179580 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 00F781E7AEF20CF360E60923F15D4898 /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		03BA2BE0CE8BBEC7DE91118BD43CF34D /* CustomView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAE38494028324EB28A47B00FD03D8 /* CustomView+Designable.swift */; };
-		054E95AFBBB06421AA9B9252D1702B23 /* CommentCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D133A861395EF87E38EA4F0090670D1A /* CommentCell.xib */; };
-		07A0DFFBB0EA1EA20CE1C511B55C13B2 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA95049DDDFC24A8E901822424DF21D /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		07F4634E722082DB20A867BD271864CA /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 81C4D5033B7C6D7812516B4C9170AF27 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C222C93C67885C503E87B7C40D69F54 /* Strings+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E33DDADA714CD2D1F9ECBF7AAB3FD6E /* Strings+Extensions.swift */; };
-		0C66E72276B24115F4EE16246D0D11C0 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFCCB1730DB227AB66A17C70747E97C /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0E2BB7F635B6D3B86856CABC7C43FC12 /* SlideshowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0679AB982161E53474A38A8500F6D513 /* SlideshowCell.xib */; };
-		111D7E38C793197A66DD0C680C1AED4A /* Decodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C52DAE2DB60C0BACE044F1A7BA89B27 /* Decodable+Extensions.swift */; };
-		17166097F38C84FD0BF20800C6FBFBDD /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2932463644CA67A25B10C8EA91DD0169 /* Int+Extensions.swift */; };
-		18502B5BF902DE67A3D89F27C40A6B4F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7948FB00AC06A1D062EA87AC8C7382 /* Bundle.swift */; };
-		1A12CD60FB88141AE514C06087ACE816 /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 010B787CD4F63CB85AEE50434F57294C /* UIDevice+Extensions.swift */; };
-		1AD4AE0F4AB66968D5E7F1B0CE682B56 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53F53710E2BC6C1728730A926B1345D8 /* RandomStringGenerator.swift */; };
-		1CE64F2AE346BAA1140ACDBC4725D681 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */; };
-		1DF2450743846E81DEFDCDB9E26962F8 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61D74C38ABCB4B5F8B6C5CC9D43FF2 /* CommentCell.swift */; };
-		1E5DE24A080F4A15E42019FCF51A2C9A /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 430407F230F534BACDF6BB7610C3F333 /* UILabel+Extensions.swift */; };
-		275CF53070F9850F9CF142A83F29F9D2 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE83A848EFCE6AC9D91524F93D07149 /* UIAppearance+Swift.m */; };
-		2ACA2313706EFAE770F4091C1AA5EE02 /* Walkthrough_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC893DCFB506A3CFD1931B7076CB97 /* Walkthrough_3.swift */; };
-		2CA87EF1779FB27925A0860BF7F9AA2B /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E743340465A3D7127FE5B0439463A9D4 /* AppColors.swift */; };
-		313085913CCC3FDB5E2EA98F317C941A /* RRTech-Starter-App-Template.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */; };
-		320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE8C54B4E539AC322B8EBDFDE0AD46E8 /* TegKeychainConstants.swift */; };
-		37849384EDDABCA63048771E10F11307 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D29D0C644CFA9947728F19D0DC63ED57 /* UIApplication+Extensions.swift */; };
-		3C33154CD526F9A20F03CC32B153DF1F /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D18D24D7E002C90C8AD847ACE30FF93C /* UIButton+Extensions.swift */; };
-		3C996FBEFFF38718E791135C621B8C59 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7F89A238582E56EB61EC441D1FA2C08 /* UIButton+Chameleon.m */; };
-		405DA1D75813FEF59A1E1E885D368452 /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD2E54F4110113FC35B39F1CC9AEF470 /* BaseNavigationVC.swift */; };
-		44573CA5CD115A2A71EC20046D444941 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82CE20E3CC8438BB0B69E3A15F70CA8 /* UIViewController+Extensions.swift */; };
-		485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1376E9F6E260943B803D806FCBAE5B07 /* KeychainSwiftAccessOptions.swift */; };
-		48D4F32A6DD88658E315365BE00862ED /* CustomStringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7569525DE09A16552FA8E6B405F0AC /* CustomStringConvertible+Extensions.swift */; };
-		4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BCBBDACF73F54474D122F63D9F689DD /* KeychainSwift-dummy.m */; };
-		4B65B2CC85F494FC18B9B1C18DF262C7 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24ADC229220261146BDEAB1868E87C1B /* UIView+Extensions.swift */; };
-		4C59D9621EC459536CC937F5159583D4 /* KeychainSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64D7656B63940DF1504106A93CEF8D6D /* KeychainSwift.framework */; };
-		4D8EBCE97A0213A18AF1DD383799000F /* Walkthrough_4.xib in Sources */ = {isa = PBXBuildFile; fileRef = 114FEBEAAC12BACB5A38D5F839BA241F /* Walkthrough_4.xib */; };
-		4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B1CD626D760DA5A3E6CAC3871AC0FA4 /* KeychainSwift.swift */; };
-		4DF43DB058D1638FE6E51EC9B5BA01B9 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 52A42127D2EC608A4368B6B22931589B /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50D6F03765EB6D8B3CC0AF59D6CE3EB6 /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFF2015EE2EE31D47FD2B384F875AF60 /* UISearchBar+Extensions.swift */; };
-		542064FC3E20131A36D47C4B1F627D28 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4363208B6FF59F4B6A93CAFC538984FF /* UICollectionView+Extensions.swift */; };
-		55F35D631E63785F27E1C67701A4E38F /* Walkthrough_1.xib in Sources */ = {isa = PBXBuildFile; fileRef = D02176481F7796766824CC2ADE2780FB /* Walkthrough_1.xib */; };
-		587C93B0B2074DF657C0AD53139581D3 /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEC59B797B945670C577ABB41CE3642 /* DefaultsManager.swift */; };
-		58DAA4441604CE5EDB5C20A81B46523D /* CustomLabel+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE4FEC0EFC22E65F49F4F6506E68017 /* CustomLabel+Designable.swift */; };
-		61DBFD88C8548041C5DB8660FEDD1C57 /* Doubles+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42F4F1F76E4FD18021D9677286BF06CE /* Doubles+Extensions.swift */; };
-		63B7FAF3B3F4BA5A42B1F016BEE0FC47 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D581D91111D9A6B5875450BF3915EDCD /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		65A896C8E1ACC9AB0669F614DC7344AA /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6246C2EFA65E75C5596EE5421B777728 /* LayoutManager.swift */; };
-		66B3EA39DC05A6E6A58AB69E2DFC8D4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */; };
-		693B98DE045C80265A735BD94C87953D /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E20C74AD2803FB2EFC82A2F794F8BE /* ChameleonConstants.m */; };
-		6B2DC678EA5CCC291354FE306DF0B28E /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = F6A30C327C294270CA4D6A16F6EBF0B8 /* Chameleon_.m */; };
-		6C87CCC7E974983BF3DDB7CDDD1CCC6A /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A89151E37B6594BB99A48C4E44FA8B9 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F4D15A6C71BEFE4A09E05F22072C2E3 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = F902A22EDA77045CB9D3AF23751CFA68 /* APIRepository.swift */; };
-		71CFE3EBAC3F046374295B698D3E18EE /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65E79DAA680888C6E3DB584FDE0A8E56 /* VideoBackground.swift */; };
-		72B1AD39E56442DC6F2EE2FB6C8E42A4 /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBCE6DEEEB58AC7AE6FC628C89BC8A41 /* ConstraintsManager.swift */; };
-		7450BD511FA3C5D272A6864A13794979 /* Walkthrough_3.xib in Sources */ = {isa = PBXBuildFile; fileRef = 51CC12C9230BDADE1EA61E2BC05CB8DC /* Walkthrough_3.xib */; };
-		74DDBF47539EB98680E83BD95227DD8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */; };
-		777E5F0FE221F6A8F0B94C6374CD73ED /* UIViewController+Chameleon+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F942A3457FF5721AB19CEE333C43705 /* UIViewController+Chameleon+Extensions.swift */; };
-		79D824A446238B9010B34F3C51B60070 /* JSONTransformationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = C423C7152BBBF99F9272AF75C45347F1 /* JSONTransformationFactory.swift */; };
+		015A05B381E25C2FA80A0DA797179580 /* Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CDA8E4BCF0AEC0558DEAAFEA513CFA /* Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05EB6FBDBD731F216D10F8146FDA29E2 /* Walkthrough_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD87873E9EFC76E858377117BC63AD9 /* Walkthrough_2.swift */; };
+		07A0DFFBB0EA1EA20CE1C511B55C13B2 /* UIAppearance+Swift.h in Headers */ = {isa = PBXBuildFile; fileRef = B1F502555C9FDBD7F592D98167F5CD3F /* UIAppearance+Swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F4634E722082DB20A867BD271864CA /* UINavigationController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 20B59E57A183F42D6C27CB7E6495F4A6 /* UINavigationController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BCA076BA1A6622093E7BA556AF4CC6C /* Walkthrough_2.xib in Sources */ = {isa = PBXBuildFile; fileRef = 9BA998487828029CDADACD9FF4C81AF1 /* Walkthrough_2.xib */; };
+		0C13159B37C90A315A1EE517F6214003 /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1A70C36530A6B1A6E8C31A594C49E2 /* Configuration.swift */; };
+		0C66E72276B24115F4EE16246D0D11C0 /* UIView+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4479B7BE5EFE394148EAF6EE0DAAB5A3 /* UIView+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D57DF9ABD48446755E76A4D2617B9ED /* UIButton+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2947BC98DA50B3BD83E840C03A287099 /* UIButton+Extensions.swift */; };
+		0DBF8F71DCD20F152F27DA28DA0FE42E /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE2EE98165C2C4B843E165551B20721A /* UserDefaults+Extensions.swift */; };
+		15018F29B3EDB5EFEBE71150EA7AF8A2 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC9EC1E2EBD557D2CD031F011F2BC989 /* Dictionary+Extensions.swift */; };
+		160F8E9E3ECE7C77FDE2F4CF148A96FB /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */; };
+		169866DB345D47690D0DC36A41FF3A15 /* RRTech-Starter-App-Template-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBCE5740EBA0710D0BB93D0947B46B89 /* RRTech-Starter-App-Template-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CC9F332180F3A426AB3E0A1032072CD /* Decodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DBCC2F2417E9A6E022798B84B415AF /* Decodable+Extensions.swift */; };
+		22EE3F805E5C0ED15862D283C089AA5D /* Strings+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 174E97532CA4450D79F20CB5EBF2316F /* Strings+Extensions.swift */; };
+		2659FE72DCE2B5452A954451BDCA06E9 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073B6E122B18E1E91BD4F14AEB3A150C /* UICollectionView+Extensions.swift */; };
+		2707760C24023E7997531365F8F0812F /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83909B3B8EA20E29EE4065CC77F6767B /* Utilities.swift */; };
+		275CF53070F9850F9CF142A83F29F9D2 /* UIAppearance+Swift.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CAFD4B9F7626295ABDDF51721F81193 /* UIAppearance+Swift.m */; };
+		27CC3B9CC376AEE3CDC19FB9B36B8D56 /* CommentCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = D688D6A1897F0C2C09AA610E3F4DFA55 /* CommentCell.xib */; };
+		2829EAF47961321F7FD0360EB1CECE45 /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06E076CBF947E20E72922B0BD6328F5 /* RangeSliderTrackLayer.swift */; };
+		2AA2BA3F446986590A99B63056D13FD5 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59B474F8B0E66884BAD28C53B1BA95 /* UIImage+Extensions.swift */; };
+		2B0FD0C8C5354546DABBD0C4285795C1 /* Walkthrough_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA998487828029CDADACD9FF4C81AF1 /* Walkthrough_2.xib */; };
+		2E5D56B8E8BF91D78050469D8E559C8C /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B356FC5240B9F882F23198E5203C65 /* Date+Extensions.swift */; };
+		2F7E25B3C31F8B1D785DD9B4C312B480 /* BaseNavigationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BF555C441C51F962B7F92D2837355D5 /* BaseNavigationVC.swift */; };
+		2FA4613B9164A6D38AE87482E6AE56F4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B8721E5D1BD740375EDE086623BF9D3 /* UIView+Extensions.swift */; };
+		37E9C5386904C7471828418C9E8147EE /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8C2DBB8EDA27ADB646C70B90B77527 /* Array+Extensions.swift */; };
+		3C996FBEFFF38718E791135C621B8C59 /* UIButton+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 60A1413F5EE8C60CB7D3423C3044E859 /* UIButton+Chameleon.m */; };
+		3D8F8D8CF64B89AF7CE832DAAFF97734 /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5F991CE97F8A9096A452C3F301AC /* Pods-RRTech-Starter-App-Template_Example-dummy.m */; };
+		414C55D239F919FEE2D2C1EB1399F4DA /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8245F738F3F09690C68371EDDCF85682 /* DateFormatter+Extensions.swift */; };
+		49B4AB68B1F7E71A30DEBD403098CEA0 /* VideoBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65BD558B6CCA0B2B3DCF567C880046E4 /* VideoBackground.swift */; };
+		4C0DB686D256980DB022ECACEDE79F75 /* RandomStringGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F14C77CBF8403B4AC5319B7DCE87A2 /* RandomStringGenerator.swift */; };
+		4C8BB98B373CA0AC1F094152B60099A4 /* UIViewController+Chameleon+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95458B55607B40D0105030A9A4E990D1 /* UIViewController+Chameleon+Extensions.swift */; };
+		4D8094A6F2EC49C1D304D4E9B88BCF2A /* ConstraintsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB16D60961BFBD46A5C8B0A8274208BB /* ConstraintsManager.swift */; };
+		4DF43DB058D1638FE6E51EC9B5BA01B9 /* UIButton+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 35F202C7E056700E6A7434AAEC7C956C /* UIButton+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4E901045049E0BD77A616B1D12E8C559 /* Walkthrough_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F601C905A5856192DF036A9885A78A2 /* Walkthrough_1.xib */; };
+		516BB33DB9A0683ACBBB3CC5462B993B /* SlideshowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F433493213E374B3D946E93C502CE4BD /* SlideshowCell.xib */; };
+		5C96DA610281C87A92F403C10D86BABC /* Walkthrough_4.xib in Sources */ = {isa = PBXBuildFile; fileRef = CAE02812DB7001D350790F18F7CB34EB /* Walkthrough_4.xib */; };
+		6398DBC953B455A40C4B4F6885D510E5 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B2E362B8DF30225C4758B0BF1AC70D /* AppColors.swift */; };
+		63B7FAF3B3F4BA5A42B1F016BEE0FC47 /* UIImage+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = F13FB34A42FE17CDF1146FD485C048DA /* UIImage+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6833757DA2A700569BB8CDE4CBF4EDCF /* UISearchBar+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9609740B3E83E3283CCA14038FBA8496 /* UISearchBar+Extensions.swift */; };
+		693B98DE045C80265A735BD94C87953D /* ChameleonConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = C081A750E11A9EB8F35E36C6B3D306C9 /* ChameleonConstants.m */; };
+		6B249EC809D1EDF08FD02F00918E908D /* vcWalkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DE25C2FD235650B1B0073E694808CA /* vcWalkthrough.swift */; };
+		6B2DC678EA5CCC291354FE306DF0B28E /* Chameleon_.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6CC6AC9C533A8CEFF0B13FC6E92233 /* Chameleon_.m */; };
+		6B77C9F5A1855CE273421714B9C24096 /* CustomLabel+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD629C54E5CAB7BA1CE2C68AFC55E5E /* CustomLabel+Designable.swift */; };
+		6C87CCC7E974983BF3DDB7CDDD1CCC6A /* Chameleon_.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D39332DD55802698852747D1FBB8844 /* Chameleon_.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		72BA6D441F8F79C5BD04F5BA89C65B61 /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32E3972BE661D61B175A92226C7336A4 /* UIViewController+Extensions.swift */; };
+		72D09CCB263E611BF8FEFFD8003F14ED /* Walkthrough_3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507ED43157A30A7914B09A23C1983A83 /* Walkthrough_3.swift */; };
+		763686F0BD92971A0C6EEEC1B0FD48B7 /* APIRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05A40AD2FB4B34DC15A3CB9AA08BB585 /* APIRepository.swift */; };
+		786A5AECF17E8019B15E44444F832380 /* UIApplication+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76BF9A2199B70067DDA71152270E276F /* UIApplication+Extensions.swift */; };
+		79A78F0ACB2AC43C5D6F27205E76B31C /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EDA847C39DC95623CBF056DC8761F7F /* RangeSlider.swift */; };
 		7A10C78CBB90B582430F83F976100493 /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA74D67DE153E2F6244C3DC5B37789AB /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7C9E93D55FA61BE58D618F385193D640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1812F50196AFF59D3E0C0377C612B9C /* CoreGraphics.framework */; };
-		8624349E44507A5863651CAB51E38F7F /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 91E50A86CB780D978CBDFBC67140DE1E /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8659D5863A89A6F9539AE15D673C07C5 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A817BCD6DEE351A694EF35749B26FF0 /* UIViewController+Chameleon.m */; };
-		866A210E47AEF4ABB16E6D6F5B6A6E51 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11104C4E5504B7F72F95BBF9E9059908 /* UIView+ChameleonPrivate.m */; };
-		866B54511E7CBFADD1F78C285087AE8E /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BC3C4C2AD1731FB8C51EDED34BB1CA7 /* ChameleonShorthand.swift */; };
-		874D8A04ABF919CED20EB0E440C44101 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0A511B1967C3B68131A987959A3830 /* NSArray+Chameleon.m */; };
-		88A569DC5FA4CEED7FCD51F8F762D4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */; };
-		8B387C707EF131D9674B56F93FCEE475 /* Walkthrough_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF8C7F3DC2D78D561BFDB470DA6B55E9 /* Walkthrough_4.swift */; };
-		8D2729DA1BBFD45F6C8FB44BD2B3B964 /* UIViewController+SVProgressHUD+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F830794968277DB7FB2C201F500905C /* UIViewController+SVProgressHUD+Extensions.swift */; };
-		8DE6574798BC70BC089F02DF7CEDE80D /* Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9C96F9F28B1BDFC69989E13407BE31 /* Configuration.swift */; };
-		9058946310C1A0CCF9D27CBE71546CA6 /* Walkthrough_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFBBF5E0940CC49EBCE5637B6886BF /* Walkthrough_2.swift */; };
-		918885B90BECC18ABC5F58D92E34EF13 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 621C0E6E48F5DDCAB4A6A21D09DBB4A5 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9247AA02A534F1A201D929C39C057B50 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = EAE2C9C95EFAE850A817EC8586006227 /* UIColor+Chameleon.m */; };
-		936F268AB9257A3435DD4BAAB5A4A135 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A6DE60AC857A7DEAF2DF1537D7991310 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		940242B180570D98876F2121C1CE7DD3 /* ImageSelectorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66BF237100A71D63FA10314E7D665CBA /* ImageSelectorManager.swift */; };
+		7B0872A986D557E7E3BA6B74E9B1EA70 /* Int+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C374E8EE8E4720AA48903EEFE5A688D /* Int+Extensions.swift */; };
+		7C9E93D55FA61BE58D618F385193D640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC52B314F24BC32CDA7B523FAA24A727 /* CoreGraphics.framework */; };
+		7D39AB098C4141A04426530AEF23C174 /* LayoutManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C72B72C87C75DA0DA1AD78B9675D04 /* LayoutManager.swift */; };
+		7FCAC60E69F2AF228C1EF6299B3B7523 /* AttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAF2CC33F9BF344962E415FF3DBE86DA /* AttributedString+Extensions.swift */; };
+		836BF21B92B8276C92683A91939D1BAD /* SlideshowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13CA526BC81C23D30103EEAA97421446 /* SlideshowCell.swift */; };
+		8624349E44507A5863651CAB51E38F7F /* NSArray+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 392BB0899D07D23992B7E87466833F7C /* NSArray+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8659D5863A89A6F9539AE15D673C07C5 /* UIViewController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E94BEB3C7F4476E0BACC243FDB102A /* UIViewController+Chameleon.m */; };
+		866A210E47AEF4ABB16E6D6F5B6A6E51 /* UIView+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85C72C198E037FDCE8FD93F88A438C25 /* UIView+ChameleonPrivate.m */; };
+		866B54511E7CBFADD1F78C285087AE8E /* ChameleonShorthand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B4DCE1C19035B0649B89789B919C3 /* ChameleonShorthand.swift */; };
+		874D8A04ABF919CED20EB0E440C44101 /* NSArray+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = D76DC1602E08BD2FAA2C2ADDFB9CFE6C /* NSArray+Chameleon.m */; };
+		87A8F02EB44670B7955E35851EECFA25 /* JSONTransformationFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A6A64B63D7E7183409F74727604946 /* JSONTransformationFactory.swift */; };
+		88A569DC5FA4CEED7FCD51F8F762D4F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */; };
+		898CE868BFF2053DABFB2DDB6AAE39F9 /* Walkthrough_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 738CAFE76E0AF67F2D656292CBF52A88 /* Walkthrough_4.swift */; };
+		8A54D7055F50F69C32157E73C73722C0 /* ImageSelectorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACD88802D2F2634763539BD46DC020D /* ImageSelectorManager.swift */; };
+		8A9ED438B0240037E5ED0EA5441873D4 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B888B6F15211D278AECAE83A86324195 /* UITableView+Extensions.swift */; };
+		918885B90BECC18ABC5F58D92E34EF13 /* UIViewController+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E3B5CDCFCAFDB41977405C6E9AEC2B9 /* UIViewController+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9247AA02A534F1A201D929C39C057B50 /* UIColor+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = B960D30AC715920769B278652FAF8EE1 /* UIColor+Chameleon.m */; };
+		936F268AB9257A3435DD4BAAB5A4A135 /* ChameleonFramework-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E680AF5D94A2E399504F16824A9471A3 /* ChameleonFramework-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		94D46EA4A1F6FD81AE8E77D864CB43F1 /* Pods-RRTech-Starter-App-Template_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB83DB0299732B9474743FA33D7705F /* Pods-RRTech-Starter-App-Template_Tests-dummy.m */; };
-		9916DC5CB41362FB960A7D57C3AF08E8 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A66EADE83A9003E258FD2AC2D86CF30F /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26BA7AC97E81FA7B2B5A1A64EFFACDC /* DateFormatter+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D587B59AF809B9206F3854D3E69FFDF5 /* DateFormatter+Extensions.swift */; };
-		A3D415E7B4757BCC8926055CB389297C /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D133A861395EF87E38EA4F0090670D1A /* CommentCell.xib */; };
-		A68832C167B77BE09F6F3485A607A744 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = C9776947CBBEBCE6BE77785CA0E2A0B2 /* UILabel+Chameleon.m */; };
-		AA138B09A37EE5489E2ADB4C910F07B5 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3884E9155850B5B90E47B561492836A7 /* UIImage+Extensions.swift */; };
-		ACFEE2BC0C864D977D30E4A7552CD387 /* RRTech-Starter-App-Template-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CBDCF78D32DBAAE643A1BFB3DD1C59F /* RRTech-Starter-App-Template-dummy.m */; };
-		B387EB854ECB792155E32919D1075476 /* SlideshowCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC89F1556C08D95606582A8005FF8B5A /* SlideshowCell.swift */; };
-		B5A016EF854BECCCBA5FF11BBA529A85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B74455EEAC274851C33DE02F766905 /* QuartzCore.framework */; };
-		B9E988E205F56E3E95F80283B25E8E29 /* ImageResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */; };
-		BB8ADE41C116ED2F50BE43E1F1AB543B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 007D83D48358510D41F00BBBE8A7DD4D /* UIKit.framework */; };
-		BC1EA9FCAF7528F3BE8C1740D001A91A /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3B3542E004CDE0D006ECD3BBE47E1E3 /* Utilities.swift */; };
-		C129B22B267921F83BB270F9E9FA721A /* Walkthrough_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51CC12C9230BDADE1EA61E2BC05CB8DC /* Walkthrough_3.xib */; };
-		C20254C45B213C87D5757089E672DC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */; };
-		C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E2A8F6A6338CEF8C50C39608F969B76 /* KeychainSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C587D80B8290B414A024DBC60863F4BB /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1564C407F73BEC3974D9769DDF54F322 /* Date+Extensions.swift */; };
-		C6E96379B06BBE699AA7756A36522D73 /* Array+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C2B44C2A3F24F6722D4E170910486A /* Array+Extensions.swift */; };
-		CAE4A35C4B314B4222EC0B8CA8DC544C /* RangeSliderTrackLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550386200FE8F74AEFE37DCF24708083 /* RangeSliderTrackLayer.swift */; };
-		CAF49E2A54F794D5F6DD10F1FE77F321 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 610F5A883C19672470205458443E9BF3 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D354F88CA40D084927A803D2B6FF6DB8 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50F70AA30B55BE6FA326A6E102DDF7C9 /* KeychainManager.swift */; };
-		D5B759CB1C4EB8A934767C98FD5E4DDF /* UIColors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7CC68B52460CAB29361B8F5A5CE95D6 /* UIColors+Extensions.swift */; };
-		D5DE6AE7BBE9C483E7A007C87B0257B4 /* AwsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE2E23DA36FC749EA0F866DFF8473EA /* AwsManager.swift */; };
-		D774DF13231CAF3C00EA3D29 /* Comment+Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D774DF11231CAF3500EA3D29 /* Comment+Interface.swift */; };
-		D774DF15231CAF5B00EA3D29 /* User+Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = D774DF14231CAF5B00EA3D29 /* User+Interface.swift */; };
-		D850A602CC1BAB4E30B190D9FDB50FBD /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCD520BF0A88E21357C4E4842D12F2B9 /* UITextField+Extensions.swift */; };
-		D9F6961B7723A0FB34FA88C74601C6B8 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 519716005C6C61BD12C31FAFD381D08F /* URL+Extensions.swift */; };
-		DA97A7E5793FADE5749D21002AB10B57 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = FFF64FDE57181F0A14245C1A3FD92EB9 /* UIImage+ChameleonPrivate.m */; };
-		DBF82E8C1F4B1904DAD736A691869F6F /* Walkthrough_2.xib in Sources */ = {isa = PBXBuildFile; fileRef = 60BF0033DD640572B55292405E18DDF3 /* Walkthrough_2.xib */; };
-		DD7B1A58C5C68491723265E6D763B26E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4164E0EBDECAB061445F77C368E9F2D2 /* ChameleonFramework-dummy.m */; };
-		DDBC762ABE86F3917C6553A64E722A70 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 74920DE9E973AB718C8D7E36DD6FC3D0 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DE44BD1022A8D736862D1A781953685D /* Walkthrough_1.xib in Resources */ = {isa = PBXBuildFile; fileRef = D02176481F7796766824CC2ADE2780FB /* Walkthrough_1.xib */; };
-		DEBB5B856849146F0E9AF0EFEA06ABDA /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DFBE553B1D2FED8B50196BD457754D /* RangeSlider.swift */; };
-		E0DBD978FE1FBA3923D9A482352252D4 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 050C5CF31C3BA8C0F83E5173A737AB55 /* UIColor+ChameleonPrivate.m */; };
-		E144AA525F552331314939C1A0FAE440 /* Walkthrough_2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60BF0033DD640572B55292405E18DDF3 /* Walkthrough_2.xib */; };
-		E190DA13CC6DD0DF46699FEE0761FECF /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8ABE5F991CE97F8A9096A452C3F301AC /* Pods-RRTech-Starter-App-Template_Example-dummy.m */; };
-		E3293D1CF8E37343B1BA6F2C042453B0 /* SlideshowCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0679AB982161E53474A38A8500F6D513 /* SlideshowCell.xib */; };
-		E7279334F6A8948CC9045BCE864A281D /* vcWalkthrough.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0117A9DA1185BD82CED9DB2C09B1903E /* vcWalkthrough.swift */; };
-		E7D344059042D076A5C61D13018BA0D8 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = CCD001DE3F9736FE39F4A12D5A04226C /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E82EF3AFD38848BAC02735643F4FBF6C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = E72B3826F47F4049596797584DB33B73 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBD186A98120EC087B44EB1145B1C6B6 /* AttributedString+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 567F537EC9700EEE410374D7632CF7D9 /* AttributedString+Extensions.swift */; };
-		ED560C3C184B08FCBFABC6BE4A2B7354 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B4483C5780BE5D764DCB518331B25F /* BaseVC.swift */; };
-		ED85E36B75791FDF4611581A5A450A06 /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B685D28B81653B62F99F7A75730AAB54 /* Dictionary+Extensions.swift */; };
-		EDA0FDF7E2FC517785DEF1B399E3D4FA /* Walkthrough_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2EC9DA9B25C381687CE2E8A6F4EB4DA /* Walkthrough_1.swift */; };
-		EEF22A1455C96635E480D1DCCE664913 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C136324DD2DF43ADE45FB0CD5C5D582 /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4D2C5C5D073125A2F7EAE91E2718141 /* Walkthrough_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114FEBEAAC12BACB5A38D5F839BA241F /* Walkthrough_4.xib */; };
-		FA194632F2EEB2C759DAB2D6B64556C2 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B6C7E14B43146404FE03930A877ADB /* UITableView+Extensions.swift */; };
-		FA49618EEDBE490B9BF56CAD65ABF8EA /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 693DE9C255E03C52FCED624C41641CCD /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FC0CED99D95FED3ECEF060D0572948FA /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C823524A83CF10847885FBEAEB3275 /* UserDefaults+Extensions.swift */; };
-		FC4C149C3E02CEE19B48725418053105 /* RRTech-Starter-App-Template-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B206A0D8ED25EFA2EF76E8763D834C21 /* RRTech-Starter-App-Template-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FE3A4BBC89893220B5590FC8A65C0233 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F8175A77AFFF7D7A21EAD420010EEBC /* UINavigationController+Chameleon.m */; };
+		96C30078B90C7C0A59A1323410CF769A /* CustomStringConvertible+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7750C58A2335292F35405F232728EF0B /* CustomStringConvertible+Extensions.swift */; };
+		9DE46241DCF59EB463534B98A441658E /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FDCAAD4E8DF56C8A3DF8E19605D123B /* Bundle.swift */; };
+		9E1815CDCA15DC3C56076A47C40A1DEF /* Doubles+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAC32AFBDF68C2C219D60975B035CB90 /* Doubles+Extensions.swift */; };
+		A68832C167B77BE09F6F3485A607A744 /* UILabel+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A7440361066354771F03FFB334515B /* UILabel+Chameleon.m */; };
+		A830D4B458F0A2EDB169A4E4C479456B /* UIDevice+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69B3C38885054A11DEAAD8B9C475961 /* UIDevice+Extensions.swift */; };
+		AFE014757C1B4E952885EA0BD8DC4756 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A66EADE83A9003E258FD2AC2D86CF30F /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B0958BAE67E5B31A3E6E23D93466354B /* UILabel+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BC291A862B8F4A4ACC5E24C0D88949 /* UILabel+Extensions.swift */; };
+		B0F484A0FA2E0B5454B7CD87D4C5381B /* Walkthrough_3.xib in Resources */ = {isa = PBXBuildFile; fileRef = E61969A861856C67333B7CFC0649622E /* Walkthrough_3.xib */; };
+		B5A016EF854BECCCBA5FF11BBA529A85 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 009A3CF530BDED85FCFB71F2D51670CA /* QuartzCore.framework */; };
+		BB8ADE41C116ED2F50BE43E1F1AB543B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71BBEAB859C48569C695B0B3FB39F6F9 /* UIKit.framework */; };
+		C20254C45B213C87D5757089E672DC15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */; };
+		C2713616FFBCA97824F2558A6E6A16E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */; };
+		C3BF6DF1B13AB3ADAA03A56D15137D61 /* Walkthrough_1.xib in Sources */ = {isa = PBXBuildFile; fileRef = 0F601C905A5856192DF036A9885A78A2 /* Walkthrough_1.xib */; };
+		C4790F3B3325D7BA5F595BB6A7F3F2BD /* CustomView+Designable.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADF49ADDA5961DB28C8CBF8BBBEB6010 /* CustomView+Designable.swift */; };
+		C4A3E1D734AE7FF866DB7795AE43E19A /* Walkthrough_4.xib in Resources */ = {isa = PBXBuildFile; fileRef = CAE02812DB7001D350790F18F7CB34EB /* Walkthrough_4.xib */; };
+		C5CB7782443787ADFB786A15B1F118FC /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CE1D45D26A931F16A9DDF42452BE1C /* KeychainManager.swift */; };
+		C8E2736F05085778CBE509B0B4841D7D /* DefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 951CF391C2E7086EE161EC7927A2C08E /* DefaultsManager.swift */; };
+		CA950213DBF72D1F6170B7CE7C49A94A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AF2411F65A7297647ECB00C42E5E93E /* CommentCell.swift */; };
+		CAF49E2A54F794D5F6DD10F1FE77F321 /* ChameleonMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 59949E669A721651860E2E9805419442 /* ChameleonMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB67DC8193854BC8D60CF07192E8492B /* Comment+Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3746E778E0596691EBC3DCF00FAE2257 /* Comment+Interface.swift */; };
+		CBDD7004CA870313B35B77B2F29D555A /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43BB8CB6CD9C6AB9580F90142E244160 /* UITextField+Extensions.swift */; };
+		CDEF4ADAB1E750D64002BFDE74C87D5C /* RRTech-Starter-App-Template-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BC54C615698F4D2D5698B26EBC1D9E1 /* RRTech-Starter-App-Template-dummy.m */; };
+		CED5E5CDEE8410B3C87CEE2EAB057133 /* URL+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561D523F64364E53DBE8B89B1B82998A /* URL+Extensions.swift */; };
+		CEF7C235B3ABFD523384D2E269224EF2 /* UIColors+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74EB7DB16BF434D2552E2E473F9924A /* UIColors+Extensions.swift */; };
+		D98418C91875CF5914506D67A2A67DF4 /* UIViewController+SVProgressHUD+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C08EE6B5BDF327E56A2E1ECB050BC74 /* UIViewController+SVProgressHUD+Extensions.swift */; };
+		D9A1F387D4E2FDCC0FD9E3B20B29A928 /* BaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4EC90C27DC1FB14BD1D7F4C033150 /* BaseVC.swift */; };
+		DA97A7E5793FADE5749D21002AB10B57 /* UIImage+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 888663251DD917954BE18E3AC58C3ED3 /* UIImage+ChameleonPrivate.m */; };
+		DD7B1A58C5C68491723265E6D763B26E /* ChameleonFramework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DCE6E142A36E433E949E637C659090C8 /* ChameleonFramework-dummy.m */; };
+		DDBC762ABE86F3917C6553A64E722A70 /* UIColor+ChameleonPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 23D8674FC4B5839DC796C3E6DDB3C627 /* UIColor+ChameleonPrivate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E0DBD978FE1FBA3923D9A482352252D4 /* UIColor+ChameleonPrivate.m in Sources */ = {isa = PBXBuildFile; fileRef = 49AE78813A8F86841E621330FBEF4244 /* UIColor+ChameleonPrivate.m */; };
+		E676ABE81651019DD77064EE1AA5A76C /* AwsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E0E3566DE83BD8A7252ABF784C8FDD7 /* AwsManager.swift */; };
+		E7D344059042D076A5C61D13018BA0D8 /* ChameleonEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AD4892F2EFEC1E2CC77A9B0296C4FA3 /* ChameleonEnums.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E82EF3AFD38848BAC02735643F4FBF6C /* UILabel+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A4CD199BDA663801102ACFCCE0ED3A0 /* UILabel+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8F3618638BDD0108F616873BAEB5B61 /* User+Interface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8AFBC04A5687009E5887547D4591B /* User+Interface.swift */; };
+		EA02BC36BCA7A54307EB15ADCE76D973 /* Walkthrough_3.xib in Sources */ = {isa = PBXBuildFile; fileRef = E61969A861856C67333B7CFC0649622E /* Walkthrough_3.xib */; };
+		EDAFED0993D9315A1A71337695329214 /* SlideshowCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = F433493213E374B3D946E93C502CE4BD /* SlideshowCell.xib */; };
+		EEF22A1455C96635E480D1DCCE664913 /* UIColor+Chameleon.h in Headers */ = {isa = PBXBuildFile; fileRef = 08DB4A7B5C0FF423B856F75E2110BCFC /* UIColor+Chameleon.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF224DC87CCD9323E7E338B74224B970 /* RRTech-Starter-App-Template.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */; };
+		F5A2B0787234FF465DCFF8C3E210E42F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */; };
+		F7FC0EB6E8EEE71BA5468B23A4119333 /* Walkthrough_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD1003FF0CB51A155750BFA427545CDB /* Walkthrough_1.swift */; };
+		FA49618EEDBE490B9BF56CAD65ABF8EA /* ChameleonConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = CB7CE737193D16487628655C77996649 /* ChameleonConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE3A4BBC89893220B5590FC8A65C0233 /* UINavigationController+Chameleon.m in Sources */ = {isa = PBXBuildFile; fileRef = A7005E1AA244D2DDB2987B95BD6C35A3 /* UINavigationController+Chameleon.m */; };
+		FF4EB72A29D11345D10BBE175633DCA9 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D688D6A1897F0C2C09AA610E3F4DFA55 /* CommentCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1025E8059265D573D38C7CED7C366BF4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
-			remoteInfo = KeychainSwift;
-		};
-		3059BB9D2830BAE01F06027D7BC87712 /* PBXContainerItemProxy */ = {
+		32B958360C2751DF996813B95EDBB9AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FA1637BCA1E09C1699F8EDB36E0801D2;
 			remoteInfo = "RRTech-Starter-App-Template";
-		};
-		3DFFFD2129581072B222AE27018CC785 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7BCFC5273E027A4F26464134D4D37FE3;
-			remoteInfo = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
-		};
-		5DEE73737EA62D01EE6EFA121EB9016F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 28BFDC89BA4363F4F3576DEC70EE10AE;
-			remoteInfo = ChameleonFramework;
-		};
-		627DD4E40420C5D96E5C14287EE7FD2C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 4DB3BEBD49BF529CD20DC6F9E60BCE8B;
-			remoteInfo = "RRTech-Starter-App-Template-ImageResources";
 		};
 		72CD2E9E9A837C2F52B938785A4D0EEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -171,181 +136,191 @@
 			remoteGlobalIDString = 8D8B8F9101A3B895C9BBB596CD84AD33;
 			remoteInfo = "Pods-RRTech-Starter-App-Template_Example";
 		};
-		C1F55A87B5E5D03E4F06D840888ED542 /* PBXContainerItemProxy */ = {
+		79A617D21A03894E6EBE21E7B81CBA73 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 07E54A78BCF82272E99319D7F7F5E8C1;
-			remoteInfo = KeychainSwift;
+			remoteGlobalIDString = 7BCFC5273E027A4F26464134D4D37FE3;
+			remoteInfo = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+		};
+		7A3E303D59C9ECC2D34245C40A21867E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 28BFDC89BA4363F4F3576DEC70EE10AE;
+			remoteInfo = ChameleonFramework;
+		};
+		86452352D537F376B24F6E36C88B617C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DB3BEBD49BF529CD20DC6F9E60BCE8B;
+			remoteInfo = "RRTech-Starter-App-Template-ImageResources";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007D83D48358510D41F00BBBE8A7DD4D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		00BA9BB188DF0C9164E77A1491007A6D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		00F781E7AEF20CF360E60923F15D4898 /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
-		010B787CD4F63CB85AEE50434F57294C /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
-		0117A9DA1185BD82CED9DB2C09B1903E /* vcWalkthrough.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = vcWalkthrough.swift; sourceTree = "<group>"; };
+		009A3CF530BDED85FCFB71F2D51670CA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		012EAA37E69571EC57AB4C1B9718D711 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		050C5CF31C3BA8C0F83E5173A737AB55 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		0679AB982161E53474A38A8500F6D513 /* SlideshowCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SlideshowCell.xib; sourceTree = "<group>"; };
-		0E2A8F6A6338CEF8C50C39608F969B76 /* KeychainSwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-umbrella.h"; sourceTree = "<group>"; };
+		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		043BB0CE01C788E1EFE666982AB50A0C /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
+		05A40AD2FB4B34DC15A3CB9AA08BB585 /* APIRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
+		073B6E122B18E1E91BD4F14AEB3A150C /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
+		08DB4A7B5C0FF423B856F75E2110BCFC /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
+		0B8C2DBB8EDA27ADB646C70B90B77527 /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
+		0C374E8EE8E4720AA48903EEFE5A688D /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
+		0E3B5CDCFCAFDB41977405C6E9AEC2B9 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
 		0EF80AB3F57906C0CC2B961082373F71 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RRTech-Starter-App-Template_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		0F942A3457FF5721AB19CEE333C43705 /* UIViewController+Chameleon+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chameleon+Extensions.swift"; sourceTree = "<group>"; };
-		11104C4E5504B7F72F95BBF9E9059908 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		114FEBEAAC12BACB5A38D5F839BA241F /* Walkthrough_4.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_4.xib; sourceTree = "<group>"; };
-		11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RRTech-Starter-App-Template.xcconfig"; sourceTree = "<group>"; };
-		1376E9F6E260943B803D806FCBAE5B07 /* KeychainSwiftAccessOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwiftAccessOptions.swift; path = Sources/KeychainSwiftAccessOptions.swift; sourceTree = "<group>"; };
-		1564C407F73BEC3974D9769DDF54F322 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		0F1A70C36530A6B1A6E8C31A594C49E2 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
+		0F601C905A5856192DF036A9885A78A2 /* Walkthrough_1.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_1.xib; sourceTree = "<group>"; };
+		13CA526BC81C23D30103EEAA97421446 /* SlideshowCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideshowCell.swift; sourceTree = "<group>"; };
 		15EB99B2BD3E4706DA1D1EFA7643CED7 /* Pods-RRTech-Starter-App-Template_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RRTech-Starter-App-Template_Tests.modulemap"; sourceTree = "<group>"; };
-		19F2BAF89897D6AD9B7E6C7A138A7824 /* Pods_RRTech_Starter_App_Template_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRTech_Starter_App_Template_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		20B632A2B064E7A49A11C2DB64B1B3DE /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
-		23B74455EEAC274851C33DE02F766905 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		242A2D64B60CDDBFA777590CE8C73516 /* RRTech-Starter-App-Template-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-prefix.pch"; sourceTree = "<group>"; };
-		24ADC229220261146BDEAB1868E87C1B /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		174E97532CA4450D79F20CB5EBF2316F /* Strings+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Strings+Extensions.swift"; sourceTree = "<group>"; };
+		18A6A64B63D7E7183409F74727604946 /* JSONTransformationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONTransformationFactory.swift; sourceTree = "<group>"; };
+		19F2BAF89897D6AD9B7E6C7A138A7824 /* Pods_RRTech_Starter_App_Template_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRTech_Starter_App_Template_Example.framework; path = "Pods-RRTech-Starter-App-Template_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDA847C39DC95623CBF056DC8761F7F /* RangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1FD87873E9EFC76E858377117BC63AD9 /* Walkthrough_2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_2.swift; sourceTree = "<group>"; };
+		1FDCAAD4E8DF56C8A3DF8E19605D123B /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		20B59E57A183F42D6C27CB7E6495F4A6 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		23D8674FC4B5839DC796C3E6DDB3C627 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		2644FC15050C08CCB2951CED8D8BBE86 /* Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		27A003CCD8D55F2D280093D1ECF01B2C /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
-		2932463644CA67A25B10C8EA91DD0169 /* Int+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Int+Extensions.swift"; sourceTree = "<group>"; };
-		2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RRTech-Starter-App-Template.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C0A511B1967C3B68131A987959A3830 /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
-		2C61D74C38ABCB4B5F8B6C5CC9D43FF2 /* CommentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		27DA1E2D96D464F813DCC6B9411755DC /* RRTech-Starter-App-Template.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RRTech-Starter-App-Template.modulemap"; sourceTree = "<group>"; };
+		2947BC98DA50B3BD83E840C03A287099 /* UIButton+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
+		2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "RRTech-Starter-App-Template.bundle"; path = "RRTech-Starter-App-Template-RRTech-Starter-App-Template.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD629C54E5CAB7BA1CE2C68AFC55E5E /* CustomLabel+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomLabel+Designable.swift"; sourceTree = "<group>"; };
 		2D1844900D92BEEA1453BB9446086740 /* Pods-RRTech-Starter-App-Template_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		2DEC59B797B945670C577ABB41CE3642 /* DefaultsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
-		35DFBE553B1D2FED8B50196BD457754D /* RangeSlider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
-		3884E9155850B5B90E47B561492836A7 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		38C2B44C2A3F24F6722D4E170910486A /* Array+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Array+Extensions.swift"; sourceTree = "<group>"; };
-		3A89151E37B6594BB99A48C4E44FA8B9 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		32E3972BE661D61B175A92226C7336A4 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
+		35F202C7E056700E6A7434AAEC7C956C /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
+		3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
+		36E94BEB3C7F4476E0BACC243FDB102A /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
+		3746E778E0596691EBC3DCF00FAE2257 /* Comment+Interface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Comment+Interface.swift"; sourceTree = "<group>"; };
+		3824A4E9D724EF599DFE5A16CD681A3C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		392BB0899D07D23992B7E87466833F7C /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
 		3BB83DB0299732B9474743FA33D7705F /* Pods-RRTech-Starter-App-Template_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRTech-Starter-App-Template_Tests-dummy.m"; sourceTree = "<group>"; };
-		3C6E37DBBEC83BFABD7EBBA212C7A98C /* ChameleonFramework.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChameleonFramework.xcconfig; sourceTree = "<group>"; };
 		3D7627603066B522679633EAD58268A3 /* Pods-RRTech-Starter-App-Template_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RRTech-Starter-App-Template_Example.modulemap"; sourceTree = "<group>"; };
-		4164E0EBDECAB061445F77C368E9F2D2 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
-		42F4F1F76E4FD18021D9677286BF06CE /* Doubles+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Doubles+Extensions.swift"; sourceTree = "<group>"; };
-		430407F230F534BACDF6BB7610C3F333 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
-		4363208B6FF59F4B6A93CAFC538984FF /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 		43B98BA4B7F4D04C08BBEAC0623A8226 /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		45A56068A3F365E32D1B14D77739B15C /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
-		4A817BCD6DEE351A694EF35749B26FF0 /* UIViewController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+Chameleon.m"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.m"; sourceTree = "<group>"; };
-		4B1CD626D760DA5A3E6CAC3871AC0FA4 /* KeychainSwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeychainSwift.swift; path = Sources/KeychainSwift.swift; sourceTree = "<group>"; };
-		4C52DAE2DB60C0BACE044F1A7BA89B27 /* Decodable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Decodable+Extensions.swift"; sourceTree = "<group>"; };
-		50F70AA30B55BE6FA326A6E102DDF7C9 /* KeychainManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
-		519716005C6C61BD12C31FAFD381D08F /* URL+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
-		51CC12C9230BDADE1EA61E2BC05CB8DC /* Walkthrough_3.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_3.xib; sourceTree = "<group>"; };
-		52A42127D2EC608A4368B6B22931589B /* UIButton+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+Chameleon.h"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.h"; sourceTree = "<group>"; };
-		53F53710E2BC6C1728730A926B1345D8 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
-		550386200FE8F74AEFE37DCF24708083 /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
-		567F537EC9700EEE410374D7632CF7D9 /* AttributedString+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AttributedString+Extensions.swift"; sourceTree = "<group>"; };
-		5E33DDADA714CD2D1F9ECBF7AAB3FD6E /* Strings+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Strings+Extensions.swift"; sourceTree = "<group>"; };
-		5F8175A77AFFF7D7A21EAD420010EEBC /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
-		60BF0033DD640572B55292405E18DDF3 /* Walkthrough_2.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_2.xib; sourceTree = "<group>"; };
-		610F5A883C19672470205458443E9BF3 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
-		621C0E6E48F5DDCAB4A6A21D09DBB4A5 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
-		6246C2EFA65E75C5596EE5421B777728 /* LayoutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
-		63AAE38494028324EB28A47B00FD03D8 /* CustomView+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomView+Designable.swift"; sourceTree = "<group>"; };
+		43BB8CB6CD9C6AB9580F90142E244160 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		4479B7BE5EFE394148EAF6EE0DAAB5A3 /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		44A7440361066354771F03FFB334515B /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
+		49AE78813A8F86841E621330FBEF4244 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		4B8721E5D1BD740375EDE086623BF9D3 /* UIView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		4E0E3566DE83BD8A7252ABF784C8FDD7 /* AwsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwsManager.swift; sourceTree = "<group>"; };
+		507ED43157A30A7914B09A23C1983A83 /* Walkthrough_3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_3.swift; sourceTree = "<group>"; };
+		50CE1D45D26A931F16A9DDF42452BE1C /* KeychainManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
+		52AB67F71911E68D4AF2BE0EEFEC2940 /* RRTech-Starter-App-Template-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-prefix.pch"; sourceTree = "<group>"; };
+		561D523F64364E53DBE8B89B1B82998A /* URL+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "URL+Extensions.swift"; sourceTree = "<group>"; };
+		59949E669A721651860E2E9805419442 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
+		5AF2411F65A7297647ECB00C42E5E93E /* CommentCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		5CAFD4B9F7626295ABDDF51721F81193 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
+		5D39332DD55802698852747D1FBB8844 /* Chameleon_.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon_.h; path = "Pod/Classes/Objective-C/Chameleon_.h"; sourceTree = "<group>"; };
+		5F9B4DCE1C19035B0649B89789B919C3 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
+		60A1413F5EE8C60CB7D3423C3044E859 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
+		63B356FC5240B9F882F23198E5203C65 /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		64A90758BDA6194B83EFCACD41FDA4C0 /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRTech-Starter-App-Template_Example.release.xcconfig"; sourceTree = "<group>"; };
-		64D7656B63940DF1504106A93CEF8D6D /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		65E79DAA680888C6E3DB584FDE0A8E56 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
-		66BF237100A71D63FA10314E7D665CBA /* ImageSelectorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageSelectorManager.swift; sourceTree = "<group>"; };
-		66CB9E8C31FBA39BF95147972ECCAE16 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
-		6782A6023691608219FA4F47267F041F /* RRTech_Starter_App_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRTech_Starter_App_Template.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		693DE9C255E03C52FCED624C41641CCD /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
-		6A24D7C7D2CDB14009DE0620EF445F6A /* KeychainSwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KeychainSwift.modulemap; sourceTree = "<group>"; };
+		64F14C77CBF8403B4AC5319B7DCE87A2 /* RandomStringGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RandomStringGenerator.swift; sourceTree = "<group>"; };
+		65BD558B6CCA0B2B3DCF567C880046E4 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
+		6782A6023691608219FA4F47267F041F /* RRTech_Starter_App_Template.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RRTech_Starter_App_Template.framework; path = "RRTech-Starter-App-Template.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AD4892F2EFEC1E2CC77A9B0296C4FA3 /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
+		6F6CC6AC9C533A8CEFF0B13FC6E92233 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
 		714D0EF9978710D89D9877C690A68E56 /* Pods-RRTech-Starter-App-Template_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		71B6C7E14B43146404FE03930A877ADB /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
-		74920DE9E973AB718C8D7E36DD6FC3D0 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		78E20C74AD2803FB2EFC82A2F794F8BE /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
-		7BA95049DDDFC24A8E901822424DF21D /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
-		7BC3C4C2AD1731FB8C51EDED34BB1CA7 /* ChameleonShorthand.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ChameleonShorthand.swift; path = Pod/Classes/Swift/ChameleonShorthand.swift; sourceTree = "<group>"; };
-		7D7948FB00AC06A1D062EA87AC8C7382 /* Bundle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
-		7DE2E23DA36FC749EA0F866DFF8473EA /* AwsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwsManager.swift; sourceTree = "<group>"; };
-		80617F09E5DB829ADD8C95F695178CCD /* Pods_RRTech_Starter_App_Template_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRTech_Starter_App_Template_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71BBEAB859C48569C695B0B3FB39F6F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		723349B02FDB0E4AD26DC134583F52C4 /* RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		738CAFE76E0AF67F2D656292CBF52A88 /* Walkthrough_4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_4.swift; sourceTree = "<group>"; };
+		76BF9A2199B70067DDA71152270E276F /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
+		7750C58A2335292F35405F232728EF0B /* CustomStringConvertible+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Extensions.swift"; sourceTree = "<group>"; };
+		79DBCC2F2417E9A6E022798B84B415AF /* Decodable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Decodable+Extensions.swift"; sourceTree = "<group>"; };
+		7A4CD199BDA663801102ACFCCE0ED3A0 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
+		80617F09E5DB829ADD8C95F695178CCD /* Pods_RRTech_Starter_App_Template_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRTech_Starter_App_Template_Tests.framework; path = "Pods-RRTech-Starter-App-Template_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AD26C68080F1E438BF754318F73996 /* Pods-RRTech-Starter-App-Template_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RRTech-Starter-App-Template_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		81C4D5033B7C6D7812516B4C9170AF27 /* UINavigationController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+Chameleon.h"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.h"; sourceTree = "<group>"; };
+		815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = ImageResources.bundle; path = "RRTech-Starter-App-Template-ImageResources.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8245F738F3F09690C68371EDDCF85682 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
+		83909B3B8EA20E29EE4065CC77F6767B /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		85C72C198E037FDCE8FD93F88A438C25 /* UIView+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.m"; sourceTree = "<group>"; };
+		88475F7B4FFD254F59DC8A6A645AFD52 /* ChameleonFramework-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-prefix.pch"; sourceTree = "<group>"; };
+		888663251DD917954BE18E3AC58C3ED3 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		8ABE5F991CE97F8A9096A452C3F301AC /* Pods-RRTech-Starter-App-Template_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRTech-Starter-App-Template_Example-dummy.m"; sourceTree = "<group>"; };
-		8CE4FEC0EFC22E65F49F4F6506E68017 /* CustomLabel+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomLabel+Designable.swift"; sourceTree = "<group>"; };
-		8F830794968277DB7FB2C201F500905C /* UIViewController+SVProgressHUD+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+SVProgressHUD+Extensions.swift"; sourceTree = "<group>"; };
-		91E50A86CB780D978CBDFBC67140DE1E /* NSArray+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Chameleon.h"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.h"; sourceTree = "<group>"; };
-		9BCBBDACF73F54474D122F63D9F689DD /* KeychainSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KeychainSwift-dummy.m"; sourceTree = "<group>"; };
-		9C136324DD2DF43ADE45FB0CD5C5D582 /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
-		9CBDCF78D32DBAAE643A1BFB3DD1C59F /* RRTech-Starter-App-Template-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RRTech-Starter-App-Template-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KeychainSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A1186A7F0B5948C6DF2ECFB89B0381D4 /* RRTech-Starter-App-Template.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "RRTech-Starter-App-Template.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A2DFF7A5920B5C21E999E0EDE9752A9D /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		8ACD88802D2F2634763539BD46DC020D /* ImageSelectorManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ImageSelectorManager.swift; sourceTree = "<group>"; };
+		8BC54C615698F4D2D5698B26EBC1D9E1 /* RRTech-Starter-App-Template-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RRTech-Starter-App-Template-dummy.m"; sourceTree = "<group>"; };
+		8BF555C441C51F962B7F92D2837355D5 /* BaseNavigationVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseNavigationVC.swift; sourceTree = "<group>"; };
+		8C08EE6B5BDF327E56A2E1ECB050BC74 /* UIViewController+SVProgressHUD+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+SVProgressHUD+Extensions.swift"; sourceTree = "<group>"; };
+		90DE25C2FD235650B1B0073E694808CA /* vcWalkthrough.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = vcWalkthrough.swift; sourceTree = "<group>"; };
+		92B0A989FFDF73C7F8DB58F40B251E9B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		951CF391C2E7086EE161EC7927A2C08E /* DefaultsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DefaultsManager.swift; sourceTree = "<group>"; };
+		95458B55607B40D0105030A9A4E990D1 /* UIViewController+Chameleon+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chameleon+Extensions.swift"; sourceTree = "<group>"; };
+		9609740B3E83E3283CCA14038FBA8496 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
+		99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "RRTech-Starter-App-Template.xcconfig"; sourceTree = "<group>"; };
+		9AF8AFBC04A5687009E5887547D4591B /* User+Interface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "User+Interface.swift"; sourceTree = "<group>"; };
+		9BA998487828029CDADACD9FF4C81AF1 /* Walkthrough_2.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_2.xib; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CDA8E4BCF0AEC0558DEAAFEA513CFA /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
 		A66EADE83A9003E258FD2AC2D86CF30F /* Pods-RRTech-Starter-App-Template_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RRTech-Starter-App-Template_Example-umbrella.h"; sourceTree = "<group>"; };
-		A6DE60AC857A7DEAF2DF1537D7991310 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
-		A7F89A238582E56EB61EC441D1FA2C08 /* UIButton+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+Chameleon.m"; path = "Pod/Classes/Objective-C/UIButton+Chameleon.m"; sourceTree = "<group>"; };
-		ABDFBBF5E0940CC49EBCE5637B6886BF /* Walkthrough_2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_2.swift; sourceTree = "<group>"; };
-		AC89F1556C08D95606582A8005FF8B5A /* SlideshowCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SlideshowCell.swift; sourceTree = "<group>"; };
-		AE8C54B4E539AC322B8EBDFDE0AD46E8 /* TegKeychainConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TegKeychainConstants.swift; path = Sources/TegKeychainConstants.swift; sourceTree = "<group>"; };
-		AECE6DCB997CFEB4FF471DFCD806CFE1 /* KeychainSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KeychainSwift-Info.plist"; sourceTree = "<group>"; };
-		B206A0D8ED25EFA2EF76E8763D834C21 /* RRTech-Starter-App-Template-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-umbrella.h"; sourceTree = "<group>"; };
-		B426E8857C8A78BB688403ACF988EE91 /* KeychainSwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KeychainSwift.xcconfig; sourceTree = "<group>"; };
-		B685D28B81653B62F99F7A75730AAB54 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
-		B6B4483C5780BE5D764DCB518331B25F /* BaseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
-		B7C823524A83CF10847885FBEAEB3275 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
-		BA7569525DE09A16552FA8E6B405F0AC /* CustomStringConvertible+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Extensions.swift"; sourceTree = "<group>"; };
+		A69B3C38885054A11DEAAD8B9C475961 /* UIDevice+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIDevice+Extensions.swift"; sourceTree = "<group>"; };
+		A7005E1AA244D2DDB2987B95BD6C35A3 /* UINavigationController+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+Chameleon.m"; path = "Pod/Classes/Objective-C/UINavigationController+Chameleon.m"; sourceTree = "<group>"; };
+		A8F87662B2E5750E5977DA36E7A2DE9C /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		ADF49ADDA5961DB28C8CBF8BBBEB6010 /* CustomView+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomView+Designable.swift"; sourceTree = "<group>"; };
+		B1F502555C9FDBD7F592D98167F5CD3F /* UIAppearance+Swift.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAppearance+Swift.h"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.h"; sourceTree = "<group>"; };
+		B888B6F15211D278AECAE83A86324195 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
+		B960D30AC715920769B278652FAF8EE1 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
 		BC94254D4A7828EB36500DDD2FF976A0 /* Pods-RRTech-Starter-App-Template_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Tests-Info.plist"; sourceTree = "<group>"; };
-		BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		C1812F50196AFF59D3E0C0377C612B9C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		C423C7152BBBF99F9272AF75C45347F1 /* JSONTransformationFactory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = JSONTransformationFactory.swift; sourceTree = "<group>"; };
-		C9776947CBBEBCE6BE77785CA0E2A0B2 /* UILabel+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UILabel+Chameleon.m"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.m"; sourceTree = "<group>"; };
-		CBCE6DEEEB58AC7AE6FC628C89BC8A41 /* ConstraintsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
-		CCD001DE3F9736FE39F4A12D5A04226C /* ChameleonEnums.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonEnums.h; path = "Pod/Classes/Objective-C/ChameleonEnums.h"; sourceTree = "<group>"; };
-		CCE83A848EFCE6AC9D91524F93D07149 /* UIAppearance+Swift.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAppearance+Swift.m"; path = "Pod/Classes/Objective-C/UIAppearance+Swift.m"; sourceTree = "<group>"; };
-		CF80B02310635E5CC81BB1F494846040 /* KeychainSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KeychainSwift-prefix.pch"; sourceTree = "<group>"; };
-		CF9C96F9F28B1BDFC69989E13407BE31 /* Configuration.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Configuration.swift; sourceTree = "<group>"; };
-		D02176481F7796766824CC2ADE2780FB /* Walkthrough_1.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_1.xib; sourceTree = "<group>"; };
-		D133A861395EF87E38EA4F0090670D1A /* CommentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
-		D18D24D7E002C90C8AD847ACE30FF93C /* UIButton+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+Extensions.swift"; sourceTree = "<group>"; };
-		D29D0C644CFA9947728F19D0DC63ED57 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
-		D581D91111D9A6B5875450BF3915EDCD /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
-		D587B59AF809B9206F3854D3E69FFDF5 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
-		D6EC893DCFB506A3CFD1931B7076CB97 /* Walkthrough_3.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_3.swift; sourceTree = "<group>"; };
-		D774DF11231CAF3500EA3D29 /* Comment+Interface.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Comment+Interface.swift"; sourceTree = "<group>"; };
-		D774DF14231CAF5B00EA3D29 /* User+Interface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "User+Interface.swift"; sourceTree = "<group>"; };
-		DD2E54F4110113FC35B39F1CC9AEF470 /* BaseNavigationVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseNavigationVC.swift; sourceTree = "<group>"; };
-		E2EC9DA9B25C381687CE2E8A6F4EB4DA /* Walkthrough_1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_1.swift; sourceTree = "<group>"; };
+		C081A750E11A9EB8F35E36C6B3D306C9 /* ChameleonConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ChameleonConstants.m; path = "Pod/Classes/Objective-C/ChameleonConstants.m"; sourceTree = "<group>"; };
+		C2C72B72C87C75DA0DA1AD78B9675D04 /* LayoutManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LayoutManager.swift; sourceTree = "<group>"; };
+		CAC32AFBDF68C2C219D60975B035CB90 /* Doubles+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Doubles+Extensions.swift"; sourceTree = "<group>"; };
+		CAE02812DB7001D350790F18F7CB34EB /* Walkthrough_4.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_4.xib; sourceTree = "<group>"; };
+		CAF2CC33F9BF344962E415FF3DBE86DA /* AttributedString+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AttributedString+Extensions.swift"; sourceTree = "<group>"; };
+		CB7CE737193D16487628655C77996649 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
+		CC9EC1E2EBD557D2CD031F011F2BC989 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		CD1003FF0CB51A155750BFA427545CDB /* Walkthrough_1.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_1.swift; sourceTree = "<group>"; };
+		CE705AB8B9636FD635D07E6A060E38A3 /* RRTech-Starter-App-Template.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "RRTech-Starter-App-Template.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFDE10062CB68B8587D731FA4B26361C /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
+		D4485BCF8626139553A6F942260F014C /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
+		D688D6A1897F0C2C09AA610E3F4DFA55 /* CommentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		D76DC1602E08BD2FAA2C2ADDFB9CFE6C /* NSArray+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Chameleon.m"; path = "Pod/Classes/Objective-C/NSArray+Chameleon.m"; sourceTree = "<group>"; };
+		DB16D60961BFBD46A5C8B0A8274208BB /* ConstraintsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
+		DCE6E142A36E433E949E637C659090C8 /* ChameleonFramework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChameleonFramework-dummy.m"; sourceTree = "<group>"; };
+		DE2EE98165C2C4B843E165551B20721A /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		E4219E8DC20713267759B96E1B044C76 /* Pods-RRTech-Starter-App-Template_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RRTech-Starter-App-Template_Example-frameworks.sh"; sourceTree = "<group>"; };
-		E72B3826F47F4049596797584DB33B73 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
-		E743340465A3D7127FE5B0439463A9D4 /* AppColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		E61969A861856C67333B7CFC0649622E /* Walkthrough_3.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_3.xib; sourceTree = "<group>"; };
+		E680AF5D94A2E399504F16824A9471A3 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
+		E6B2E362B8DF30225C4758B0BF1AC70D /* AppColors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
 		EA74D67DE153E2F6244C3DC5B37789AB /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RRTech-Starter-App-Template_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EAE2C9C95EFAE850A817EC8586006227 /* UIColor+Chameleon.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Chameleon.m"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.m"; sourceTree = "<group>"; };
+		EBCE5740EBA0710D0BB93D0947B46B89 /* RRTech-Starter-App-Template-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RRTech-Starter-App-Template-umbrella.h"; sourceTree = "<group>"; };
+		EC52B314F24BC32CDA7B523FAA24A727 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		EDF6ED45A567A0A1679858C573A2C3D8 /* Pods-RRTech-Starter-App-Template_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRTech-Starter-App-Template_Example-Info.plist"; sourceTree = "<group>"; };
-		EE9CB16C877D2431FD0138792C678665 /* RRTech-Starter-App-Template.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "RRTech-Starter-App-Template.modulemap"; sourceTree = "<group>"; };
-		EF8C7F3DC2D78D561BFDB470DA6B55E9 /* Walkthrough_4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_4.swift; sourceTree = "<group>"; };
-		F15243DD30E3107C8E16B3903D69892D /* RRTech-Starter-App-Template-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RRTech-Starter-App-Template-Info.plist"; sourceTree = "<group>"; };
-		F3B3542E004CDE0D006ECD3BBE47E1E3 /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
-		F485AF4ED228DAA5E571A41B51224EF6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		F6A30C327C294270CA4D6A16F6EBF0B8 /* Chameleon_.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Chameleon_.m; path = "Pod/Classes/Objective-C/Chameleon_.m"; sourceTree = "<group>"; };
-		F7CC68B52460CAB29361B8F5A5CE95D6 /* UIColors+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColors+Extensions.swift"; sourceTree = "<group>"; };
-		F82CE20E3CC8438BB0B69E3A15F70CA8 /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
-		F902A22EDA77045CB9D3AF23751CFA68 /* APIRepository.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = APIRepository.swift; sourceTree = "<group>"; };
-		FCD520BF0A88E21357C4E4842D12F2B9 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
-		FFF2015EE2EE31D47FD2B384F875AF60 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
-		FFF64FDE57181F0A14245C1A3FD92EB9 /* UIImage+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.m"; sourceTree = "<group>"; };
-		FFFCCB1730DB227AB66A17C70747E97C /* UIView+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIView+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F06E076CBF947E20E72922B0BD6328F5 /* RangeSliderTrackLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RangeSliderTrackLayer.swift; sourceTree = "<group>"; };
+		F13FB34A42FE17CDF1146FD485C048DA /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
+		F3BC291A862B8F4A4ACC5E24C0D88949 /* UILabel+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+Extensions.swift"; sourceTree = "<group>"; };
+		F433493213E374B3D946E93C502CE4BD /* SlideshowCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SlideshowCell.xib; sourceTree = "<group>"; };
+		F74EB7DB16BF434D2552E2E473F9924A /* UIColors+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColors+Extensions.swift"; sourceTree = "<group>"; };
+		FB59B474F8B0E66884BAD28C53B1BA95 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
+		FFE4EC90C27DC1FB14BD1D7F4C033150 /* BaseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0835C9783C06F3E8157BA521DF463276 /* Frameworks */ = {
+		284487EEFED39E2A95D63DB967A4906A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66B3EA39DC05A6E6A58AB69E2DFC8D4E /* Foundation.framework in Frameworks */,
+				F5A2B0787234FF465DCFF8C3E210E42F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */ = {
+		3F2234CB189498BF6B511691EE77CC90 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DDBF47539EB98680E83BD95227DD8D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5E90F4D728EC177F15BA9FB1B8DEE568 /* Frameworks */ = {
+		4C7870958147225A43DEE1D7F39B871B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2713616FFBCA97824F2558A6E6A16E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71961332E69D2537EBE31418808B1CE0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -371,39 +346,83 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D7DD148003ACEF50700A19FE29461AE4 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6DD25921C06D0DDF3620158E8678A8B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CE64F2AE346BAA1140ACDBC4725D681 /* Foundation.framework in Frameworks */,
-				4C59D9621EC459536CC937F5159583D4 /* KeychainSwift.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03AE493B506C2626CF74222A62B38677 /* Controllers */ = {
+		06F844D192281BB0077B7606C4BD4D23 /* ChameleonFramework */ = {
 			isa = PBXGroup;
 			children = (
-				E2EC9DA9B25C381687CE2E8A6F4EB4DA /* Walkthrough_1.swift */,
+				D82D06868450C5E84632D556DAD8F423 /* Default */,
+				707CB193D641F76489B12BB60F5C2D28 /* Support Files */,
+				306795CAF8F4F40B62A57689300E7E50 /* Swift */,
 			);
+			name = ChameleonFramework;
+			path = ChameleonFramework;
+			sourceTree = "<group>";
+		};
+		0BA1C3C0060EE0AAA7A9437B1B2B058A /* UIKit+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				46B440DDE60EE97BA4A804D3EACDF11E /* Controls */,
+				0E290CFFEA4EC6282D12896E6BF23670 /* Extensions */,
+			);
+			name = "UIKit+Extensions";
+			path = "RRTech-Starter-App-Template/Classes/App/UIKit+Extensions";
+			sourceTree = "<group>";
+		};
+		0CE5D681FC9ABAE89F1CE97DC5FAFD12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				738CAFE76E0AF67F2D656292CBF52A88 /* Walkthrough_4.swift */,
+			);
+			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		104271CD6EEC19C97F7833CE5BEFAEA9 /* Development Pods */ = {
+		0E290CFFEA4EC6282D12896E6BF23670 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				A132B39BFF2C8D00568EF19074736D9E /* RRTech-Starter-App-Template */,
+				0B8C2DBB8EDA27ADB646C70B90B77527 /* Array+Extensions.swift */,
+				CAF2CC33F9BF344962E415FF3DBE86DA /* AttributedString+Extensions.swift */,
+				1FDCAAD4E8DF56C8A3DF8E19605D123B /* Bundle.swift */,
+				7750C58A2335292F35405F232728EF0B /* CustomStringConvertible+Extensions.swift */,
+				63B356FC5240B9F882F23198E5203C65 /* Date+Extensions.swift */,
+				8245F738F3F09690C68371EDDCF85682 /* DateFormatter+Extensions.swift */,
+				79DBCC2F2417E9A6E022798B84B415AF /* Decodable+Extensions.swift */,
+				CC9EC1E2EBD557D2CD031F011F2BC989 /* Dictionary+Extensions.swift */,
+				CAC32AFBDF68C2C219D60975B035CB90 /* Doubles+Extensions.swift */,
+				0C374E8EE8E4720AA48903EEFE5A688D /* Int+Extensions.swift */,
+				174E97532CA4450D79F20CB5EBF2316F /* Strings+Extensions.swift */,
+				76BF9A2199B70067DDA71152270E276F /* UIApplication+Extensions.swift */,
+				2947BC98DA50B3BD83E840C03A287099 /* UIButton+Extensions.swift */,
+				073B6E122B18E1E91BD4F14AEB3A150C /* UICollectionView+Extensions.swift */,
+				F74EB7DB16BF434D2552E2E473F9924A /* UIColors+Extensions.swift */,
+				A69B3C38885054A11DEAAD8B9C475961 /* UIDevice+Extensions.swift */,
+				FB59B474F8B0E66884BAD28C53B1BA95 /* UIImage+Extensions.swift */,
+				F3BC291A862B8F4A4ACC5E24C0D88949 /* UILabel+Extensions.swift */,
+				9609740B3E83E3283CCA14038FBA8496 /* UISearchBar+Extensions.swift */,
+				B888B6F15211D278AECAE83A86324195 /* UITableView+Extensions.swift */,
+				43BB8CB6CD9C6AB9580F90142E244160 /* UITextField+Extensions.swift */,
+				4B8721E5D1BD740375EDE086623BF9D3 /* UIView+Extensions.swift */,
+				95458B55607B40D0105030A9A4E990D1 /* UIViewController+Chameleon+Extensions.swift */,
+				32E3972BE661D61B175A92226C7336A4 /* UIViewController+Extensions.swift */,
+				8C08EE6B5BDF327E56A2E1ECB050BC74 /* UIViewController+SVProgressHUD+Extensions.swift */,
+				561D523F64364E53DBE8B89B1B82998A /* URL+Extensions.swift */,
+				DE2EE98165C2C4B843E165551B20721A /* UserDefaults+Extensions.swift */,
 			);
-			name = "Development Pods";
+			name = Extensions;
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1392D6857A44D3453F28181918F307C8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC52B314F24BC32CDA7B523FAA24A727 /* CoreGraphics.framework */,
+				1EE48DAC4AD4FC98EC01A9CC5B34AE82 /* Foundation.framework */,
+				009A3CF530BDED85FCFB71F2D51670CA /* QuartzCore.framework */,
+				71BBEAB859C48569C695B0B3FB39F6F9 /* UIKit.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		15D859787D8DE1F258812F7CF9BA99DA /* Pods-RRTech-Starter-App-Template_Example */ = {
@@ -423,90 +442,102 @@
 			path = "Target Support Files/Pods-RRTech-Starter-App-Template_Example";
 			sourceTree = "<group>";
 		};
-		16C2C22C240BEF583B44CD1368C221A0 /* KeychainSwift */ = {
+		18EC8F03CF1C21E5C8CB5ACF7C64850C /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				4B1CD626D760DA5A3E6CAC3871AC0FA4 /* KeychainSwift.swift */,
-				1376E9F6E260943B803D806FCBAE5B07 /* KeychainSwiftAccessOptions.swift */,
-				AE8C54B4E539AC322B8EBDFDE0AD46E8 /* TegKeychainConstants.swift */,
-				316974D2705F5F00B1F0DD14195503C9 /* Support Files */,
+				05A40AD2FB4B34DC15A3CB9AA08BB585 /* APIRepository.swift */,
 			);
-			path = KeychainSwift;
+			name = Networking;
+			path = "RRTech-Starter-App-Template/Classes/App/Networking";
 			sourceTree = "<group>";
 		};
-		22E66E1AA04310F03536B74A11895C2D /* Step 4 */ = {
+		1D6C5D5D0CE02ADFA2CE6CFA37A15204 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				53AD4274E228890089A596270180CA11 /* Controllers */,
-				CEDA00EEE41AE92FA13276A8A92496E7 /* Resources */,
 			);
-			path = "Step 4";
+			name = Resources;
 			sourceTree = "<group>";
 		};
-		22EFF9D707B871517A6B3D539DF535A5 /* Pod */ = {
+		1D958127DC66D6A61B012CD8F3964B57 /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				F485AF4ED228DAA5E571A41B51224EF6 /* LICENSE */,
-				00BA9BB188DF0C9164E77A1491007A6D /* README.md */,
-				A1186A7F0B5948C6DF2ECFB89B0381D4 /* RRTech-Starter-App-Template.podspec */,
+				E61969A861856C67333B7CFC0649622E /* Walkthrough_3.xib */,
 			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		2B3FA17917A90A2735736E1AD00EA9D4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */,
-				815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */,
-				9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */,
-				19F2BAF89897D6AD9B7E6C7A138A7824 /* Pods_RRTech_Starter_App_Template_Example.framework */,
-				80617F09E5DB829ADD8C95F695178CCD /* Pods_RRTech_Starter_App_Template_Tests.framework */,
-				2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */,
-				6782A6023691608219FA4F47267F041F /* RRTech_Starter_App_Template.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		2CA91DC7E8527B9FDE160939FE28E414 /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				D02176481F7796766824CC2ADE2780FB /* Walkthrough_1.xib */,
-			);
+			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
-		316974D2705F5F00B1F0DD14195503C9 /* Support Files */ = {
+		25DD1C857D3046A2B1C8667F1270C8FB /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				6A24D7C7D2CDB14009DE0620EF445F6A /* KeychainSwift.modulemap */,
-				B426E8857C8A78BB688403ACF988EE91 /* KeychainSwift.xcconfig */,
-				9BCBBDACF73F54474D122F63D9F689DD /* KeychainSwift-dummy.m */,
-				AECE6DCB997CFEB4FF471DFCD806CFE1 /* KeychainSwift-Info.plist */,
-				CF80B02310635E5CC81BB1F494846040 /* KeychainSwift-prefix.pch */,
-				0E2A8F6A6338CEF8C50C39608F969B76 /* KeychainSwift-umbrella.h */,
+				CAE02812DB7001D350790F18F7CB34EB /* Walkthrough_4.xib */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/KeychainSwift";
+			name = Xibs;
+			path = Xibs;
 			sourceTree = "<group>";
 		};
-		37CB9E42CAD0155616EA3C5465694E7D /* Controllers */ = {
+		264633575EAD1CB94BE0CC83C6E39580 /* Models+Interfaces */ = {
 			isa = PBXGroup;
 			children = (
-				ABDFBBF5E0940CC49EBCE5637B6886BF /* Walkthrough_2.swift */,
+				3746E778E0596691EBC3DCF00FAE2257 /* Comment+Interface.swift */,
+				9AF8AFBC04A5687009E5887547D4591B /* User+Interface.swift */,
 			);
+			name = "Models+Interfaces";
+			path = "RRTech-Starter-App-Template/Classes/App/Models+Interfaces";
+			sourceTree = "<group>";
+		};
+		306795CAF8F4F40B62A57689300E7E50 /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B4DCE1C19035B0649B89789B919C3 /* ChameleonShorthand.swift */,
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		3166694A8FC4194A0FB6A098A080554A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				507ED43157A30A7914B09A23C1983A83 /* Walkthrough_3.swift */,
+			);
+			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
-		389A8ADDDAE5F0F104D75DB3A2D16FCD /* Paginated+Walkthrough */ = {
+		330ADBA810055B986010B038F8D0FEC9 /* CommentCell */ = {
 			isa = PBXGroup;
 			children = (
-				0117A9DA1185BD82CED9DB2C09B1903E /* vcWalkthrough.swift */,
-				CA5793FAB189B6F96996BCB1EB5BF7FD /* Step 1 */,
-				DB81008A3BACFA1C87B6F26E04447E57 /* Step 2 */,
-				BB31B5660AD53B0FD383726110079249 /* Step 3 */,
-				22E66E1AA04310F03536B74A11895C2D /* Step 4 */,
+				5AF2411F65A7297647ECB00C42E5E93E /* CommentCell.swift */,
+				D688D6A1897F0C2C09AA610E3F4DFA55 /* CommentCell.xib */,
 			);
-			path = "Paginated+Walkthrough";
+			name = CommentCell;
+			path = CommentCell;
+			sourceTree = "<group>";
+		};
+		3E007FF691DEBD4CE138F5B951AD414E /* RRTech-Starter-App-Template */ = {
+			isa = PBXGroup;
+			children = (
+				A85BC6515D0E1E91866A8931CD0E6980 /* Configurations */,
+				79BB7FFA86F4311AF308439FFED63444 /* Controllers */,
+				264633575EAD1CB94BE0CC83C6E39580 /* Models+Interfaces */,
+				4961542600D00A90E1AECB471F06F4C5 /* Modules */,
+				18EC8F03CF1C21E5C8CB5ACF7C64850C /* Networking */,
+				DA030772368ECCA00256C3DAF5864560 /* Pod */,
+				1D6C5D5D0CE02ADFA2CE6CFA37A15204 /* Resources */,
+				950E3E12AC80A4595B1E646319626C5D /* Support Files */,
+				0BA1C3C0060EE0AAA7A9437B1B2B058A /* UIKit+Extensions */,
+				7B4A365E60440A18BBDB032FC02EE7A6 /* Utilities */,
+			);
+			name = "RRTech-Starter-App-Template";
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		3E51F2154FF2BD8AF5BF91AABC4B6574 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4CAC41DAB77D5FEF33E1467546601DC /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		401FFD299C70AA52BD2DAC24DF7BFC27 /* Targets Support Files */ = {
@@ -518,29 +549,71 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		4379B4128E52B2A3C69B704984F854CC /* Pods */ = {
+		46B440DDE60EE97BA4A804D3EACDF11E /* Controls */ = {
 			isa = PBXGroup;
 			children = (
-				6FED7EE18481D4CD2B6F405257665C7D /* ChameleonFramework */,
-				16C2C22C240BEF583B44CD1368C221A0 /* KeychainSwift */,
+				330ADBA810055B986010B038F8D0FEC9 /* CommentCell */,
+				7F39F09905D653376A20CAB4801573A9 /* Designables */,
+				482404270E95CBEC3F9F320D3CAEA28E /* Paginated+Walkthrough */,
+				CCCD7226AAE585D15D08A309E731F35B /* Slider */,
+				A9C4A1E924D85F53955E8226F4BF070A /* SlideshowCell */,
+				54CB427D828543BDB09540E48E619B9B /* Videobackground */,
 			);
-			name = Pods;
+			name = Controls;
+			path = Controls;
 			sourceTree = "<group>";
 		};
-		4938D30030FB6D50E01085490D2DDBD5 /* Videobackground */ = {
+		482404270E95CBEC3F9F320D3CAEA28E /* Paginated+Walkthrough */ = {
 			isa = PBXGroup;
 			children = (
-				65E79DAA680888C6E3DB584FDE0A8E56 /* VideoBackground.swift */,
+				90DE25C2FD235650B1B0073E694808CA /* vcWalkthrough.swift */,
+				66D77C3FD5FE2BA729A7911E03133C70 /* Step 1 */,
+				5BEC18A065B166FC557747DDEE232461 /* Step 2 */,
+				F91B749F014217A358456343222E4450 /* Step 3 */,
+				4AD5B600A37EC7843AA8B48151973D12 /* Step 4 */,
 			);
+			name = "Paginated+Walkthrough";
+			path = "Paginated+Walkthrough";
+			sourceTree = "<group>";
+		};
+		4961542600D00A90E1AECB471F06F4C5 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				4E0E3566DE83BD8A7252ABF784C8FDD7 /* AwsManager.swift */,
+				951CF391C2E7086EE161EC7927A2C08E /* DefaultsManager.swift */,
+				8ACD88802D2F2634763539BD46DC020D /* ImageSelectorManager.swift */,
+				50CE1D45D26A931F16A9DDF42452BE1C /* KeychainManager.swift */,
+			);
+			name = Modules;
+			path = "RRTech-Starter-App-Template/Classes/App/Modules";
+			sourceTree = "<group>";
+		};
+		49E84DEB703466105A0CC2CF088DEB99 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				25DD1C857D3046A2B1C8667F1270C8FB /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4AD5B600A37EC7843AA8B48151973D12 /* Step 4 */ = {
+			isa = PBXGroup;
+			children = (
+				0CE5D681FC9ABAE89F1CE97DC5FAFD12 /* Controllers */,
+				49E84DEB703466105A0CC2CF088DEB99 /* Resources */,
+			);
+			name = "Step 4";
+			path = "Step 4";
+			sourceTree = "<group>";
+		};
+		54CB427D828543BDB09540E48E619B9B /* Videobackground */ = {
+			isa = PBXGroup;
+			children = (
+				65BD558B6CCA0B2B3DCF567C880046E4 /* VideoBackground.swift */,
+			);
+			name = Videobackground;
 			path = Videobackground;
-			sourceTree = "<group>";
-		};
-		53AD4274E228890089A596270180CA11 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				EF8C7F3DC2D78D561BFDB470DA6B55E9 /* Walkthrough_4.swift */,
-			);
-			path = Controllers;
 			sourceTree = "<group>";
 		};
 		584CA0790BF03148A28FBE461DDFE89C /* Pods-RRTech-Starter-App-Template_Tests */ = {
@@ -559,417 +632,284 @@
 			path = "Target Support Files/Pods-RRTech-Starter-App-Template_Tests";
 			sourceTree = "<group>";
 		};
-		6244C534B4555ACD3084C8B7A1EBB2DB /* Controls */ = {
+		59A8A83C36C5E9D77C1EE04264702A6D /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BF410776A39ADAD37A4757D914575082 /* CommentCell */,
-				E9830E46CBCF0FE7BBE59DA913259910 /* Designables */,
-				389A8ADDDAE5F0F104D75DB3A2D16FCD /* Paginated+Walkthrough */,
-				A2A0454C494B4BE6BA544944DAC97298 /* Slider */,
-				9E02EB4226E749C838C9BBE763531387 /* SlideshowCell */,
-				4938D30030FB6D50E01085490D2DDBD5 /* Videobackground */,
+				3E007FF691DEBD4CE138F5B951AD414E /* RRTech-Starter-App-Template */,
 			);
-			path = Controls;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		657D73EC325A2BCE910E21EE9467672F /* Resources */ = {
+		5BEC18A065B166FC557747DDEE232461 /* Step 2 */ = {
 			isa = PBXGroup;
 			children = (
-				B20969F2880C19C568D24B2505338C86 /* Xibs */,
+				8A18211CE35DBC48F17B4913027279BF /* Controllers */,
+				E331EE241DEAAE38CAC6A1B5181947BD /* Resources */,
 			);
-			path = Resources;
+			name = "Step 2";
+			path = "Step 2";
 			sourceTree = "<group>";
 		};
-		6FED7EE18481D4CD2B6F405257665C7D /* ChameleonFramework */ = {
+		66D77C3FD5FE2BA729A7911E03133C70 /* Step 1 */ = {
 			isa = PBXGroup;
 			children = (
-				FC1219EE5F6C0F8F507E6CD426CA782A /* Default */,
-				87E85D0DEB4B8B96BBE760BD0E6339BA /* Support Files */,
-				C6A8A17D9E7CC855D579CACD2352EFE7 /* Swift */,
+				755BF4E19E2DF59D4AFDA203D21A96C4 /* Controllers */,
+				3E51F2154FF2BD8AF5BF91AABC4B6574 /* Resources */,
 			);
-			path = ChameleonFramework;
+			name = "Step 1";
+			path = "Step 1";
 			sourceTree = "<group>";
 		};
-		7A488761DFC838DD07678C04C6D3ECAC /* Resources */ = {
+		707CB193D641F76489B12BB60F5C2D28 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				2CA91DC7E8527B9FDE160939FE28E414 /* Xibs */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		7CE651490212AD3AA88C38E434AB2E2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				27A003CCD8D55F2D280093D1ECF01B2C /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */,
-				A2DFF7A5920B5C21E999E0EDE9752A9D /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */,
-				EE9CB16C877D2431FD0138792C678665 /* RRTech-Starter-App-Template.modulemap */,
-				11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */,
-				9CBDCF78D32DBAAE643A1BFB3DD1C59F /* RRTech-Starter-App-Template-dummy.m */,
-				F15243DD30E3107C8E16B3903D69892D /* RRTech-Starter-App-Template-Info.plist */,
-				242A2D64B60CDDBFA777590CE8C73516 /* RRTech-Starter-App-Template-prefix.pch */,
-				B206A0D8ED25EFA2EF76E8763D834C21 /* RRTech-Starter-App-Template-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RRTech-Starter-App-Template";
-			sourceTree = "<group>";
-		};
-		7D3B9A2FEB53EB1F7FD3D0C3534AA650 /* Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				E743340465A3D7127FE5B0439463A9D4 /* AppColors.swift */,
-				CF9C96F9F28B1BDFC69989E13407BE31 /* Configuration.swift */,
-			);
-			name = Configurations;
-			path = "RRTech-Starter-App-Template/Classes/App/Configurations";
-			sourceTree = "<group>";
-		};
-		80931620E60361B3F5AC24D6BD2AC43A /* Xibs */ = {
-			isa = PBXGroup;
-			children = (
-				114FEBEAAC12BACB5A38D5F839BA241F /* Walkthrough_4.xib */,
-			);
-			path = Xibs;
-			sourceTree = "<group>";
-		};
-		8654536C1A64B20DF0F87CDC3EB7AF47 /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				D6EC893DCFB506A3CFD1931B7076CB97 /* Walkthrough_3.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		87E85D0DEB4B8B96BBE760BD0E6339BA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				45A56068A3F365E32D1B14D77739B15C /* ChameleonFramework.modulemap */,
-				3C6E37DBBEC83BFABD7EBBA212C7A98C /* ChameleonFramework.xcconfig */,
-				4164E0EBDECAB061445F77C368E9F2D2 /* ChameleonFramework-dummy.m */,
-				20B632A2B064E7A49A11C2DB64B1B3DE /* ChameleonFramework-Info.plist */,
-				66CB9E8C31FBA39BF95147972ECCAE16 /* ChameleonFramework-prefix.pch */,
-				A6DE60AC857A7DEAF2DF1537D7991310 /* ChameleonFramework-umbrella.h */,
+				CFDE10062CB68B8587D731FA4B26361C /* ChameleonFramework.modulemap */,
+				3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */,
+				DCE6E142A36E433E949E637C659090C8 /* ChameleonFramework-dummy.m */,
+				043BB0CE01C788E1EFE666982AB50A0C /* ChameleonFramework-Info.plist */,
+				88475F7B4FFD254F59DC8A6A645AFD52 /* ChameleonFramework-prefix.pch */,
+				E680AF5D94A2E399504F16824A9471A3 /* ChameleonFramework-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ChameleonFramework";
 			sourceTree = "<group>";
 		};
-		889EF9446141D0F150D9B0515AB80484 /* Utilities */ = {
+		755BF4E19E2DF59D4AFDA203D21A96C4 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				CBCE6DEEEB58AC7AE6FC628C89BC8A41 /* ConstraintsManager.swift */,
-				C423C7152BBBF99F9272AF75C45347F1 /* JSONTransformationFactory.swift */,
-				6246C2EFA65E75C5596EE5421B777728 /* LayoutManager.swift */,
-				53F53710E2BC6C1728730A926B1345D8 /* RandomStringGenerator.swift */,
-				F3B3542E004CDE0D006ECD3BBE47E1E3 /* Utilities.swift */,
+				CD1003FF0CB51A155750BFA427545CDB /* Walkthrough_1.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		79BB7FFA86F4311AF308439FFED63444 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8BF555C441C51F962B7F92D2837355D5 /* BaseNavigationVC.swift */,
+				FFE4EC90C27DC1FB14BD1D7F4C033150 /* BaseVC.swift */,
+			);
+			name = Controllers;
+			path = "RRTech-Starter-App-Template/Classes/App/Controllers";
+			sourceTree = "<group>";
+		};
+		7B4A365E60440A18BBDB032FC02EE7A6 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DB16D60961BFBD46A5C8B0A8274208BB /* ConstraintsManager.swift */,
+				18A6A64B63D7E7183409F74727604946 /* JSONTransformationFactory.swift */,
+				C2C72B72C87C75DA0DA1AD78B9675D04 /* LayoutManager.swift */,
+				64F14C77CBF8403B4AC5319B7DCE87A2 /* RandomStringGenerator.swift */,
+				83909B3B8EA20E29EE4065CC77F6767B /* Utilities.swift */,
 			);
 			name = Utilities;
 			path = "RRTech-Starter-App-Template/Classes/App/Utilities";
 			sourceTree = "<group>";
 		};
-		8BD071B735AE2C913C265A8E7DC8E1ED /* Networking */ = {
+		7F39F09905D653376A20CAB4801573A9 /* Designables */ = {
 			isa = PBXGroup;
 			children = (
-				F902A22EDA77045CB9D3AF23751CFA68 /* APIRepository.swift */,
+				2BD629C54E5CAB7BA1CE2C68AFC55E5E /* CustomLabel+Designable.swift */,
+				ADF49ADDA5961DB28C8CBF8BBBEB6010 /* CustomView+Designable.swift */,
 			);
-			name = Networking;
-			path = "RRTech-Starter-App-Template/Classes/App/Networking";
+			name = Designables;
+			path = Designables;
 			sourceTree = "<group>";
 		};
-		8C78502176B98AEB511565385136352E /* Xibs */ = {
+		8857E6EA91789D986902C1EA69E325F3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				60BF0033DD640572B55292405E18DDF3 /* Walkthrough_2.xib */,
+				06F844D192281BB0077B7606C4BD4D23 /* ChameleonFramework */,
 			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8A18211CE35DBC48F17B4913027279BF /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1FD87873E9EFC76E858377117BC63AD9 /* Walkthrough_2.swift */,
+			);
+			name = Controllers;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		92407FD1100509970BA6AE455C466A6B /* Xibs */ = {
+			isa = PBXGroup;
+			children = (
+				9BA998487828029CDADACD9FF4C81AF1 /* Walkthrough_2.xib */,
+			);
+			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
-		97C5634FC06D62BFD62DA66A38BB1F17 /* Extensions */ = {
+		950E3E12AC80A4595B1E646319626C5D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				38C2B44C2A3F24F6722D4E170910486A /* Array+Extensions.swift */,
-				567F537EC9700EEE410374D7632CF7D9 /* AttributedString+Extensions.swift */,
-				7D7948FB00AC06A1D062EA87AC8C7382 /* Bundle.swift */,
-				BA7569525DE09A16552FA8E6B405F0AC /* CustomStringConvertible+Extensions.swift */,
-				1564C407F73BEC3974D9769DDF54F322 /* Date+Extensions.swift */,
-				D587B59AF809B9206F3854D3E69FFDF5 /* DateFormatter+Extensions.swift */,
-				4C52DAE2DB60C0BACE044F1A7BA89B27 /* Decodable+Extensions.swift */,
-				B685D28B81653B62F99F7A75730AAB54 /* Dictionary+Extensions.swift */,
-				42F4F1F76E4FD18021D9677286BF06CE /* Doubles+Extensions.swift */,
-				2932463644CA67A25B10C8EA91DD0169 /* Int+Extensions.swift */,
-				5E33DDADA714CD2D1F9ECBF7AAB3FD6E /* Strings+Extensions.swift */,
-				D29D0C644CFA9947728F19D0DC63ED57 /* UIApplication+Extensions.swift */,
-				D18D24D7E002C90C8AD847ACE30FF93C /* UIButton+Extensions.swift */,
-				4363208B6FF59F4B6A93CAFC538984FF /* UICollectionView+Extensions.swift */,
-				F7CC68B52460CAB29361B8F5A5CE95D6 /* UIColors+Extensions.swift */,
-				010B787CD4F63CB85AEE50434F57294C /* UIDevice+Extensions.swift */,
-				3884E9155850B5B90E47B561492836A7 /* UIImage+Extensions.swift */,
-				430407F230F534BACDF6BB7610C3F333 /* UILabel+Extensions.swift */,
-				FFF2015EE2EE31D47FD2B384F875AF60 /* UISearchBar+Extensions.swift */,
-				71B6C7E14B43146404FE03930A877ADB /* UITableView+Extensions.swift */,
-				FCD520BF0A88E21357C4E4842D12F2B9 /* UITextField+Extensions.swift */,
-				24ADC229220261146BDEAB1868E87C1B /* UIView+Extensions.swift */,
-				0F942A3457FF5721AB19CEE333C43705 /* UIViewController+Chameleon+Extensions.swift */,
-				F82CE20E3CC8438BB0B69E3A15F70CA8 /* UIViewController+Extensions.swift */,
-				8F830794968277DB7FB2C201F500905C /* UIViewController+SVProgressHUD+Extensions.swift */,
-				519716005C6C61BD12C31FAFD381D08F /* URL+Extensions.swift */,
-				B7C823524A83CF10847885FBEAEB3275 /* UserDefaults+Extensions.swift */,
+				D4485BCF8626139553A6F942260F014C /* ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist */,
+				A8F87662B2E5750E5977DA36E7A2DE9C /* ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist */,
+				27DA1E2D96D464F813DCC6B9411755DC /* RRTech-Starter-App-Template.modulemap */,
+				99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */,
+				8BC54C615698F4D2D5698B26EBC1D9E1 /* RRTech-Starter-App-Template-dummy.m */,
+				723349B02FDB0E4AD26DC134583F52C4 /* RRTech-Starter-App-Template-Info.plist */,
+				52AB67F71911E68D4AF2BE0EEFEC2940 /* RRTech-Starter-App-Template-prefix.pch */,
+				EBCE5740EBA0710D0BB93D0947B46B89 /* RRTech-Starter-App-Template-umbrella.h */,
 			);
-			path = Extensions;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RRTech-Starter-App-Template";
 			sourceTree = "<group>";
 		};
-		9E02EB4226E749C838C9BBE763531387 /* SlideshowCell */ = {
+		A4CAC41DAB77D5FEF33E1467546601DC /* Xibs */ = {
 			isa = PBXGroup;
 			children = (
-				AC89F1556C08D95606582A8005FF8B5A /* SlideshowCell.swift */,
-				0679AB982161E53474A38A8500F6D513 /* SlideshowCell.xib */,
+				0F601C905A5856192DF036A9885A78A2 /* Walkthrough_1.xib */,
 			);
+			name = Xibs;
+			path = Xibs;
+			sourceTree = "<group>";
+		};
+		A85BC6515D0E1E91866A8931CD0E6980 /* Configurations */ = {
+			isa = PBXGroup;
+			children = (
+				E6B2E362B8DF30225C4758B0BF1AC70D /* AppColors.swift */,
+				0F1A70C36530A6B1A6E8C31A594C49E2 /* Configuration.swift */,
+			);
+			name = Configurations;
+			path = "RRTech-Starter-App-Template/Classes/App/Configurations";
+			sourceTree = "<group>";
+		};
+		A9C4A1E924D85F53955E8226F4BF070A /* SlideshowCell */ = {
+			isa = PBXGroup;
+			children = (
+				13CA526BC81C23D30103EEAA97421446 /* SlideshowCell.swift */,
+				F433493213E374B3D946E93C502CE4BD /* SlideshowCell.xib */,
+			);
+			name = SlideshowCell;
 			path = SlideshowCell;
 			sourceTree = "<group>";
 		};
-		A132B39BFF2C8D00568EF19074736D9E /* RRTech-Starter-App-Template */ = {
+		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7D3B9A2FEB53EB1F7FD3D0C3534AA650 /* Configurations */,
-				EF98903DD7D78F5D1A48CBDA790E886E /* Controllers */,
-				D11B99486585880C692512C77781B130 /* Modules */,
-				8BD071B735AE2C913C265A8E7DC8E1ED /* Networking */,
-				22EFF9D707B871517A6B3D539DF535A5 /* Pod */,
-				CE8167F397DBB62EF768B4535D11919A /* Resources */,
-				7CE651490212AD3AA88C38E434AB2E2E /* Support Files */,
-				FBBC00E4BAFDC522FB0A46BDDD3B118D /* UIKit+Extensions */,
-				889EF9446141D0F150D9B0515AB80484 /* Utilities */,
-				D774DF16231CB00C00EA3D29 /* Models+Interfaces */,
+				1392D6857A44D3453F28181918F307C8 /* iOS */,
 			);
-			name = "RRTech-Starter-App-Template";
-			path = ../..;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		A2A0454C494B4BE6BA544944DAC97298 /* Slider */ = {
+		CCCD7226AAE585D15D08A309E731F35B /* Slider */ = {
 			isa = PBXGroup;
 			children = (
-				35DFBE553B1D2FED8B50196BD457754D /* RangeSlider.swift */,
-				550386200FE8F74AEFE37DCF24708083 /* RangeSliderTrackLayer.swift */,
+				1EDA847C39DC95623CBF056DC8761F7F /* RangeSlider.swift */,
+				F06E076CBF947E20E72922B0BD6328F5 /* RangeSliderTrackLayer.swift */,
 			);
+			name = Slider;
 			path = Slider;
 			sourceTree = "<group>";
 		};
-		B20969F2880C19C568D24B2505338C86 /* Xibs */ = {
+		CD3437447A31C56A4147CEB8FC43CA07 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				51CC12C9230BDADE1EA61E2BC05CB8DC /* Walkthrough_3.xib */,
+				0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */,
+				815FD03510FFC71C61918F448AFC290F /* ImageResources.bundle */,
+				19F2BAF89897D6AD9B7E6C7A138A7824 /* Pods_RRTech_Starter_App_Template_Example.framework */,
+				80617F09E5DB829ADD8C95F695178CCD /* Pods_RRTech_Starter_App_Template_Tests.framework */,
+				2A18F6B2263F02DAE9DA42A2E49D2A79 /* RRTech-Starter-App-Template.bundle */,
+				6782A6023691608219FA4F47267F041F /* RRTech_Starter_App_Template.framework */,
 			);
-			path = Xibs;
-			sourceTree = "<group>";
-		};
-		B4485B90B3B8E79246BCB31739CC7149 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				C1812F50196AFF59D3E0C0377C612B9C /* CoreGraphics.framework */,
-				BED9B29EEC54554A078307CE734A6C6B /* Foundation.framework */,
-				23B74455EEAC274851C33DE02F766905 /* QuartzCore.framework */,
-				007D83D48358510D41F00BBBE8A7DD4D /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		BB31B5660AD53B0FD383726110079249 /* Step 3 */ = {
-			isa = PBXGroup;
-			children = (
-				8654536C1A64B20DF0F87CDC3EB7AF47 /* Controllers */,
-				657D73EC325A2BCE910E21EE9467672F /* Resources */,
-			);
-			path = "Step 3";
-			sourceTree = "<group>";
-		};
-		BF410776A39ADAD37A4757D914575082 /* CommentCell */ = {
-			isa = PBXGroup;
-			children = (
-				2C61D74C38ABCB4B5F8B6C5CC9D43FF2 /* CommentCell.swift */,
-				D133A861395EF87E38EA4F0090670D1A /* CommentCell.xib */,
-			);
-			path = CommentCell;
-			sourceTree = "<group>";
-		};
-		BFAD6C5A0EB103792B00E4FAAEA13E15 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8C78502176B98AEB511565385136352E /* Xibs */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
-		C6A8A17D9E7CC855D579CACD2352EFE7 /* Swift */ = {
-			isa = PBXGroup;
-			children = (
-				7BC3C4C2AD1731FB8C51EDED34BB1CA7 /* ChameleonShorthand.swift */,
-			);
-			name = Swift;
-			sourceTree = "<group>";
-		};
-		CA5793FAB189B6F96996BCB1EB5BF7FD /* Step 1 */ = {
-			isa = PBXGroup;
-			children = (
-				03AE493B506C2626CF74222A62B38677 /* Controllers */,
-				7A488761DFC838DD07678C04C6D3ECAC /* Resources */,
-			);
-			path = "Step 1";
-			sourceTree = "<group>";
-		};
-		CE8167F397DBB62EF768B4535D11919A /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		CEDA00EEE41AE92FA13276A8A92496E7 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				80931620E60361B3F5AC24D6BD2AC43A /* Xibs */,
-			);
-			path = Resources;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				104271CD6EEC19C97F7833CE5BEFAEA9 /* Development Pods */,
-				D3A082F66B2729C45C95B60B87A2DCB6 /* Frameworks */,
-				4379B4128E52B2A3C69B704984F854CC /* Pods */,
-				2B3FA17917A90A2735736E1AD00EA9D4 /* Products */,
+				59A8A83C36C5E9D77C1EE04264702A6D /* Development Pods */,
+				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
+				8857E6EA91789D986902C1EA69E325F3 /* Pods */,
+				CD3437447A31C56A4147CEB8FC43CA07 /* Products */,
 				401FFD299C70AA52BD2DAC24DF7BFC27 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D11B99486585880C692512C77781B130 /* Modules */ = {
+		D2135A5B847A536A3F7210107EBBEED1 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7DE2E23DA36FC749EA0F866DFF8473EA /* AwsManager.swift */,
-				2DEC59B797B945670C577ABB41CE3642 /* DefaultsManager.swift */,
-				66BF237100A71D63FA10314E7D665CBA /* ImageSelectorManager.swift */,
-				50F70AA30B55BE6FA326A6E102DDF7C9 /* KeychainManager.swift */,
+				1D958127DC66D6A61B012CD8F3964B57 /* Xibs */,
 			);
-			name = Modules;
-			path = "RRTech-Starter-App-Template/Classes/App/Modules";
+			name = Resources;
+			path = Resources;
 			sourceTree = "<group>";
 		};
-		D3A082F66B2729C45C95B60B87A2DCB6 /* Frameworks */ = {
+		D82D06868450C5E84632D556DAD8F423 /* Default */ = {
 			isa = PBXGroup;
 			children = (
-				64D7656B63940DF1504106A93CEF8D6D /* KeychainSwift.framework */,
-				B4485B90B3B8E79246BCB31739CC7149 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D774DF16231CB00C00EA3D29 /* Models+Interfaces */ = {
-			isa = PBXGroup;
-			children = (
-				D774DF11231CAF3500EA3D29 /* Comment+Interface.swift */,
-				D774DF14231CAF5B00EA3D29 /* User+Interface.swift */,
-			);
-			name = "Models+Interfaces";
-			path = "RRTech-Starter-App-Template/Classes/App/Models+Interfaces";
-			sourceTree = "<group>";
-		};
-		DB81008A3BACFA1C87B6F26E04447E57 /* Step 2 */ = {
-			isa = PBXGroup;
-			children = (
-				37CB9E42CAD0155616EA3C5465694E7D /* Controllers */,
-				BFAD6C5A0EB103792B00E4FAAEA13E15 /* Resources */,
-			);
-			path = "Step 2";
-			sourceTree = "<group>";
-		};
-		E9830E46CBCF0FE7BBE59DA913259910 /* Designables */ = {
-			isa = PBXGroup;
-			children = (
-				8CE4FEC0EFC22E65F49F4F6506E68017 /* CustomLabel+Designable.swift */,
-				63AAE38494028324EB28A47B00FD03D8 /* CustomView+Designable.swift */,
-			);
-			path = Designables;
-			sourceTree = "<group>";
-		};
-		EF98903DD7D78F5D1A48CBDA790E886E /* Controllers */ = {
-			isa = PBXGroup;
-			children = (
-				DD2E54F4110113FC35B39F1CC9AEF470 /* BaseNavigationVC.swift */,
-				B6B4483C5780BE5D764DCB518331B25F /* BaseVC.swift */,
-			);
-			name = Controllers;
-			path = "RRTech-Starter-App-Template/Classes/App/Controllers";
-			sourceTree = "<group>";
-		};
-		FBBC00E4BAFDC522FB0A46BDDD3B118D /* UIKit+Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				6244C534B4555ACD3084C8B7A1EBB2DB /* Controls */,
-				97C5634FC06D62BFD62DA66A38BB1F17 /* Extensions */,
-			);
-			name = "UIKit+Extensions";
-			path = "RRTech-Starter-App-Template/Classes/App/UIKit+Extensions";
-			sourceTree = "<group>";
-		};
-		FC1219EE5F6C0F8F507E6CD426CA782A /* Default */ = {
-			isa = PBXGroup;
-			children = (
-				00F781E7AEF20CF360E60923F15D4898 /* Chameleon.h */,
-				3A89151E37B6594BB99A48C4E44FA8B9 /* Chameleon_.h */,
-				F6A30C327C294270CA4D6A16F6EBF0B8 /* Chameleon_.m */,
-				693DE9C255E03C52FCED624C41641CCD /* ChameleonConstants.h */,
-				78E20C74AD2803FB2EFC82A2F794F8BE /* ChameleonConstants.m */,
-				CCD001DE3F9736FE39F4A12D5A04226C /* ChameleonEnums.h */,
-				610F5A883C19672470205458443E9BF3 /* ChameleonMacros.h */,
-				91E50A86CB780D978CBDFBC67140DE1E /* NSArray+Chameleon.h */,
-				2C0A511B1967C3B68131A987959A3830 /* NSArray+Chameleon.m */,
-				7BA95049DDDFC24A8E901822424DF21D /* UIAppearance+Swift.h */,
-				CCE83A848EFCE6AC9D91524F93D07149 /* UIAppearance+Swift.m */,
-				52A42127D2EC608A4368B6B22931589B /* UIButton+Chameleon.h */,
-				A7F89A238582E56EB61EC441D1FA2C08 /* UIButton+Chameleon.m */,
-				9C136324DD2DF43ADE45FB0CD5C5D582 /* UIColor+Chameleon.h */,
-				EAE2C9C95EFAE850A817EC8586006227 /* UIColor+Chameleon.m */,
-				74920DE9E973AB718C8D7E36DD6FC3D0 /* UIColor+ChameleonPrivate.h */,
-				050C5CF31C3BA8C0F83E5173A737AB55 /* UIColor+ChameleonPrivate.m */,
-				D581D91111D9A6B5875450BF3915EDCD /* UIImage+ChameleonPrivate.h */,
-				FFF64FDE57181F0A14245C1A3FD92EB9 /* UIImage+ChameleonPrivate.m */,
-				E72B3826F47F4049596797584DB33B73 /* UILabel+Chameleon.h */,
-				C9776947CBBEBCE6BE77785CA0E2A0B2 /* UILabel+Chameleon.m */,
-				81C4D5033B7C6D7812516B4C9170AF27 /* UINavigationController+Chameleon.h */,
-				5F8175A77AFFF7D7A21EAD420010EEBC /* UINavigationController+Chameleon.m */,
-				FFFCCB1730DB227AB66A17C70747E97C /* UIView+ChameleonPrivate.h */,
-				11104C4E5504B7F72F95BBF9E9059908 /* UIView+ChameleonPrivate.m */,
-				621C0E6E48F5DDCAB4A6A21D09DBB4A5 /* UIViewController+Chameleon.h */,
-				4A817BCD6DEE351A694EF35749B26FF0 /* UIViewController+Chameleon.m */,
+				A3CDA8E4BCF0AEC0558DEAAFEA513CFA /* Chameleon.h */,
+				5D39332DD55802698852747D1FBB8844 /* Chameleon_.h */,
+				6F6CC6AC9C533A8CEFF0B13FC6E92233 /* Chameleon_.m */,
+				CB7CE737193D16487628655C77996649 /* ChameleonConstants.h */,
+				C081A750E11A9EB8F35E36C6B3D306C9 /* ChameleonConstants.m */,
+				6AD4892F2EFEC1E2CC77A9B0296C4FA3 /* ChameleonEnums.h */,
+				59949E669A721651860E2E9805419442 /* ChameleonMacros.h */,
+				392BB0899D07D23992B7E87466833F7C /* NSArray+Chameleon.h */,
+				D76DC1602E08BD2FAA2C2ADDFB9CFE6C /* NSArray+Chameleon.m */,
+				B1F502555C9FDBD7F592D98167F5CD3F /* UIAppearance+Swift.h */,
+				5CAFD4B9F7626295ABDDF51721F81193 /* UIAppearance+Swift.m */,
+				35F202C7E056700E6A7434AAEC7C956C /* UIButton+Chameleon.h */,
+				60A1413F5EE8C60CB7D3423C3044E859 /* UIButton+Chameleon.m */,
+				08DB4A7B5C0FF423B856F75E2110BCFC /* UIColor+Chameleon.h */,
+				B960D30AC715920769B278652FAF8EE1 /* UIColor+Chameleon.m */,
+				23D8674FC4B5839DC796C3E6DDB3C627 /* UIColor+ChameleonPrivate.h */,
+				49AE78813A8F86841E621330FBEF4244 /* UIColor+ChameleonPrivate.m */,
+				F13FB34A42FE17CDF1146FD485C048DA /* UIImage+ChameleonPrivate.h */,
+				888663251DD917954BE18E3AC58C3ED3 /* UIImage+ChameleonPrivate.m */,
+				7A4CD199BDA663801102ACFCCE0ED3A0 /* UILabel+Chameleon.h */,
+				44A7440361066354771F03FFB334515B /* UILabel+Chameleon.m */,
+				20B59E57A183F42D6C27CB7E6495F4A6 /* UINavigationController+Chameleon.h */,
+				A7005E1AA244D2DDB2987B95BD6C35A3 /* UINavigationController+Chameleon.m */,
+				4479B7BE5EFE394148EAF6EE0DAAB5A3 /* UIView+ChameleonPrivate.h */,
+				85C72C198E037FDCE8FD93F88A438C25 /* UIView+ChameleonPrivate.m */,
+				0E3B5CDCFCAFDB41977405C6E9AEC2B9 /* UIViewController+Chameleon.h */,
+				36E94BEB3C7F4476E0BACC243FDB102A /* UIViewController+Chameleon.m */,
 			);
 			name = Default;
+			sourceTree = "<group>";
+		};
+		DA030772368ECCA00256C3DAF5864560 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				92B0A989FFDF73C7F8DB58F40B251E9B /* LICENSE */,
+				3824A4E9D724EF599DFE5A16CD681A3C /* README.md */,
+				CE705AB8B9636FD635D07E6A060E38A3 /* RRTech-Starter-App-Template.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E331EE241DEAAE38CAC6A1B5181947BD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				92407FD1100509970BA6AE455C466A6B /* Xibs */,
+			);
+			name = Resources;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F91B749F014217A358456343222E4450 /* Step 3 */ = {
+			isa = PBXGroup;
+			children = (
+				3166694A8FC4194A0FB6A098A080554A /* Controllers */,
+				D2135A5B847A536A3F7210107EBBEED1 /* Resources */,
+			);
+			name = "Step 3";
+			path = "Step 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		11895BAE90EDC56AA2920856BB3364B8 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9916DC5CB41362FB960A7D57C3AF08E8 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4265AC4BE6C26A73B91598B6B967757B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7A10C78CBB90B582430F83F976100493 /* Pods-RRTech-Starter-App-Template_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		43DF41475B41BF4D8DFACE2C58FD66E7 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FC4C149C3E02CEE19B48725418053105 /* RRTech-Starter-App-Template-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -996,35 +936,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */ = {
+		AA5A5A377A9D810C947611883D336364 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3905037CE8620D38EF4DA0AB90C106C /* KeychainSwift-umbrella.h in Headers */,
+				169866DB345D47690D0DC36A41FF3A15 /* RRTech-Starter-App-Template-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE1C4D5390B2B7BC75F0ED1F7D2FE78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE014757C1B4E952885EA0BD8DC4756 /* Pods-RRTech-Starter-App-Template_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */;
-			buildPhases = (
-				97BD77ADDCAB6FA6CF7529B5308B0918 /* Headers */,
-				E3B35C6F6E358284C831471583BD04CD /* Sources */,
-				4A2A9F195399A771D5E644536E9F6CF4 /* Frameworks */,
-				29186A7FC9690C20BDE41949C4FFD3AC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = KeychainSwift;
-			productName = KeychainSwift;
-			productReference = 9E0FD012ADC3C7179C684035672383E5 /* KeychainSwift.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 911E8CAE5BC7C27912E3245FC75091FA /* Build configuration list for PBXNativeTarget "ChameleonFramework" */;
@@ -1064,11 +994,11 @@
 		};
 		4DB3BEBD49BF529CD20DC6F9E60BCE8B /* RRTech-Starter-App-Template-ImageResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 563F4D5CAD52C9F903021A7BC9C9060D /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */;
+			buildConfigurationList = D46B2EB43AACF1CD206944D610FA477D /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */;
 			buildPhases = (
-				D878EF148AEBA42D48F9F0E06AA456F2 /* Sources */,
-				D7DD148003ACEF50700A19FE29461AE4 /* Frameworks */,
-				65BC9876D3E25882F280E9CA4EBC9BE7 /* Resources */,
+				D8FE9A5480976F33718EE6AE8E7B9518 /* Sources */,
+				3F2234CB189498BF6B511691EE77CC90 /* Frameworks */,
+				785A338C9825852813DBD7193430C379 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1081,11 +1011,11 @@
 		};
 		7BCFC5273E027A4F26464134D4D37FE3 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B06A6B7231F981625BE6E3A94CE6CC2 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */;
+			buildConfigurationList = E6D3889D7545B027F829E5162DCB5BBD /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */;
 			buildPhases = (
-				FC3687FAB1BE225E948EC79E41574486 /* Sources */,
-				5E90F4D728EC177F15BA9FB1B8DEE568 /* Frameworks */,
-				DB60DA09E901371BB25B8CA96512C593 /* Resources */,
+				0F842BFB8E101B35038472CBCF6E1A05 /* Sources */,
+				71961332E69D2537EBE31418808B1CE0 /* Frameworks */,
+				E3CA5A92D64C87BDB4A54049C3037766 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1098,19 +1028,18 @@
 		};
 		8D8B8F9101A3B895C9BBB596CD84AD33 /* Pods-RRTech-Starter-App-Template_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4FD3E07BE39C8B08C717CBD546A5969A /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */;
+			buildConfigurationList = 560FB0F02E5C3386E74AD3024A471658 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */;
 			buildPhases = (
-				11895BAE90EDC56AA2920856BB3364B8 /* Headers */,
-				69488A33CDEFF3CDC5187DD59633C8B7 /* Sources */,
-				0835C9783C06F3E8157BA521DF463276 /* Frameworks */,
-				E5505AE6020489EFD89D10DD4BEE8719 /* Resources */,
+				FBE1C4D5390B2B7BC75F0ED1F7D2FE78 /* Headers */,
+				ED1819BAED9E3CAA026C81B4865CA38F /* Sources */,
+				284487EEFED39E2A95D63DB967A4906A /* Frameworks */,
+				570F1BAE3CE684F61263C7B48E47FFE1 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C8DEC667F89B61C284B95C714E6B18D6 /* PBXTargetDependency */,
-				17B8D086E3276CC983E17E9C6D0A5D2D /* PBXTargetDependency */,
-				EAAD6EDAE5AEC9677EEBA497166945A2 /* PBXTargetDependency */,
+				FBA61CA05267A9232BBDD0459F8D08C3 /* PBXTargetDependency */,
+				130067C09ABB70D193513D53E6FDD3B8 /* PBXTargetDependency */,
 			);
 			name = "Pods-RRTech-Starter-App-Template_Example";
 			productName = "Pods-RRTech-Starter-App-Template_Example";
@@ -1119,19 +1048,18 @@
 		};
 		FA1637BCA1E09C1699F8EDB36E0801D2 /* RRTech-Starter-App-Template */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A5713FF22187103ED5F004F68E24383 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */;
+			buildConfigurationList = B8AFEC783C7C246AE3F56AAAEE51E1B4 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */;
 			buildPhases = (
-				43DF41475B41BF4D8DFACE2C58FD66E7 /* Headers */,
-				6DF7EA945387894E11A170A646C90F66 /* Sources */,
-				E6DD25921C06D0DDF3620158E8678A8B /* Frameworks */,
-				84786B065B2C2DF29390D7E3D0DD47FD /* Resources */,
+				AA5A5A377A9D810C947611883D336364 /* Headers */,
+				5143942080AC6F795E5ABC6571D4A484 /* Sources */,
+				4C7870958147225A43DEE1D7F39B871B /* Frameworks */,
+				5B5A67F53C076A24CD9B33115C19AA5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9EFCD4C3F94A8CD12131794A322AEA70 /* PBXTargetDependency */,
-				07A7F6FFAC1B861ACAD7EB1B64523777 /* PBXTargetDependency */,
-				20BEA526C6C0753881A98E5ABFF8AF06 /* PBXTargetDependency */,
+				84F0ABAB2D166686C5191EC05DFFE974 /* PBXTargetDependency */,
+				C3731A701D6D044A80CE93F0E0AD0569 /* PBXTargetDependency */,
 			);
 			name = "RRTech-Starter-App-Template";
 			productName = "RRTech-Starter-App-Template";
@@ -1155,12 +1083,11 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2B3FA17917A90A2735736E1AD00EA9D4 /* Products */;
+			productRefGroup = CD3437447A31C56A4147CEB8FC43CA07 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */,
-				07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */,
 				8D8B8F9101A3B895C9BBB596CD84AD33 /* Pods-RRTech-Starter-App-Template_Example */,
 				4C6D3490057F13537C3D19BD2609E040 /* Pods-RRTech-Starter-App-Template_Tests */,
 				FA1637BCA1E09C1699F8EDB36E0801D2 /* RRTech-Starter-App-Template */,
@@ -1178,13 +1105,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		29186A7FC9690C20BDE41949C4FFD3AC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5431D494AF1773B5392F1B496AD49E35 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1192,119 +1112,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		65BC9876D3E25882F280E9CA4EBC9BE7 /* Resources */ = {
+		570F1BAE3CE684F61263C7B48E47FFE1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84786B065B2C2DF29390D7E3D0DD47FD /* Resources */ = {
+		5B5A67F53C076A24CD9B33115C19AA5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9E988E205F56E3E95F80283B25E8E29 /* ImageResources.bundle in Resources */,
-				313085913CCC3FDB5E2EA98F317C941A /* RRTech-Starter-App-Template.bundle in Resources */,
+				160F8E9E3ECE7C77FDE2F4CF148A96FB /* ImageResources.bundle in Resources */,
+				EF224DC87CCD9323E7E338B74224B970 /* RRTech-Starter-App-Template.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB60DA09E901371BB25B8CA96512C593 /* Resources */ = {
+		785A338C9825852813DBD7193430C379 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3D415E7B4757BCC8926055CB389297C /* CommentCell.xib in Resources */,
-				0E2BB7F635B6D3B86856CABC7C43FC12 /* SlideshowCell.xib in Resources */,
-				DE44BD1022A8D736862D1A781953685D /* Walkthrough_1.xib in Resources */,
-				E144AA525F552331314939C1A0FAE440 /* Walkthrough_2.xib in Resources */,
-				C129B22B267921F83BB270F9E9FA721A /* Walkthrough_3.xib in Resources */,
-				F4D2C5C5D073125A2F7EAE91E2718141 /* Walkthrough_4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5505AE6020489EFD89D10DD4BEE8719 /* Resources */ = {
+		E3CA5A92D64C87BDB4A54049C3037766 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF4EB72A29D11345D10BBE175633DCA9 /* CommentCell.xib in Resources */,
+				516BB33DB9A0683ACBBB3CC5462B993B /* SlideshowCell.xib in Resources */,
+				4E901045049E0BD77A616B1D12E8C559 /* Walkthrough_1.xib in Resources */,
+				2B0FD0C8C5354546DABBD0C4285795C1 /* Walkthrough_2.xib in Resources */,
+				B0F484A0FA2E0B5454B7CD87D4C5381B /* Walkthrough_3.xib in Resources */,
+				C4A3E1D734AE7FF866DB7795AE43E19A /* Walkthrough_4.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		69488A33CDEFF3CDC5187DD59633C8B7 /* Sources */ = {
+		0F842BFB8E101B35038472CBCF6E1A05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E190DA13CC6DD0DF46699FEE0761FECF /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6DF7EA945387894E11A170A646C90F66 /* Sources */ = {
+		5143942080AC6F795E5ABC6571D4A484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F4D15A6C71BEFE4A09E05F22072C2E3 /* APIRepository.swift in Sources */,
-				2CA87EF1779FB27925A0860BF7F9AA2B /* AppColors.swift in Sources */,
-				C6E96379B06BBE699AA7756A36522D73 /* Array+Extensions.swift in Sources */,
-				EBD186A98120EC087B44EB1145B1C6B6 /* AttributedString+Extensions.swift in Sources */,
-				D774DF15231CAF5B00EA3D29 /* User+Interface.swift in Sources */,
-				D5DE6AE7BBE9C483E7A007C87B0257B4 /* AwsManager.swift in Sources */,
-				405DA1D75813FEF59A1E1E885D368452 /* BaseNavigationVC.swift in Sources */,
-				ED560C3C184B08FCBFABC6BE4A2B7354 /* BaseVC.swift in Sources */,
-				18502B5BF902DE67A3D89F27C40A6B4F /* Bundle.swift in Sources */,
-				1DF2450743846E81DEFDCDB9E26962F8 /* CommentCell.swift in Sources */,
-				054E95AFBBB06421AA9B9252D1702B23 /* CommentCell.xib in Sources */,
-				8DE6574798BC70BC089F02DF7CEDE80D /* Configuration.swift in Sources */,
-				72B1AD39E56442DC6F2EE2FB6C8E42A4 /* ConstraintsManager.swift in Sources */,
-				58DAA4441604CE5EDB5C20A81B46523D /* CustomLabel+Designable.swift in Sources */,
-				48D4F32A6DD88658E315365BE00862ED /* CustomStringConvertible+Extensions.swift in Sources */,
-				03BA2BE0CE8BBEC7DE91118BD43CF34D /* CustomView+Designable.swift in Sources */,
-				C587D80B8290B414A024DBC60863F4BB /* Date+Extensions.swift in Sources */,
-				A26BA7AC97E81FA7B2B5A1A64EFFACDC /* DateFormatter+Extensions.swift in Sources */,
-				111D7E38C793197A66DD0C680C1AED4A /* Decodable+Extensions.swift in Sources */,
-				587C93B0B2074DF657C0AD53139581D3 /* DefaultsManager.swift in Sources */,
-				ED85E36B75791FDF4611581A5A450A06 /* Dictionary+Extensions.swift in Sources */,
-				61DBFD88C8548041C5DB8660FEDD1C57 /* Doubles+Extensions.swift in Sources */,
-				940242B180570D98876F2121C1CE7DD3 /* ImageSelectorManager.swift in Sources */,
-				17166097F38C84FD0BF20800C6FBFBDD /* Int+Extensions.swift in Sources */,
-				79D824A446238B9010B34F3C51B60070 /* JSONTransformationFactory.swift in Sources */,
-				D354F88CA40D084927A803D2B6FF6DB8 /* KeychainManager.swift in Sources */,
-				65A896C8E1ACC9AB0669F614DC7344AA /* LayoutManager.swift in Sources */,
-				1AD4AE0F4AB66968D5E7F1B0CE682B56 /* RandomStringGenerator.swift in Sources */,
-				D774DF13231CAF3C00EA3D29 /* Comment+Interface.swift in Sources */,
-				DEBB5B856849146F0E9AF0EFEA06ABDA /* RangeSlider.swift in Sources */,
-				CAE4A35C4B314B4222EC0B8CA8DC544C /* RangeSliderTrackLayer.swift in Sources */,
-				ACFEE2BC0C864D977D30E4A7552CD387 /* RRTech-Starter-App-Template-dummy.m in Sources */,
-				B387EB854ECB792155E32919D1075476 /* SlideshowCell.swift in Sources */,
-				E3293D1CF8E37343B1BA6F2C042453B0 /* SlideshowCell.xib in Sources */,
-				0C222C93C67885C503E87B7C40D69F54 /* Strings+Extensions.swift in Sources */,
-				37849384EDDABCA63048771E10F11307 /* UIApplication+Extensions.swift in Sources */,
-				3C33154CD526F9A20F03CC32B153DF1F /* UIButton+Extensions.swift in Sources */,
-				542064FC3E20131A36D47C4B1F627D28 /* UICollectionView+Extensions.swift in Sources */,
-				D5B759CB1C4EB8A934767C98FD5E4DDF /* UIColors+Extensions.swift in Sources */,
-				1A12CD60FB88141AE514C06087ACE816 /* UIDevice+Extensions.swift in Sources */,
-				AA138B09A37EE5489E2ADB4C910F07B5 /* UIImage+Extensions.swift in Sources */,
-				1E5DE24A080F4A15E42019FCF51A2C9A /* UILabel+Extensions.swift in Sources */,
-				50D6F03765EB6D8B3CC0AF59D6CE3EB6 /* UISearchBar+Extensions.swift in Sources */,
-				FA194632F2EEB2C759DAB2D6B64556C2 /* UITableView+Extensions.swift in Sources */,
-				D850A602CC1BAB4E30B190D9FDB50FBD /* UITextField+Extensions.swift in Sources */,
-				4B65B2CC85F494FC18B9B1C18DF262C7 /* UIView+Extensions.swift in Sources */,
-				777E5F0FE221F6A8F0B94C6374CD73ED /* UIViewController+Chameleon+Extensions.swift in Sources */,
-				44573CA5CD115A2A71EC20046D444941 /* UIViewController+Extensions.swift in Sources */,
-				8D2729DA1BBFD45F6C8FB44BD2B3B964 /* UIViewController+SVProgressHUD+Extensions.swift in Sources */,
-				D9F6961B7723A0FB34FA88C74601C6B8 /* URL+Extensions.swift in Sources */,
-				FC0CED99D95FED3ECEF060D0572948FA /* UserDefaults+Extensions.swift in Sources */,
-				BC1EA9FCAF7528F3BE8C1740D001A91A /* Utilities.swift in Sources */,
-				E7279334F6A8948CC9045BCE864A281D /* vcWalkthrough.swift in Sources */,
-				71CFE3EBAC3F046374295B698D3E18EE /* VideoBackground.swift in Sources */,
-				EDA0FDF7E2FC517785DEF1B399E3D4FA /* Walkthrough_1.swift in Sources */,
-				55F35D631E63785F27E1C67701A4E38F /* Walkthrough_1.xib in Sources */,
-				9058946310C1A0CCF9D27CBE71546CA6 /* Walkthrough_2.swift in Sources */,
-				DBF82E8C1F4B1904DAD736A691869F6F /* Walkthrough_2.xib in Sources */,
-				2ACA2313706EFAE770F4091C1AA5EE02 /* Walkthrough_3.swift in Sources */,
-				7450BD511FA3C5D272A6864A13794979 /* Walkthrough_3.xib in Sources */,
-				8B387C707EF131D9674B56F93FCEE475 /* Walkthrough_4.swift in Sources */,
-				4D8EBCE97A0213A18AF1DD383799000F /* Walkthrough_4.xib in Sources */,
+				763686F0BD92971A0C6EEEC1B0FD48B7 /* APIRepository.swift in Sources */,
+				6398DBC953B455A40C4B4F6885D510E5 /* AppColors.swift in Sources */,
+				37E9C5386904C7471828418C9E8147EE /* Array+Extensions.swift in Sources */,
+				7FCAC60E69F2AF228C1EF6299B3B7523 /* AttributedString+Extensions.swift in Sources */,
+				E676ABE81651019DD77064EE1AA5A76C /* AwsManager.swift in Sources */,
+				2F7E25B3C31F8B1D785DD9B4C312B480 /* BaseNavigationVC.swift in Sources */,
+				D9A1F387D4E2FDCC0FD9E3B20B29A928 /* BaseVC.swift in Sources */,
+				9DE46241DCF59EB463534B98A441658E /* Bundle.swift in Sources */,
+				CB67DC8193854BC8D60CF07192E8492B /* Comment+Interface.swift in Sources */,
+				CA950213DBF72D1F6170B7CE7C49A94A /* CommentCell.swift in Sources */,
+				27CC3B9CC376AEE3CDC19FB9B36B8D56 /* CommentCell.xib in Sources */,
+				0C13159B37C90A315A1EE517F6214003 /* Configuration.swift in Sources */,
+				4D8094A6F2EC49C1D304D4E9B88BCF2A /* ConstraintsManager.swift in Sources */,
+				6B77C9F5A1855CE273421714B9C24096 /* CustomLabel+Designable.swift in Sources */,
+				96C30078B90C7C0A59A1323410CF769A /* CustomStringConvertible+Extensions.swift in Sources */,
+				C4790F3B3325D7BA5F595BB6A7F3F2BD /* CustomView+Designable.swift in Sources */,
+				2E5D56B8E8BF91D78050469D8E559C8C /* Date+Extensions.swift in Sources */,
+				414C55D239F919FEE2D2C1EB1399F4DA /* DateFormatter+Extensions.swift in Sources */,
+				1CC9F332180F3A426AB3E0A1032072CD /* Decodable+Extensions.swift in Sources */,
+				C8E2736F05085778CBE509B0B4841D7D /* DefaultsManager.swift in Sources */,
+				15018F29B3EDB5EFEBE71150EA7AF8A2 /* Dictionary+Extensions.swift in Sources */,
+				9E1815CDCA15DC3C56076A47C40A1DEF /* Doubles+Extensions.swift in Sources */,
+				8A54D7055F50F69C32157E73C73722C0 /* ImageSelectorManager.swift in Sources */,
+				7B0872A986D557E7E3BA6B74E9B1EA70 /* Int+Extensions.swift in Sources */,
+				87A8F02EB44670B7955E35851EECFA25 /* JSONTransformationFactory.swift in Sources */,
+				C5CB7782443787ADFB786A15B1F118FC /* KeychainManager.swift in Sources */,
+				7D39AB098C4141A04426530AEF23C174 /* LayoutManager.swift in Sources */,
+				4C0DB686D256980DB022ECACEDE79F75 /* RandomStringGenerator.swift in Sources */,
+				79A78F0ACB2AC43C5D6F27205E76B31C /* RangeSlider.swift in Sources */,
+				2829EAF47961321F7FD0360EB1CECE45 /* RangeSliderTrackLayer.swift in Sources */,
+				CDEF4ADAB1E750D64002BFDE74C87D5C /* RRTech-Starter-App-Template-dummy.m in Sources */,
+				836BF21B92B8276C92683A91939D1BAD /* SlideshowCell.swift in Sources */,
+				EDAFED0993D9315A1A71337695329214 /* SlideshowCell.xib in Sources */,
+				22EE3F805E5C0ED15862D283C089AA5D /* Strings+Extensions.swift in Sources */,
+				786A5AECF17E8019B15E44444F832380 /* UIApplication+Extensions.swift in Sources */,
+				0D57DF9ABD48446755E76A4D2617B9ED /* UIButton+Extensions.swift in Sources */,
+				2659FE72DCE2B5452A954451BDCA06E9 /* UICollectionView+Extensions.swift in Sources */,
+				CEF7C235B3ABFD523384D2E269224EF2 /* UIColors+Extensions.swift in Sources */,
+				A830D4B458F0A2EDB169A4E4C479456B /* UIDevice+Extensions.swift in Sources */,
+				2AA2BA3F446986590A99B63056D13FD5 /* UIImage+Extensions.swift in Sources */,
+				B0958BAE67E5B31A3E6E23D93466354B /* UILabel+Extensions.swift in Sources */,
+				6833757DA2A700569BB8CDE4CBF4EDCF /* UISearchBar+Extensions.swift in Sources */,
+				8A9ED438B0240037E5ED0EA5441873D4 /* UITableView+Extensions.swift in Sources */,
+				CBDD7004CA870313B35B77B2F29D555A /* UITextField+Extensions.swift in Sources */,
+				2FA4613B9164A6D38AE87482E6AE56F4 /* UIView+Extensions.swift in Sources */,
+				4C8BB98B373CA0AC1F094152B60099A4 /* UIViewController+Chameleon+Extensions.swift in Sources */,
+				72BA6D441F8F79C5BD04F5BA89C65B61 /* UIViewController+Extensions.swift in Sources */,
+				D98418C91875CF5914506D67A2A67DF4 /* UIViewController+SVProgressHUD+Extensions.swift in Sources */,
+				CED5E5CDEE8410B3C87CEE2EAB057133 /* URL+Extensions.swift in Sources */,
+				E8F3618638BDD0108F616873BAEB5B61 /* User+Interface.swift in Sources */,
+				0DBF8F71DCD20F152F27DA28DA0FE42E /* UserDefaults+Extensions.swift in Sources */,
+				2707760C24023E7997531365F8F0812F /* Utilities.swift in Sources */,
+				6B249EC809D1EDF08FD02F00918E908D /* vcWalkthrough.swift in Sources */,
+				49B4AB68B1F7E71A30DEBD403098CEA0 /* VideoBackground.swift in Sources */,
+				F7FC0EB6E8EEE71BA5468B23A4119333 /* Walkthrough_1.swift in Sources */,
+				C3BF6DF1B13AB3ADAA03A56D15137D61 /* Walkthrough_1.xib in Sources */,
+				05EB6FBDBD731F216D10F8146FDA29E2 /* Walkthrough_2.swift in Sources */,
+				0BCA076BA1A6622093E7BA556AF4CC6C /* Walkthrough_2.xib in Sources */,
+				72D09CCB263E611BF8FEFFD8003F14ED /* Walkthrough_3.swift in Sources */,
+				EA02BC36BCA7A54307EB15ADCE76D973 /* Walkthrough_3.xib in Sources */,
+				898CE868BFF2053DABFB2DDB6AAE39F9 /* Walkthrough_4.swift in Sources */,
+				5C96DA610281C87A92F403C10D86BABC /* Walkthrough_4.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1337,51 +1256,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D878EF148AEBA42D48F9F0E06AA456F2 /* Sources */ = {
+		D8FE9A5480976F33718EE6AE8E7B9518 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E3B35C6F6E358284C831471583BD04CD /* Sources */ = {
+		ED1819BAED9E3CAA026C81B4865CA38F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B255EB0716A1BB473E696C20812C697 /* KeychainSwift-dummy.m in Sources */,
-				4DC6C132AEF3E02BDD5ABC89333233B3 /* KeychainSwift.swift in Sources */,
-				485A776035D4B1EF97E8AE0E95A66502 /* KeychainSwiftAccessOptions.swift in Sources */,
-				320E018022758AFD782991C7D8854DB1 /* TegKeychainConstants.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FC3687FAB1BE225E948EC79E41574486 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				3D8F8D8CF64B89AF7CE832DAAFF97734 /* Pods-RRTech-Starter-App-Template_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		07A7F6FFAC1B861ACAD7EB1B64523777 /* PBXTargetDependency */ = {
+		130067C09ABB70D193513D53E6FDD3B8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "RRTech-Starter-App-Template-ImageResources";
-			target = 4DB3BEBD49BF529CD20DC6F9E60BCE8B /* RRTech-Starter-App-Template-ImageResources */;
-			targetProxy = 627DD4E40420C5D96E5C14287EE7FD2C /* PBXContainerItemProxy */;
-		};
-		17B8D086E3276CC983E17E9C6D0A5D2D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KeychainSwift;
-			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
-			targetProxy = C1F55A87B5E5D03E4F06D840888ED542 /* PBXContainerItemProxy */;
-		};
-		20BEA526C6C0753881A98E5ABFF8AF06 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
-			target = 7BCFC5273E027A4F26464134D4D37FE3 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */;
-			targetProxy = 3DFFFD2129581072B222AE27018CC785 /* PBXContainerItemProxy */;
+			name = "RRTech-Starter-App-Template";
+			target = FA1637BCA1E09C1699F8EDB36E0801D2 /* RRTech-Starter-App-Template */;
+			targetProxy = 32B958360C2751DF996813B95EDBB9AF /* PBXContainerItemProxy */;
 		};
 		83C68C060243BB478CB7E5C96E84AF21 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -1389,61 +1286,42 @@
 			target = 8D8B8F9101A3B895C9BBB596CD84AD33 /* Pods-RRTech-Starter-App-Template_Example */;
 			targetProxy = 72CD2E9E9A837C2F52B938785A4D0EEB /* PBXContainerItemProxy */;
 		};
-		9EFCD4C3F94A8CD12131794A322AEA70 /* PBXTargetDependency */ = {
+		84F0ABAB2D166686C5191EC05DFFE974 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = KeychainSwift;
-			target = 07E54A78BCF82272E99319D7F7F5E8C1 /* KeychainSwift */;
-			targetProxy = 1025E8059265D573D38C7CED7C366BF4 /* PBXContainerItemProxy */;
+			name = "RRTech-Starter-App-Template-ImageResources";
+			target = 4DB3BEBD49BF529CD20DC6F9E60BCE8B /* RRTech-Starter-App-Template-ImageResources */;
+			targetProxy = 86452352D537F376B24F6E36C88B617C /* PBXContainerItemProxy */;
 		};
-		C8DEC667F89B61C284B95C714E6B18D6 /* PBXTargetDependency */ = {
+		C3731A701D6D044A80CE93F0E0AD0569 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "RRTech-Starter-App-Template-RRTech-Starter-App-Template";
+			target = 7BCFC5273E027A4F26464134D4D37FE3 /* RRTech-Starter-App-Template-RRTech-Starter-App-Template */;
+			targetProxy = 79A617D21A03894E6EBE21E7B81CBA73 /* PBXContainerItemProxy */;
+		};
+		FBA61CA05267A9232BBDD0459F8D08C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ChameleonFramework;
 			target = 28BFDC89BA4363F4F3576DEC70EE10AE /* ChameleonFramework */;
-			targetProxy = 5DEE73737EA62D01EE6EFA121EB9016F /* PBXContainerItemProxy */;
-		};
-		EAAD6EDAE5AEC9677EEBA497166945A2 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "RRTech-Starter-App-Template";
-			target = FA1637BCA1E09C1699F8EDB36E0801D2 /* RRTech-Starter-App-Template */;
-			targetProxy = 3059BB9D2830BAE01F06027D7BC87712 /* PBXContainerItemProxy */;
+			targetProxy = 7A3E303D59C9ECC2D34245C40A21867E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05E5430AA640622F13A4F77819536E7A /* Debug */ = {
+		18605B6E60A34C1D4403742F2DD83494 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 012EAA37E69571EC57AB4C1B9718D711 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ImageResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
 		208FB6A404CC116AC0AA998D704FD8F2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1478,22 +1356,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		217BE0A5B90066DD69DDF6CC6BA9523C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
-				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = "RRTech-Starter-App-Template";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
 		};
@@ -1550,7 +1412,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1558,7 +1421,7 @@
 		};
 		2E50B9FA7EC04E1540ADB994F75AA15C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C6E37DBBEC83BFABD7EBBA212C7A98C /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = 3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -1588,15 +1451,15 @@
 			};
 			name = Debug;
 		};
-		6F2CF649AF5542199578FAAFAFF896C0 /* Debug */ = {
+		5EDC0F43781A7FB1580334F6315BA668 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
-				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = ImageResources;
+				PRODUCT_NAME = "RRTech-Starter-App-Template";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1604,15 +1467,15 @@
 			};
 			name = Debug;
 		};
-		91E92849F32F8F2D4A00891BDE885C25 /* Release */ = {
+		68945E26E15DCC41BC2B14668BD729FD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
-				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = ImageResources;
+				PRODUCT_NAME = "RRTech-Starter-App-Template";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1620,9 +1483,9 @@
 			};
 			name = Release;
 		};
-		9378B82A9E350668BEF35C552C656E9A /* Debug */ = {
+		6BE9563F5DE46711E7678F4D62214E0A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1650,6 +1513,22 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71E96659525A76439D6C653BCAF962D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
+				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-ImageResources-RRTech-Starter-App-Template-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_NAME = ImageResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -1688,57 +1567,9 @@
 			};
 			name = Debug;
 		};
-		9EF6F591E9AA189C07726B7C8F399C0C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B426E8857C8A78BB688403ACF988EE91 /* KeychainSwift.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				PRODUCT_MODULE_NAME = KeychainSwift;
-				PRODUCT_NAME = KeychainSwift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A76066DB8955A04FC5C079B063B6C2F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/RRTech-Starter-App-Template";
-				INFOPLIST_FILE = "Target Support Files/RRTech-Starter-App-Template/ResourceBundle-RRTech-Starter-App-Template-RRTech-Starter-App-Template-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = "RRTech-Starter-App-Template";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		AE7EFBEBBCF51D6DC887FA174D5C19EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3C6E37DBBEC83BFABD7EBBA212C7A98C /* ChameleonFramework.xcconfig */;
+			baseConfigurationReference = 3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
@@ -1769,9 +1600,9 @@
 			};
 			name = Release;
 		};
-		CD7B10DE8A64987B997FBF535FE2376D /* Release */ = {
+		B528E40BB33E97B6BDEDB54C8F74D6CD /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 11A73AF552C7727D624D78E7A62D156E /* RRTech-Starter-App-Template.xcconfig */;
+			baseConfigurationReference = 99CFA8BD1C5CFCADDF945A09F45E2BEB /* RRTech-Starter-App-Template.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
@@ -1803,11 +1634,13 @@
 			};
 			name = Release;
 		};
-		D6C3E11C5F00EF96B552D16E88C8AE61 /* Release */ = {
+		B7D76B1B0721A208104A2B1BCF05CDB1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B426E8857C8A78BB688403ACF988EE91 /* KeychainSwift.xcconfig */;
+			baseConfigurationReference = 012EAA37E69571EC57AB4C1B9718D711 /* Pods-RRTech-Starter-App-Template_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1817,18 +1650,54 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KeychainSwift/KeychainSwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KeychainSwift/KeychainSwift-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KeychainSwift/KeychainSwift.modulemap";
-				PRODUCT_MODULE_NAME = KeychainSwift;
-				PRODUCT_NAME = KeychainSwift;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B8D0B4A8B1541521D0ACAD94A38A6C4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64A90758BDA6194B83EFCACD41FDA4C0 /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1900,42 +1769,6 @@
 			};
 			name = Debug;
 		};
-		EAD1B0ECA1B84A238F87AB6DC45E4E9C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 64A90758BDA6194B83EFCACD41FDA4C0 /* Pods-RRTech-Starter-App-Template_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RRTech-Starter-App-Template_Example/Pods-RRTech-Starter-App-Template_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1944,24 +1777,6 @@
 			buildConfigurations = (
 				945D2EC2C4CDD58694C05CF4B47FECBB /* Debug */,
 				208FB6A404CC116AC0AA998D704FD8F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1A5713FF22187103ED5F004F68E24383 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9378B82A9E350668BEF35C552C656E9A /* Debug */,
-				CD7B10DE8A64987B997FBF535FE2376D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1B06A6B7231F981625BE6E3A94CE6CC2 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A76066DB8955A04FC5C079B063B6C2F5 /* Debug */,
-				217BE0A5B90066DD69DDF6CC6BA9523C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1975,20 +1790,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4FD3E07BE39C8B08C717CBD546A5969A /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */ = {
+		560FB0F02E5C3386E74AD3024A471658 /* Build configuration list for PBXNativeTarget "Pods-RRTech-Starter-App-Template_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05E5430AA640622F13A4F77819536E7A /* Debug */,
-				EAD1B0ECA1B84A238F87AB6DC45E4E9C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		563F4D5CAD52C9F903021A7BC9C9060D /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F2CF649AF5542199578FAAFAFF896C0 /* Debug */,
-				91E92849F32F8F2D4A00891BDE885C25 /* Release */,
+				B7D76B1B0721A208104A2B1BCF05CDB1 /* Debug */,
+				B8D0B4A8B1541521D0ACAD94A38A6C4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2002,11 +1808,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6B334E2C50C2C0C66D96CADAEE2EA01 /* Build configuration list for PBXNativeTarget "KeychainSwift" */ = {
+		B8AFEC783C7C246AE3F56AAAEE51E1B4 /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				9EF6F591E9AA189C07726B7C8F399C0C /* Debug */,
-				D6C3E11C5F00EF96B552D16E88C8AE61 /* Release */,
+				6BE9563F5DE46711E7678F4D62214E0A /* Debug */,
+				B528E40BB33E97B6BDEDB54C8F74D6CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D46B2EB43AACF1CD206944D610FA477D /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-ImageResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71E96659525A76439D6C653BCAF962D9 /* Debug */,
+				18605B6E60A34C1D4403742F2DD83494 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E6D3889D7545B027F829E5162DCB5BBD /* Build configuration list for PBXNativeTarget "RRTech-Starter-App-Template-RRTech-Starter-App-Template" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EDC0F43781A7FB1580334F6315BA668 /* Debug */,
+				68945E26E15DCC41BC2B14668BD729FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

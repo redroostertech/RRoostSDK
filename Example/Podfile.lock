@@ -2,17 +2,11 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - KeychainSwift (16.0.1)
-  - RRTech-Starter-App-Template (0.1.0):
-    - KeychainSwift
+  - RRTech-Starter-App-Template (0.1.0)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
   - RRTech-Starter-App-Template (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - KeychainSwift
 
 EXTERNAL SOURCES:
   ChameleonFramework:
@@ -27,8 +21,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  KeychainSwift: 4209611373ca4a098e09b1e547eebd87c544dcc4
-  RRTech-Starter-App-Template: 84a952844ecb21a40a883694b53701783991786d
+  RRTech-Starter-App-Template: 5638ec4b7209bd35fa702aad5236b00a8ec94837
 
 PODFILE CHECKSUM: de9592f04c62071549198961266ebd4e1dda898a
 

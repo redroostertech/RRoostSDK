@@ -37,5 +37,5 @@ Pod::Spec.new do |s|
 #  s.dependency 'IQKeyboardManagerSwift'
 #  s.dependency 'ObjectMapper'
 #  s.dependency 'SVProgressHUD'
-  s.dependency 'KeychainSwift'
+#  s.dependency 'KeychainSwift'
 end

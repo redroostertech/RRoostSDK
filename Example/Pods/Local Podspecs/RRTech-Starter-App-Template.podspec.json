@@ -26,10 +26,5 @@
     "RRTech-Starter-App-Template": "RRTech-Starter-App-Template/Classes/**/*.{ttf,otf,xib}",
     "ImageResources": "RRTech-Starter-App-Template/Assets/*.{xcassets,imageset,pdf,png}"
   },
-  "dependencies": {
-    "KeychainSwift": [
-
-    ]
-  },
   "swift_version": "4.0"
 }
