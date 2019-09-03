@@ -1,6 +1,6 @@
 {
   "name": "RRoostSDK",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "RRoostSDK provides access to utilities and extensions that makes it easy to build applications.",
   "description": "This is the cocoapod for the starter app template for most apps being built by a member of the RedRooster Technologies Inc. development team and it's strategic partners.",
   "homepage": "https://github.com/redroostertech/RRTech-Starter-App-Template",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/redroostertech/RRTech-Starter-App-Template.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "social_media_url": "https://twitter.com/mwestbrooksjr",
   "platforms": {
@@ -21,7 +21,6 @@
   },
   "swift_versions": "4.0",
   "source_files": "RRoostSDK/Classes/**/*",
-  "resources": "RRoostSDK/Assets/*",
   "resource_bundles": {
     "RRoostSDK": [
       "RRoostSDK/Classes/**/*.{ttf,otf,xib}",

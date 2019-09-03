@@ -2,7 +2,7 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
-  - RRoostSDK (0.1.0)
+  - RRoostSDK (0.1.1)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
@@ -21,7 +21,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
-  RRoostSDK: 4ad33007091ed82229bd5eaee3c4e1633a30d95b
+  RRoostSDK: 67d83dcee6bde5fa795fd76e1b8dcf89dedeb313
 
 PODFILE CHECKSUM: a7771bae7e7e872aebdc3766dac4cd23a937a61c
 
