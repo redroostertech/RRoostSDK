@@ -13,6 +13,12 @@ public class VideoBackground: NSObject {
     }
   }
 
+  public var isSoundOn: Bool = false {
+    didSet {
+      videoPlayer?.isMuted = !self.isSoundOn
+    }
+  }
+
   public var videoOverlayColor: UIColor = .clear {
     didSet {
       addOverlayToVideo(usingColor: videoOverlayColor)
