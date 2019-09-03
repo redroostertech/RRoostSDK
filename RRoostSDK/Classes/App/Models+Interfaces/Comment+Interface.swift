@@ -15,7 +15,7 @@ public protocol BaseComment {
   func retrieveLikeCount() -> Int
 }
 
-extension Comment {
+extension BaseComment {
   func retrieveOwnerName() -> String { return "" }
   func retrieveOwnerImage() -> String { return "" }
   func retrieveLikeCount() -> Int { return 0 }

@@ -18,7 +18,7 @@ public class CommentCell: UITableViewCell {
     @IBOutlet private weak var likeCount: UIButton!
 
     private var isLiked = false
-    private var comment: Comment? {
+    private var comment: BaseComment? {
       didSet {
         guard let comment = self.comment else {return }
         lblUsername.text = comment.retrieveOwnerName()
@@ -53,7 +53,7 @@ public class CommentCell: UITableViewCell {
         likeButton.isUserInteractionEnabled = true
     }
     
-    public func configure(comment: Comment,
+    public func configure(comment: BaseComment,
                           likeImage: UIImage,
                           dislikeImage: UIImage) {
         self.comment = comment
