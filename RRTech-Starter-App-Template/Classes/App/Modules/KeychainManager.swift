@@ -1,23 +1,45 @@
 import Foundation
-import KeychainSwift
 
-let kSaltKey = "nuworld"
+let kSaltKey = "rrtech-template-app"
+
+public enum KeychainSwiftInterfaceAccessOptions {
+  case accessibleAfterFirstUnlock
+  case accessibleAfterFirstUnlockThisDeviceOnly
+  case accessibleAlways
+  case accessibleAlwaysThisDeviceOnly
+  case accessibleWhenPasscodeSetThisDeviceOnly
+  case accessibleWhenUnlocked
+  case accessibleWhenUnlockedThisDeviceOnly
+}
+
+public protocol KeychainSwiftInterface: class {
+  var synchronizable: Bool { get set }
+  var accessGroup: String? { get set }
+}
+extension KeychainSwiftInterface {
+  func set(_ value: Bool, forKey: String, withAccess: KeychainSwiftInterfaceAccessOptions? = nil) -> Bool { return false }
+  func set(_ value: String, forKey: String, withAccess: KeychainSwiftInterfaceAccessOptions? = nil) -> Bool { return false }
+  func set(_ value: Data, forKey: String, withAccess: KeychainSwiftInterfaceAccessOptions? = nil) -> Bool { return false }
+  func get(_ key: String) -> String? { return nil }
+  func getBool(_ key: String) -> Bool? { return nil }
+  func getData(_ key: String, asReference: Bool? = nil) -> Data? { return nil }
+  func clear() { }
+  func delete(_ key: String) -> Bool { return false }
+}
 
 public class KeychainManager: NSObject {
-    
-    private let keychain: KeychainSwift!
-    
-    override init() {
-        keychain = KeychainSwift()
+
+    private var keychain: KeychainSwiftInterface!
+
+    convenience public init(keychain: KeychainSwiftInterface) {
+      self.init()
+      self.keychain = keychain
     }
-    
-    // TODO: - Add encryption through CryptoSwift
 }
 
 // MARK: - Save data into keychain
 public extension KeychainManager {
-    
-    func save(password: String) -> Bool {
+    func save(password: String) -> Bool? {
         if keychain.set(password, forKey: "password", withAccess: .accessibleWhenUnlocked) {
             return true
         } else {

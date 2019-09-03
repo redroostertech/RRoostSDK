@@ -15,7 +15,7 @@ public class RanStringGen: NSObject {
     private var len: Int
     private let genCharacters = Array("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890")
 
-    init(length: Int) {
+    public init(length: Int) {
         len = length
     }
     

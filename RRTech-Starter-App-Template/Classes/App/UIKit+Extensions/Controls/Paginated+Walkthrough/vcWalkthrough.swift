@@ -23,23 +23,23 @@ public class vcWalkthrough: UIViewController {
   @IBOutlet private weak var scrollView: UIScrollView!
 
   // MARK: - Properties
-  private var slides: Slides!
+  private var slides: Slides?
 
   // MARK: - Lifecycle methods
   override public func viewDidLoad() {
     super.viewDidLoad()
+//    createSlides()
+//    setupSlideScrollView(slides: self.slides)
+  }
 
-    slides = createSlides()
-    scrollView.delegate = self
-
-    setupSlideScrollView(slides: slides)
-
-    pageControl.numberOfPages = slides.count
-    pageControl.currentPage = 0
-
-    view.sendSubview(toBack: scrollView)
-    view.bringSubview(toFront: pageControl)
-
+  // MARK: - Public member methods
+  public func addSlides(_ slides: [UIView]) {
+    if self.slides == nil {
+      self.slides = [UIView]()
+    }
+    self.slides = slides
+    pageControl.numberOfPages = self.slides!.count
+    setupSlideScrollView(slides: self.slides!)
   }
 
   // MARK: - Private member methods
@@ -56,6 +56,7 @@ public class vcWalkthrough: UIViewController {
   }
 
   private func setupSlideScrollView(slides: Slides) {
+    scrollView.delegate = self
     scrollView.contentSize = CGSize(width: scrollView.frame.width * CGFloat(slides.count),
                                     height: scrollView.frame.height)
     scrollView.isPagingEnabled = true
@@ -67,13 +68,18 @@ public class vcWalkthrough: UIViewController {
                                height: scrollView.frame.height)
       scrollView.addSubview(slides[i])
     }
+    pageControl.currentPage = 0
+    view.sendSubview(toBack: scrollView)
+    view.bringSubview(toFront: pageControl)
   }
 }
 
 // MARK: - UIScrollViewDelegate
 extension vcWalkthrough: UIScrollViewDelegate {
   override public func traitCollectionDidChange(_ previousTraitCollection: UITraitCollection?) {
-    setupSlideScrollView(slides: slides)
+    if let slides = self.slides {
+      setupSlideScrollView(slides: slides)
+    }
   }
 
   private func scrollViewDidScroll(_ scrollView: UIScrollView) {

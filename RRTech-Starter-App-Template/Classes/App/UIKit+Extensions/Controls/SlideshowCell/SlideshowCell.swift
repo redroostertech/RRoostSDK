@@ -5,11 +5,10 @@ public class SlideshowCell: UITableViewCell {
     @IBOutlet private weak var slideShowBack: UIButton!
     @IBOutlet private weak var nextSlideShowButton: UIButton!
     
-    var images = [
-        "https://www.fillmurray.com/640/360",
-        "https://loremflickr.com/640/360"]
+    private var images: [String]?
     private var currentIndex: Int = 0
     private var maxIndex: Int {
+        guard let images = self.images else { return 0 }
         return images.count - 1
     }
     
@@ -17,14 +16,22 @@ public class SlideshowCell: UITableViewCell {
         super.awakeFromNib()
         loadImage()
     }
-    
-    func resetSlideshow() {
-        currentIndex = 0
-        mainImage.imageFromUrl(theUrl: images[currentIndex])
+
+    public func configure(imageUrls: [String]) {
+      self.images = imageUrls
     }
     
-    func loadImage() {
-        mainImage.imageFromUrl(theUrl: images[currentIndex])
+    private func resetSlideshow() {
+        currentIndex = 0
+        if let images = self.images {
+            mainImage.imageFromUrl(theUrl: images[currentIndex])
+        }
+    }
+    
+    private func loadImage() {
+        if let images = self.images {
+            mainImage.imageFromUrl(theUrl: images[currentIndex])
+        }
     }
 
     @IBAction private func previousSlide(_ sender: Any) {

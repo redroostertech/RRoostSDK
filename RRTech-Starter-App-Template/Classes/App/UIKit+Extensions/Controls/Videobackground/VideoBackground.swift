@@ -7,19 +7,19 @@ private var videoPlayerLayer: AVPlayerLayer?
 
 public class VideoBackground: NSObject {
 
-  var isLoopingEnabled: Bool = false {
+  public var isLoopingEnabled: Bool = false {
     didSet {
       NotificationCenter.default.addObserver(self, selector: #selector(loop), name: .AVPlayerItemDidPlayToEndTime, object: videoPlayer?.currentItem)
     }
   }
 
-  var videoOverlayColor: UIColor = .clear {
+  public var videoOverlayColor: UIColor = .clear {
     didSet {
       addOverlayToVideo(usingColor: videoOverlayColor)
     }
   }
 
-  init(withPathFromBundle path: String,
+  public init(withPathFromBundle path: String,
        ofFileType fileType: String,
        forView view: UIView? = nil) {
     if let view = view {
@@ -39,13 +39,13 @@ public class VideoBackground: NSObject {
   }
 
   // MARK: - Customization Options
-  func show() {
+  public func show() {
     guard let videoplayerlayer = videoPlayerLayer, let videolayercontainer = videoLayerContainer else { return }
     videoplayerlayer.frame = videolayercontainer.frame
     videolayercontainer.layer.insertSublayer(videoplayerlayer, at: 0)
   }
 
-  func destroy() {
+  public func destroy() {
     videoLayerContainer = nil
     videoPlayer = nil
     videoPlayerLayer = nil
@@ -53,12 +53,12 @@ public class VideoBackground: NSObject {
   }
 
   // MARK: - Primary methods
-  @objc func play() {
+  @objc private func play() {
     guard let videoplayer = videoPlayer else { return }
     videoplayer.play()
   }
 
-  @objc func pause() {
+  @objc private func pause() {
     guard let videoplayer = videoPlayer else { return }
     videoplayer.pause()
   }
@@ -71,12 +71,12 @@ public class VideoBackground: NSObject {
     }
   }
 
-  @objc func appWillEnterForegroundNotification() {
+  @objc private func appWillEnterForegroundNotification() {
     play()
   }
 
   // MARK: - Private methods
-  func addOverlayToVideo(usingColor color: UIColor) {
+  private func addOverlayToVideo(usingColor color: UIColor) {
     guard let videolayercontainer = videoLayerContainer else { return }
     let colorOverlay = UIView()
     colorOverlay.backgroundColor = color.withAlphaComponent(0.6)
