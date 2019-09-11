@@ -13,17 +13,17 @@ public enum FileType: String {
 
 public class Utilities {
 
-    static func getThreadInfo() {
+    public static func getThreadInfo() {
         print("Retrieve Key fetch is running on = \(Thread.isMainThread ? "Main Thread" : "Background Thread")")
     }
 
-    static func getDocumentsDirectory() -> URL {
+    public static func getDocumentsDirectory() -> URL {
         let paths = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)
         let documentsDirectory = paths[0]
         return documentsDirectory
     }
 
-    static func deleteFile(path: NSURL) -> Bool {
+    public static func deleteFile(path: NSURL) -> Bool {
         var deleted = true
         if (FileManager.default.fileExists(atPath: path.path!)) {
             do {
@@ -35,7 +35,7 @@ public class Utilities {
         return deleted
     }
     
-    static func localizedString(forKey key: String, fromFile file: String = "Localizable") -> String {
+    public static func localizedString(forKey key: String, fromFile file: String = "Localizable") -> String {
         var result = Bundle.main.localizedString(forKey: key, value: nil, table: nil)
         if result == key {
             result = Bundle.main.localizedString(forKey: key, value: nil, table: file)
@@ -43,14 +43,14 @@ public class Utilities {
         return result
     }
     
-    static func numberToMoney(number: Double, identifier: String) -> String {
+    public static func numberToMoney(number: Double, identifier: String) -> String {
         let formatter = NumberFormatter()
         formatter.numberStyle = .currency
         formatter.locale = Locale(identifier: identifier)
         return formatter.string(from: number as NSNumber)!
     }
 
-  static func getFileSystemResource(fileName: String, ofFileType type: FileType) -> [String: Any]? {
+  public static func getFileSystemResource(fileName: String, ofFileType type: FileType) -> [String: Any]? {
     guard let url = Bundle.main.url(forResource: fileName, withExtension: type.rawValue) else { return nil }
     do {
       let jsonData = try Data(contentsOf: url)

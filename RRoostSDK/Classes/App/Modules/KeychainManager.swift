@@ -39,7 +39,7 @@ public class KeychainManager: NSObject {
 
 // MARK: - Save data into keychain
 public extension KeychainManager {
-    func save(password: String) -> Bool? {
+    public func save(password: String) -> Bool? {
         if keychain.set(password, forKey: "password", withAccess: .accessibleWhenUnlocked) {
             return true
         } else {

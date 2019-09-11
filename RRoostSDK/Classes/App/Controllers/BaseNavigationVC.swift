@@ -15,25 +15,25 @@ public class BaseNavigationVC: BaseVC {
         hideNavBarHairlineAction()
     }
     
-    func addLogoToNavBar() {
+    public func addLogoToNavBar() {
         if showNavBarLogo {
             
         }
     }
     
-    func hideBackButtonTextAction() {
+    public func hideBackButtonTextAction() {
         if hideBackButtonText {
             self.clearNavigationBackButtonText()
         }
     }
     
-    func hideNavBarAction() {
+    public func hideNavBarAction() {
         if hideNavBar {
             self.hideNavigationBar()
         }
     }
     
-    func hideNavBarHairlineAction() {
+    public func hideNavBarHairlineAction() {
         if hideNavBarHairline {
           #if canImport(ChameleonFramework)
             self.hideNavigationBarHairline()

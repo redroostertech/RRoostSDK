@@ -18,8 +18,8 @@ import UIKit
 
 public class LayoutManager {
     // MARK: - Vertical flows
-    struct vertical {
-      static var one_col_margin: UICollectionViewFlowLayout {
+    public struct vertical {
+      public static var one_col_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.itemSize = CGSize(width: kWidthOfScreen - (kInsets + (kInsets / 2)),
@@ -33,7 +33,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var one_col_no_margin: UICollectionViewFlowLayout {
+      public static var one_col_no_margin: UICollectionViewFlowLayout {
         let flowLayout = UICollectionViewFlowLayout()
         flowLayout.scrollDirection = .vertical
         flowLayout.minimumLineSpacing = kPrimaryNoSpacing
@@ -44,7 +44,7 @@ public class LayoutManager {
       }
 
 
-      static var two_col_margin: UICollectionViewFlowLayout {
+      public static var two_col_margin: UICollectionViewFlowLayout {
           let layout = UICollectionViewFlowLayout()
           layout.scrollDirection = .vertical
           layout.itemSize = CGSize(width: (kWidthOfScreen / 2) - (kInsets + (kInsets / 2)),
@@ -58,7 +58,7 @@ public class LayoutManager {
           return layout
       }
 
-      static var two_col_no_margin: UICollectionViewFlowLayout {
+      public static var two_col_no_margin: UICollectionViewFlowLayout {
           let flowLayout = UICollectionViewFlowLayout()
           flowLayout.scrollDirection = .vertical
           flowLayout.minimumLineSpacing = kPrimaryNoSpacing
@@ -68,7 +68,7 @@ public class LayoutManager {
           return flowLayout
       }
 
-      static var three_col_margin: UICollectionViewFlowLayout {
+      public static var three_col_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.itemSize = CGSize(width: (kWidthOfScreen / 3) - (kInsets + (kInsets / 3)),
@@ -86,7 +86,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var three_col_margin_no_header_footer: UICollectionViewFlowLayout {
+      public static var three_col_margin_no_header_footer: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         layout.itemSize = CGSize(width: (kWidthOfScreen / 3) - (kInsets + (kInsets / 3)),
@@ -102,8 +102,8 @@ public class LayoutManager {
     }
 
     // MARK: - Horizontal flows
-    struct horizontal {
-      static var sm_col_no_margin: UICollectionViewFlowLayout {
+    public struct horizontal {
+      public static var sm_col_no_margin: UICollectionViewFlowLayout {
           let flowLayout = UICollectionViewFlowLayout()
           flowLayout.scrollDirection = .horizontal
           flowLayout.itemSize = CGSize(width: kCollectionSecondaryCellWidth / 2,
@@ -111,7 +111,7 @@ public class LayoutManager {
           return flowLayout
       }
 
-      static var md_col_no_margin: UICollectionViewFlowLayout {
+      public static var md_col_no_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: kCollectionSecondaryCellWidth,
@@ -119,7 +119,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var fullscreen_col_no_margin: UICollectionViewFlowLayout {
+      public static var fullscreen_col_no_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: kWidthOfScreen,
@@ -127,7 +127,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var sm_col_margin: UICollectionViewFlowLayout {
+      public static var sm_col_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: kCollectionPrimaryCellWidth / 2,
@@ -137,7 +137,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var md_col_margin: UICollectionViewFlowLayout {
+      public static var md_col_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: kCollectionPrimaryCellWidth,
@@ -147,7 +147,7 @@ public class LayoutManager {
         return layout
       }
 
-      static var fullscreen_col_margin: UICollectionViewFlowLayout {
+      public static var fullscreen_col_margin: UICollectionViewFlowLayout {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .horizontal
         layout.itemSize = CGSize(width: kWidthOfScreen,
