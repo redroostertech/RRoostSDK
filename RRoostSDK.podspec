@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'RRoostSDK'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'RRoostSDK provides access to utilities and extensions that makes it easy to build applications.'
 
   s.description      = <<-DESC
