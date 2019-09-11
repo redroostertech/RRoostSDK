@@ -3,7 +3,7 @@ import Foundation
 public class DefaultsManager {
   private let standard = UserDefaults.standard
 
-  init() { }
+  public init() { }
 
   public func setNilDefault(forKey key: String) {
     standard.set(nil, forKey: key)
