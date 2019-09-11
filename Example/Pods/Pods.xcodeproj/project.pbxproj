@@ -157,7 +157,7 @@
 		01C0056A982F625F33CDF93E0AAFDBF4 /* RRoostSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RRoostSDK.modulemap; sourceTree = "<group>"; };
 		02A25A77F44E1A31A2C9B76CC305D437 /* Pods-RRoostSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RRoostSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		034338E8D3A977B799E5A5122D32F4C7 /* UISearchBar+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UISearchBar+Extensions.swift"; sourceTree = "<group>"; };
-		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ChameleonFramework.framework; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0383903D05EDD5C442C682C1F7A1752D /* ChameleonFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChameleonFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		043BB0CE01C788E1EFE666982AB50A0C /* ChameleonFramework-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChameleonFramework-Info.plist"; sourceTree = "<group>"; };
 		08DB4A7B5C0FF423B856F75E2110BCFC /* UIColor+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Chameleon.h"; path = "Pod/Classes/Objective-C/UIColor+Chameleon.h"; sourceTree = "<group>"; };
 		0E3B5CDCFCAFDB41977405C6E9AEC2B9 /* UIViewController+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+Chameleon.h"; path = "Pod/Classes/Objective-C/UIViewController+Chameleon.h"; sourceTree = "<group>"; };
@@ -172,7 +172,7 @@
 		2141337EDBF225048F59DE8BFFFBE887 /* CustomStringConvertible+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomStringConvertible+Extensions.swift"; sourceTree = "<group>"; };
 		23D8674FC4B5839DC796C3E6DDB3C627 /* UIColor+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.h"; sourceTree = "<group>"; };
 		26E19F63B915A9A25761F98E20B0D11C /* UITextField+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
-		2896ACC993329C947C255D7531075E9D /* RRoostSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RRoostSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2896ACC993329C947C255D7531075E9D /* RRoostSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RRoostSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		28FF9DD7C9A1F4A347E61709A4C93A4A /* Decodable+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Decodable+Extensions.swift"; sourceTree = "<group>"; };
 		30ADF72190CD4AB853A0C88408ECE3AA /* BaseVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseVC.swift; sourceTree = "<group>"; };
 		31676AA30477E24FD60F12E89ECA787D /* ConstraintsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ConstraintsManager.swift; sourceTree = "<group>"; };
@@ -202,7 +202,7 @@
 		49AE78813A8F86841E621330FBEF4244 /* UIColor+ChameleonPrivate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+ChameleonPrivate.m"; path = "Pod/Classes/Objective-C/UIColor+ChameleonPrivate.m"; sourceTree = "<group>"; };
 		4A571DB79B8668CE93AE4F5F1AD3704E /* CommentCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
 		50562FD6085D5394831F4F0A5A40C723 /* UIViewController+Chameleon+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+Chameleon+Extensions.swift"; sourceTree = "<group>"; };
-		5190B9118713A173E763981646065401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		5190B9118713A173E763981646065401 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		57E1989140A526FFBE512FDE6465E41C /* AwsManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AwsManager.swift; sourceTree = "<group>"; };
 		59949E669A721651860E2E9805419442 /* ChameleonMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonMacros.h; path = "Pod/Classes/Objective-C/ChameleonMacros.h"; sourceTree = "<group>"; };
 		5AD661DA2E2293DE66D16CF4C70AF398 /* Pods-RRoostSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RRoostSDK_Example-Info.plist"; sourceTree = "<group>"; };
@@ -228,7 +228,7 @@
 		7664101BDCFF4479E50E69BB59C252B0 /* Pods-RRoostSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RRoostSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		78290173978208E2137B4BC74D0DE65E /* Utilities.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		7A4CD199BDA663801102ACFCCE0ED3A0 /* UILabel+Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UILabel+Chameleon.h"; path = "Pod/Classes/Objective-C/UILabel+Chameleon.h"; sourceTree = "<group>"; };
-		7C15107569ACE29D312B5C9AA5D3ECEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		7C15107569ACE29D312B5C9AA5D3ECEB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		8192FB04AAE57BB40C2907677137E81E /* Date+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		836AE1A3D6FD1D9F3E8A8A76380AD347 /* Walkthrough_1.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = Walkthrough_1.xib; sourceTree = "<group>"; };
 		844ADBFC67059DACC7D5B906420F39B3 /* Pods-RRoostSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RRoostSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,11 +240,11 @@
 		8D3253BD548F083F097FD8F31A070712 /* CustomView+Designable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "CustomView+Designable.swift"; sourceTree = "<group>"; };
 		925C55A4CD046B0C7D23224EE25F4EE2 /* UIViewController+SVProgressHUD+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIViewController+SVProgressHUD+Extensions.swift"; sourceTree = "<group>"; };
 		939EDBF02CC0F4F4C34271D972A1AF5A /* User+Interface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "User+Interface.swift"; sourceTree = "<group>"; };
-		96000A3948669B3FE590A7823AF95D7A /* Pods_RRoostSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRoostSDK_Example.framework; path = "Pods-RRoostSDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		96000A3948669B3FE590A7823AF95D7A /* Pods_RRoostSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRoostSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		99197545906A080ABE66ED97BE0D1F25 /* DateFormatter+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "DateFormatter+Extensions.swift"; sourceTree = "<group>"; };
-		998872ECE7A7A64E015E3D8763A347BE /* Pods_RRoostSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RRoostSDK_Tests.framework; path = "Pods-RRoostSDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		998872ECE7A7A64E015E3D8763A347BE /* Pods_RRoostSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RRoostSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A39026DF5A4DBADFC51FB15A793BA3F /* UIImage+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9EB704788F9F0DED57ADA13B9522A9D8 /* VideoBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = VideoBackground.swift; sourceTree = "<group>"; };
 		A192E84C166F9BABF8BB79C06849FF36 /* KeychainManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = KeychainManager.swift; sourceTree = "<group>"; };
 		A3CDA8E4BCF0AEC0558DEAAFEA513CFA /* Chameleon.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Chameleon.h; path = "Pod/Classes/Objective-C/Chameleon.h"; sourceTree = "<group>"; };
@@ -267,7 +267,7 @@
 		C9226C10420AAED67B9676377F9042B8 /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		CB7CE737193D16487628655C77996649 /* ChameleonConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ChameleonConstants.h; path = "Pod/Classes/Objective-C/ChameleonConstants.h"; sourceTree = "<group>"; };
 		CBF10B92A43BF294CD7AFEF041071944 /* UIApplication+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIApplication+Extensions.swift"; sourceTree = "<group>"; };
-		CD78B8D6129F162441C9ED6D2BCB6F54 /* RRoostSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RRoostSDK.framework; path = RRoostSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD78B8D6129F162441C9ED6D2BCB6F54 /* RRoostSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RRoostSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF478414DE7F33E98B01E88854D08D33 /* ResourceBundle-RRoostSDK-RRoostSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-RRoostSDK-RRoostSDK-Info.plist"; sourceTree = "<group>"; };
 		CFDE10062CB68B8587D731FA4B26361C /* ChameleonFramework.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChameleonFramework.modulemap; sourceTree = "<group>"; };
 		D0BA55EB704A14098FB6B0CD4E5A9CE0 /* Walkthrough_4.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Walkthrough_4.swift; sourceTree = "<group>"; };
@@ -278,7 +278,7 @@
 		E6477E0600FB52BC5189BD010FF5DB68 /* BaseNavigationVC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BaseNavigationVC.swift; sourceTree = "<group>"; };
 		E680AF5D94A2E399504F16824A9471A3 /* ChameleonFramework-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChameleonFramework-umbrella.h"; sourceTree = "<group>"; };
 		E798DA711F61F7307AA93346F4CC60FC /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
-		E81B7205725473536CE5F5BB6DF2A120 /* RRoostSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = RRoostSDK.bundle; path = "RRoostSDK-RRoostSDK.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E81B7205725473536CE5F5BB6DF2A120 /* RRoostSDK.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RRoostSDK.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC52B314F24BC32CDA7B523FAA24A727 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		EE9A93A13289620455C8E6AB75204C34 /* SlideshowCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SlideshowCell.xib; sourceTree = "<group>"; };
 		F13FB34A42FE17CDF1146FD485C048DA /* UIImage+ChameleonPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ChameleonPrivate.h"; path = "Pod/Classes/Objective-C/UIImage+ChameleonPrivate.h"; sourceTree = "<group>"; };
@@ -356,7 +356,6 @@
 			children = (
 				6C4C9EF6997014F5185BD4BA84352B4E /* Walkthrough_3.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -367,7 +366,6 @@
 				707CB193D641F76489B12BB60F5C2D28 /* Support Files */,
 				306795CAF8F4F40B62A57689300E7E50 /* Swift */,
 			);
-			name = ChameleonFramework;
 			path = ChameleonFramework;
 			sourceTree = "<group>";
 		};
@@ -376,7 +374,6 @@
 			children = (
 				D354F774A8FAC91E427C3075C2F26493 /* Walkthrough_3.xib */,
 			);
-			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
@@ -386,7 +383,6 @@
 				1E03B56DEAA2FE8661013EA0EF478BBE /* CustomLabel+Designable.swift */,
 				8D3253BD548F083F097FD8F31A070712 /* CustomView+Designable.swift */,
 			);
-			name = Designables;
 			path = Designables;
 			sourceTree = "<group>";
 		};
@@ -396,7 +392,6 @@
 				BF8735FD3F83155A53718188C984F03C /* CommentCell.swift */,
 				4A571DB79B8668CE93AE4F5F1AD3704E /* CommentCell.xib */,
 			);
-			name = CommentCell;
 			path = CommentCell;
 			sourceTree = "<group>";
 		};
@@ -416,7 +411,6 @@
 			children = (
 				41BBB3ABCD2D6D1CF510C2E8C56E30AC /* Walkthrough_2.xib */,
 			);
-			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
@@ -425,7 +419,6 @@
 			children = (
 				73EFDEB7A1967033F728FFF211CE3FAC /* Xibs */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -450,7 +443,6 @@
 			children = (
 				096E7A3AA1875516FC1BE5AC14A7AE1E /* Xibs */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -467,7 +459,6 @@
 			children = (
 				AE4B7CC031BA907D12032BCB3E071D20 /* Walkthrough_1.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -486,7 +477,6 @@
 			children = (
 				9EB704788F9F0DED57ADA13B9522A9D8 /* VideoBackground.swift */,
 			);
-			name = Videobackground;
 			path = Videobackground;
 			sourceTree = "<group>";
 		};
@@ -499,7 +489,6 @@
 				BEB5EEBA43CC0E0B2C35E0F4D1235E0E /* Step 3 */,
 				9A5B80CD9EBB042E328C261B5CAD2D57 /* Step 4 */,
 			);
-			name = "Paginated+Walkthrough";
 			path = "Paginated+Walkthrough";
 			sourceTree = "<group>";
 		};
@@ -508,7 +497,6 @@
 			children = (
 				163E75C651B22472FF721F52691968CA /* Xibs */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -549,7 +537,6 @@
 			children = (
 				836AE1A3D6FD1D9F3E8A8A76380AD347 /* Walkthrough_1.xib */,
 			);
-			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
@@ -600,7 +587,6 @@
 			children = (
 				F73FDF62E003713CDF766AE3E4C9008C /* Xibs */,
 			);
-			name = Resources;
 			path = Resources;
 			sourceTree = "<group>";
 		};
@@ -610,7 +596,6 @@
 				CC5DE4988BFEAFFD5628273149E63522 /* Controllers */,
 				8EB20C2A8909F3C885E8DA0B533D22D3 /* Resources */,
 			);
-			name = "Step 4";
 			path = "Step 4";
 			sourceTree = "<group>";
 		};
@@ -642,7 +627,6 @@
 				412202788E4062BBDBE6474B925D4603 /* Controllers */,
 				19A62313EEA573B6BED3A575C7FB37BE /* Resources */,
 			);
-			name = "Step 1";
 			path = "Step 1";
 			sourceTree = "<group>";
 		};
@@ -668,7 +652,6 @@
 			children = (
 				B12901AB0351712D664B6C8B044C2440 /* Walkthrough_2.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -686,7 +669,6 @@
 				064B41DEE7038BD7CAC55953A4949968 /* Controllers */,
 				2C6EB6A74064FCD4DD3ACC3047E6453E /* Resources */,
 			);
-			name = "Step 3";
 			path = "Step 3";
 			sourceTree = "<group>";
 		};
@@ -721,7 +703,6 @@
 				B7D66BD57C7947B46ECD7D39953A89A9 /* URL+Extensions.swift */,
 				46334A35EDE9BCD5D228DA293A947F77 /* UserDefaults+Extensions.swift */,
 			);
-			name = Extensions;
 			path = Extensions;
 			sourceTree = "<group>";
 		};
@@ -731,7 +712,6 @@
 				A4037AE09B5037DCA03DD2FE832E7375 /* RangeSlider.swift */,
 				AD873B9EA212DBFF682DFE08B5279639 /* RangeSliderTrackLayer.swift */,
 			);
-			name = Slider;
 			path = Slider;
 			sourceTree = "<group>";
 		};
@@ -740,7 +720,6 @@
 			children = (
 				D0BA55EB704A14098FB6B0CD4E5A9CE0 /* Walkthrough_4.swift */,
 			);
-			name = Controllers;
 			path = Controllers;
 			sourceTree = "<group>";
 		};
@@ -846,7 +825,6 @@
 				B96CA2A4C8C50AAE64B93561E5FFB16B /* Controllers */,
 				5E6E774B28825317DF8C0F675FE6A5AE /* Resources */,
 			);
-			name = "Step 2";
 			path = "Step 2";
 			sourceTree = "<group>";
 		};
@@ -856,7 +834,6 @@
 				F1969D8285C4DDF880625BB3627E4CD8 /* SlideshowCell.swift */,
 				EE9A93A13289620455C8E6AB75204C34 /* SlideshowCell.xib */,
 			);
-			name = SlideshowCell;
 			path = SlideshowCell;
 			sourceTree = "<group>";
 		};
@@ -870,7 +847,6 @@
 				F28BC5856B747AB15CF9171D1EBF58FE /* SlideshowCell */,
 				53593CF40CAD0B74B81952CB4FB5B0DC /* Videobackground */,
 			);
-			name = Controls;
 			path = Controls;
 			sourceTree = "<group>";
 		};
@@ -879,7 +855,6 @@
 			children = (
 				3C6E941AD4DC746B19729712ED3D7717 /* Walkthrough_4.xib */,
 			);
-			name = Xibs;
 			path = Xibs;
 			sourceTree = "<group>";
 		};
@@ -1036,7 +1011,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1020;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -1044,6 +1019,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = ABD737535E900D9D150FBF4107F45BCA /* Products */;
@@ -1269,7 +1245,6 @@
 			baseConfigurationReference = 844ADBFC67059DACC7D5B906420F39B3 /* Pods-RRoostSDK_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1353,8 +1328,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -1364,7 +1338,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1413,7 +1386,6 @@
 			baseConfigurationReference = 755F757A9159DE99E63ADC9021059F7E /* Pods-RRoostSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1449,7 +1421,6 @@
 			baseConfigurationReference = 1F381D9C7E905A88FEFFA6AF07B292E6 /* Pods-RRoostSDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1483,7 +1454,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3624BB121118B9FA1615F56A64236283 /* ChameleonFramework.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1517,7 +1487,6 @@
 			baseConfigurationReference = 66540C1AFF8832D9926A791F479B5471 /* Pods-RRoostSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1551,7 +1520,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 749789BB8723993F8BC8E4000956785A /* RRoostSDK.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1649,7 +1617,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 749789BB8723993F8BC8E4000956785A /* RRoostSDK.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

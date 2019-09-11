@@ -8,8 +8,8 @@ import Foundation
 import UIKit
 
 public extension UIColor {
-  public struct AppColors {
-    public static var softBlack = UIColor(red: 39/255, green: 39/255, blue: 39/255, alpha: 1.0)
+  struct AppColors {
+    static var softBlack = UIColor(red: 39/255, green: 39/255, blue: 39/255, alpha: 1.0)
     
     //  Add more colors as needed...
   }
