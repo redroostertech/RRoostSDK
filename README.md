@@ -1,4 +1,4 @@
-# RRTech-Starter-App-Template
+# RRoostSDK
 
 [![CI Status](https://img.shields.io/travis/mwestbrooksjr@gmail.com/RRTech-Starter-App-Template.svg?style=flat)](https://travis-ci.org/mwestbrooksjr@gmail.com/RRTech-Starter-App-Template)
 [![Version](https://img.shields.io/cocoapods/v/RRTech-Starter-App-Template.svg?style=flat)](https://cocoapods.org/pods/RRTech-Starter-App-Template)
@@ -17,7 +17,7 @@ RRTech-Starter-App-Template is available through [CocoaPods](https://cocoapods.o
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'RRTech-Starter-App-Template'
+pod 'RRoostSDK'
 ```
 
 ## Host Project Dependencies
@@ -41,4 +41,4 @@ Michael Westbrooks, michael.westbrooks@redroostertec.com
 
 ## License
 
-RRTech-Starter-App-Template is available under the MIT license. See the LICENSE file for more info.
+RRoostSDK is available under the MIT license. See the LICENSE file for more info.
